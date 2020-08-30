@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-08-30T04:08:50.2750539Z",
+  "lastPlayed": "2020-08-30T05:43:41.5076713Z",
   "manifest": {
     "minecraft": {
       "version": "1.12.2",
@@ -2611,6 +2611,89 @@
       "dateInstalled": "2020-08-30T04:08:05.9497549Z",
       "dateUpdated": "2020-08-30T04:08:05.9527539Z",
       "dateLastUpdateAttempted": "2020-08-30T04:08:05.9527539Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
+      "addonID": 318012,
+      "gameInstanceID": "54f03beb-e1ae-4cf5-af06-60674c8b3aea",
+      "installedFile": {
+        "id": 3003689,
+        "displayName": "DefaultSettings-1.8.x-1.12.x-2.1.16",
+        "fileName": "DefaultSettings-1.8.x-1.12.x-2.1.16.jar",
+        "fileDate": "2020-07-13T09:16:25.08Z",
+        "fileLength": 604868,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3003/689/DefaultSettings-1.8.x-1.12.x-2.1.16.jar",
+        "isAlternate": false,
+        "alternateFileId": 3003690,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2793468891,
+            "type": 0
+          },
+          {
+            "foldername": "de",
+            "fingerprint": 2038119777,
+            "type": 0
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 1448450063,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2969311470,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3197044944,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 418733052,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.9.4",
+          "1.8.8",
+          "1.10.2",
+          "1.11",
+          "1.10",
+          "1.8",
+          "1.11.2",
+          "1.9",
+          "1.12.2",
+          "1.8.9"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2014-09-02T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "DefaultSettings-1.8.x-1.12.x-2.1.16.jar"
+      },
+      "dateInstalled": "2020-08-30T05:43:29.225893Z",
+      "dateUpdated": "2020-08-30T05:43:29.230941Z",
+      "dateLastUpdateAttempted": "2020-08-30T05:43:29.230941Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,

@@ -1,0 +1,15 @@
+{
+  "version": "2.1.16",
+  "initPopup": true,
+  "exportMode": false,
+  "generatedBy": "\u003cdefault\u003e",
+  "activeConfigs": [
+    "jei",
+    "InvTweaks.cfg",
+    "InvTweaksRules.txt",
+    "InvTweaksTree.txt"
+  ],
+  "hashes": {},
+  "mainProfile": "Default",
+  "initially_created": "30.08.2020 14:01:00"
+}
