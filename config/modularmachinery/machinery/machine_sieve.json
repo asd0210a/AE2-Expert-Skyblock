@@ -1,0 +1,34 @@
+{
+"registryname": "sieve",
+    "localizedname": "Improvement Sieve( Doesn't require blueprint )",
+	"requires-blueprint": false,
+	"color": "59BCDF",
+    "parts": [
+		 {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+    "modularmachinery:blockoutputbus@3",
+	"modularmachinery:blockoutputbus@4",
+	"modularmachinery:blockoutputbus@5",
+	"modularmachinery:blockoutputbus@6"
+            ]
+        },
+		{
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+    "excompressum:auto_sieve"
+            ]
+        },
+		{
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+    "modularmachinery:blockinputbus"
+            ]
+        }
+		    ]}

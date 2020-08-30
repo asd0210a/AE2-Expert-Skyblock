@@ -1,0 +1,8 @@
+setTitle("[Deep] The Small of Something Beginning")
+setIcon(<thaumcraft:salis_mundus>)
+setDescription("Obtain a Sali Mundus from Thaumcraft.")
+addParent("triumph:sky/1_furnace")
+setPos(-100,0)
+criteria = addCriteria("saliMundus", "triumph:player_crafted_item")
+criteria.setItem(<thaumcraft:salis_mundus>)
+setFrameType("challenge")

@@ -1,0 +1,8 @@
+setIcon(<minecraft:map>)
+setTitle("AE2 Expert Skyblock")
+setDescription("Welcome to AE2 Expert Skyblock. Thanks for playing! You can press F4 to see this pack's hints and major tips, or pressing L to follow advancements to the goal!")
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+setShowToast(false)
+setAnnounceToChat(false)
+setPos(-200,0)
+addCriteria("location", "minecraft:location")

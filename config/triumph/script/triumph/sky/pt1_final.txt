@@ -1,0 +1,8 @@
+setTitle("[Deep] Power Age")
+setIcon(<ic2:te:3>)
+setDescription("Craft an IC2 Generator.")
+addParent("triumph:sky/1_furnace")
+setPos(-25,150)
+criteria = addCriteria("powerage", "minecraft:inventory_changed")
+criteria.addItem(<ic2:te:3>)
+setFrameType("challenge")

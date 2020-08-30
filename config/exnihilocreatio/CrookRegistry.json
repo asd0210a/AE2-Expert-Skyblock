@@ -1,0 +1,29 @@
+{
+  "ore:treeLeaves": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.5,
+      "fortuneChance": 0.0
+    },
+	{
+      "stack": {
+        "name": "minecraft:sapling",
+        "amount": 1
+      },
+      "chance": 0.5,
+      "fortuneChance": 0.0
+    },
+	 {
+      "stack": {
+        "name": "minecraft:apple",
+        "amount": 1
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.0
+    }
+  ]
+}

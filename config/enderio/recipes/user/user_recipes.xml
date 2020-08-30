@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+<recipe name="Soul Chassis" disabled="true"></recipe>
+<recipe name="Chassis" disabled="true"></recipe>
+<recipe name="indChassis" required="true">
+<alloying energy="72000">
+ <input name="SIMPLE_CHASSIS"/>
+ <input name="POWDER_INFINITY"/>
+ <output name="CHASSIS"/>
+ </alloying>
+</recipe>
+</enderio:recipes>

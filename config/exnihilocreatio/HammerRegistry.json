@@ -1,0 +1,117 @@
+{
+"ore:stone": [
+    {
+      "item": "chisel:marble:0",
+      "amount": 3,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+	],
+
+  "ore:cobblestone": [
+    {
+      "item": "minecraft:gravel:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    },
+	  {
+      "item": "minecraft:gravel:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 0.50,
+      "fortuneChance": 0.6
+    }
+  ],
+    "ore:gravel": [
+    {
+      "item": "minecraft:sand:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+    "ore:sand": [
+    {
+      "item": "exnihilocreatio:block_dust:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "ore:endstone": [
+    {
+      "item": "exnihilocreatio:block_endstone_crushed:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:wool": [
+    {
+      "item": "minecraft:string:0",
+      "amount": 3,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    },
+    {
+      "item": "minecraft:string:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 0.5,
+      "fortuneChance": 0.25
+    },
+    {
+      "item": "minecraft:dye:15",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 0.50,
+      "fortuneChance": 0.0
+    }
+  ],
+  "ore:netherrack": [
+    {
+      "item": "exnihilocreatio:block_netherrack_crushed:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "ore:logWood": [
+    {
+      "item": "excompressum:wood_chippings:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 1.0
+    },
+    {
+      "item": "excompressum:wood_chippings:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 0.75,
+      "fortuneChance": 1.0
+    },
+    {
+      "item": "excompressum:wood_chippings:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 0.5,
+      "fortuneChance": 1.0
+    },
+    {
+      "item": "excompressum:wood_chippings:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 0.25,
+      "fortuneChance": 1.0
+    }
+  ]
+}

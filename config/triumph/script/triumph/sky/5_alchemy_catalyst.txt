@@ -1,0 +1,7 @@
+setTitle("[Basic] Do it have Gold ?")
+setIcon(<botania:alchemycatalyst>)
+setDescription("Obtain an Alchemy Catalyst")
+addParent("triumph:sky/1_furnace")
+setPos(-100,100)
+criteria = addCriteria("alchemy", "minecraft:inventory_changed")
+criteria.addItem(<botania:alchemycatalyst>)

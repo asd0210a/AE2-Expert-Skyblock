@@ -1,0 +1,8 @@
+setTitle("[Deep] Beat The Mod!")
+setIcon(<minecraft:furnace>)
+setDescription("Craft a furnace")
+addParent("triumph:sky/root")
+setPos(-150,0)
+criteria = addCriteria("furnace", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:furnace>)
+setFrameType("challenge")

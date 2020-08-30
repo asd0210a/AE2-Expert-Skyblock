@@ -1,0 +1,17 @@
+{
+"machine": "cokekiln",
+ "registryName":"ic2_coke",
+ "recipeTime": 300,
+ "requirements": [
+	{
+		"type": "item",
+		"io-type": "input",
+		"item":"extrautils2:ingredients@4"
+	},
+	{
+         "type": "item",
+         "io-type": "output",
+         "item": "ic2:coke"
+    }
+]
+}

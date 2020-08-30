@@ -1,0 +1,35 @@
+[20:28:37] [INFO] ModConfig Loaded: true
+[20:28:37] [INFO] JEI: Compost Recipe Pages Loaded:         2
+[20:28:37] [INFO] JEI: Fluid Item Transform Recipes Loaded:       24
+[20:28:37] [INFO] JEI: Fluid On Top Recipes Loaded:       2
+[20:28:37] [INFO] JEI: Fluid Transform Recipes Loaded:    1
+[20:28:37] [INFO] JEI: Hammer Recipes Loaded:             8
+[20:28:37] [INFO] JEI: Crook Recipes Loaded:              1
+[20:28:37] [INFO] JEI: Heat Sources Loaded:             36
+[20:28:37] [INFO] JEI: Sieve Recipes Loaded:              8
+[20:28:37] [INFO] JEI: Stone Crucible Recipes Loaded:       1
+[20:28:37] [INFO] JEI: Wood Crucible Recipes Loaded:        1
+[20:28:37] [INFO] Registered Crook Catalyst: enderio:item_dark_steel_crook
+[20:28:37] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_wood
+[20:28:37] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_stone
+[20:28:37] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_iron
+[20:28:37] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_diamond
+[20:28:37] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_gold
+[20:28:37] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_wood
+[20:28:37] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_stone
+[20:28:37] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_andesite
+[20:28:37] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_granite
+[20:28:37] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_diorite
+[20:28:37] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_gold
+[20:28:37] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_iron
+[20:28:37] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_diamond
+[20:28:37] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_bone
+[20:28:37] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_clay_uncooked
+[20:28:37] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_clay
+[20:28:37] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_prismarine
+[20:28:37] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_netherrack
+[20:28:37] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_purpur
+[20:28:37] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_blaze
+[20:28:37] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_tconstruct
+[20:28:37] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_tconstruct
+[20:28:37] [INFO] Registered Crook Catalyst: excompressum:compressed_crook

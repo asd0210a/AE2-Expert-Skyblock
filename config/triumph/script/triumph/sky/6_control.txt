@@ -1,0 +1,7 @@
+setTitle("[Basic] Control the Life")
+setIcon(<appliedenergistics2:controller>)
+setDescription("Craft a ME Controller")
+addParent("triumph:sky/1_furnace")
+setPos(-150,75)
+criteria = addCriteria("ae2ctrler", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:controller>)
