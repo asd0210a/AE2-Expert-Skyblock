@@ -3316,3 +3316,7 @@ java.lang.IllegalArgumentException: null
 [13:03:44] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
 [13:03:45] [Server thread/INFO]: Saving chunks for level 'New World'/ExtraUtils2_Quarry_Dim
 [13:03:45] [Server thread/INFO]: Saving chunks for level 'New World'/Storage Cell
+[13:27:51] [Server thread/INFO]: Saving and pausing game...
+[13:27:51] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[13:27:51] [Server thread/INFO]: Saving chunks for level 'New World'/ExtraUtils2_Quarry_Dim
+[13:27:51] [Server thread/INFO]: Saving chunks for level 'New World'/Storage Cell
