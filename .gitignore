@@ -1,6 +1,7 @@
-/saves/
 saves/
-saves/**
-/saves**
-/saves/**
-/saves/**/**
+backups/
+crash-reports/
+logs/
+crafttweaker.log
+usercache.json
+usernamecache.json
