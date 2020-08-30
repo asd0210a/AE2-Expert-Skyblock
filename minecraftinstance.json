@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-08-30T05:43:41.5076713Z",
+  "lastPlayed": "2020-08-30T06:48:40.9775496Z",
   "manifest": {
     "minecraft": {
       "version": "1.12.2",
@@ -2561,151 +2561,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 232131,
-      "gameInstanceID": "54f03beb-e1ae-4cf5-af06-60674c8b3aea",
-      "installedFile": {
-        "id": 2624732,
-        "displayName": "DefaultOptions_1.12.2-9.2.8.jar",
-        "fileName": "DefaultOptions_1.12.2-9.2.8.jar",
-        "fileDate": "2018-10-05T21:44:14.44Z",
-        "fileLength": 15056,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2624/732/DefaultOptions_1.12.2-9.2.8.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3294340221,
-            "type": 0
-          },
-          {
-            "foldername": "net",
-            "fingerprint": 1062572878,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 184185658,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1590672741,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "DefaultOptions_1.12.2-9.2.8.jar"
-      },
-      "dateInstalled": "2020-08-30T04:08:05.9497549Z",
-      "dateUpdated": "2020-08-30T04:08:05.9527539Z",
-      "dateLastUpdateAttempted": "2020-08-30T04:08:05.9527539Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 318012,
-      "gameInstanceID": "54f03beb-e1ae-4cf5-af06-60674c8b3aea",
-      "installedFile": {
-        "id": 3003689,
-        "displayName": "DefaultSettings-1.8.x-1.12.x-2.1.16",
-        "fileName": "DefaultSettings-1.8.x-1.12.x-2.1.16.jar",
-        "fileDate": "2020-07-13T09:16:25.08Z",
-        "fileLength": 604868,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3003/689/DefaultSettings-1.8.x-1.12.x-2.1.16.jar",
-        "isAlternate": false,
-        "alternateFileId": 3003690,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2793468891,
-            "type": 0
-          },
-          {
-            "foldername": "de",
-            "fingerprint": 2038119777,
-            "type": 0
-          },
-          {
-            "foldername": "logo.png",
-            "fingerprint": 1448450063,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2969311470,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 3197044944,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 418733052,
-        "gameVersion": [
-          "1.12",
-          "1.12.1",
-          "1.9.4",
-          "1.8.8",
-          "1.10.2",
-          "1.11",
-          "1.10",
-          "1.8",
-          "1.11.2",
-          "1.9",
-          "1.12.2",
-          "1.8.9"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2014-09-02T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "DefaultSettings-1.8.x-1.12.x-2.1.16.jar"
-      },
-      "dateInstalled": "2020-08-30T05:43:29.225893Z",
-      "dateUpdated": "2020-08-30T05:43:29.230941Z",
-      "dateLastUpdateAttempted": "2020-08-30T05:43:29.230941Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
       "addonID": 231868,
       "gameInstanceID": "54f03beb-e1ae-4cf5-af06-60674c8b3aea",
       "installedFile": {
@@ -4017,6 +3872,89 @@
       "installedTargets": null
     },
     {
+      "addonID": 238551,
+      "gameInstanceID": "54f03beb-e1ae-4cf5-af06-60674c8b3aea",
+      "installedFile": {
+        "id": 2744766,
+        "displayName": "[1.12.2] Gravestone Mod 1.10.3",
+        "fileName": "gravestone-1.10.3.jar",
+        "fileDate": "2019-07-20T12:00:02.353Z",
+        "fileLength": 129433,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2744/766/gravestone-1.10.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 450578824,
+            "type": 0
+          },
+          {
+            "foldername": "de",
+            "fingerprint": 426366670,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 4129406054,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 2140201873,
+            "type": 0
+          },
+          {
+            "foldername": "gravestone.png",
+            "fingerprint": 4098187742,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2949204903,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 740770114,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3366698974,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "gravestone-1.10.3.jar"
+      },
+      "dateInstalled": "2020-08-30T06:40:44.2257873Z",
+      "dateUpdated": "2020-08-30T06:40:44.2287875Z",
+      "dateLastUpdateAttempted": "2020-08-30T06:40:44.2287875Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 237167,
       "gameInstanceID": "54f03beb-e1ae-4cf5-af06-60674c8b3aea",
       "installedFile": {
@@ -4161,6 +4099,79 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 277064,
+      "gameInstanceID": "54f03beb-e1ae-4cf5-af06-60674c8b3aea",
+      "installedFile": {
+        "id": 3040592,
+        "displayName": "mysticallib-1.12.2-1.9.0.jar",
+        "fileName": "mysticallib-1.12.2-1.9.0.jar",
+        "fileDate": "2020-08-24T03:07:55.033Z",
+        "fileLength": 431560,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3040/592/mysticallib-1.12.2-1.9.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2152088629,
+            "type": 0
+          },
+          {
+            "foldername": "epicsquid",
+            "fingerprint": 1762141733,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1140883170,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2638231074,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3663085419,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "mysticallib-1.12.2-1.9.0.jar"
+      },
+      "dateInstalled": "2020-08-30T06:45:09.7924251Z",
+      "dateUpdated": "2020-08-30T06:45:09.7964206Z",
+      "dateLastUpdateAttempted": "2020-08-30T06:45:09.7964206Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 267939,
@@ -7604,6 +7615,85 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 278882,
+      "gameInstanceID": "54f03beb-e1ae-4cf5-af06-60674c8b3aea",
+      "installedFile": {
+        "id": 2716712,
+        "displayName": "blockcraftery-1.12.2-1.3.1.jar",
+        "fileName": "blockcraftery-1.12.2-1.3.1.jar",
+        "fileDate": "2019-05-28T00:06:43.73Z",
+        "fileLength": 105052,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2716/712/blockcraftery-1.12.2-1.3.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 277064,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3216283503,
+            "type": 0
+          },
+          {
+            "foldername": "epicsquid",
+            "fingerprint": 2019444201,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1554332026,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3048754118,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1630431775,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "blockcraftery-1.12.2-1.3.1.jar"
+      },
+      "dateInstalled": "2020-08-30T06:45:10.4109512Z",
+      "dateUpdated": "2020-08-30T06:45:10.4139534Z",
+      "dateLastUpdateAttempted": "2020-08-30T06:45:10.4139534Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 227083,

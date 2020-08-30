@@ -1,0 +1,54 @@
+8/22
+1. Disabled Mekanism's cables, EIO Item Conduit, End Cake.
+2. Changed recipes:
+<ol>
+<li style="margin-left:28px">-EIO Machine Cases</li>
+<li style="margin-left:28px">->IC2, AA's Diamond Dusts</li>
+<li style="margin-left:28px">->Diamond Gear</li>
+<li style="margin-left:28px">->IF's Laser Base</li>
+</ol>
+3. Added an advancement "Core of Tech".
+
+8/24
+1. Add recipes for Insulated Copper/Gold Cables, Mana Infused Metal Gear.
+
+8/26
+1. Power Age's goal - Survival Generator, Change to: IC2 Generator.
+2. IC2 Steel's oredict no longer be "ingotSteel".
+3. Fixed:
+- Some recipes don't show correctly.
+- Livingrock process time is too long.
+
+4. Added:
+- [Mod] Thaumic Tinkerer
+- [Mod] Global GameRules
+- [Recipe] Flux Crystal
+- [Recipe] Lexica Botania(Elven Knowledge) 
+
+5. Removed recipes:
+- Wyvern Core
+- End Portal
+- Master Ritual Stone
+
+6. Changed recipes:
+- Drawer Upgrade V
+- Drawer Controller
+- ExtCrafting's Compressor
+- LV capacitor
+  
+8/29 b203
+1. Merged script files (not affect).
+2. Into Power Age!!
+3. Craft AE2 processer now is more easy.
+4. Add/Modify some Tips&Hints.
+5. iChisel buffed.(10048->20000)
+6. Add mods - [GraveStone Mod], [Blockcrafty]
+7. JEI configs now won't be changed when update.
+8. Add an advancement [Trick-or-Treat]
+7. Recipes changed:
+- EIO Simple, Soul, Industrial Chassisses [change]
+- iChisel [disable]
+- Cursed Lasso
+- Basic Fusion Injector
+- Wyvern Energy Core
+- Weakness Potions
