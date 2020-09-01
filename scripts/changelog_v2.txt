@@ -45,10 +45,16 @@
 6. Add mods - [GraveStone Mod], [Blockcrafty]
 7. JEI configs now won't be changed when update.
 8. Add an advancement [Trick-or-Treat]
-7. Recipes changed:
+9. Recipes changed:
 - EIO Simple, Soul, Industrial Chassisses [change]
 - iChisel [disable]
 - Cursed Lasso
 - Basic Fusion Injector
 - Wyvern Energy Core
 - Weakness Potions
+
+b204
+1. Add mod [Tinker's Leveling Up]
+2. Upgrade mod [IC2]
+3. Recipes changed:
+- Geothermal Generator [disable] (Perm)

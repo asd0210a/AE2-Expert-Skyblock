@@ -16,6 +16,7 @@ var generators = [
 	<forestry:engine_clockwork>,
 //IC2
 	<ic2:te:3>,
+	<ic2:te:4>,
 	<ic2:te:14>,
 	<ic2:te:19>,
 	<ic2:te:12>,
