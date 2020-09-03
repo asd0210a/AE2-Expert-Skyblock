@@ -2,6 +2,7 @@
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
 <recipe name="Soul Chassis" disabled="true"></recipe>
 <recipe name="Chassis" disabled="true"></recipe>
+
 <recipe name="indChassis" required="true">
 <alloying energy="72000">
  <input name="SIMPLE_CHASSIS"/>
@@ -9,4 +10,14 @@
  <output name="CHASSIS"/>
  </alloying>
 </recipe>
+
+ <recipe name="Alloy: Electrical Steel" required="true">
+ <alloying energy="5000" exp="1">
+ <input name="ingotSteel" />
+ <input name="dustCoal"/>
+ <input name="itemSilicon"/>
+ <output name="ingotElectricalSteel"/>
+ </alloying>
+ </recipe>
+
 </enderio:recipes>

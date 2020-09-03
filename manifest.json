@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "AE2 Expert Skyblock",
-  "version": "b203",
+  "version": "b204",
   "author": "77dancer_aka_w1zz_",
   "projectID": 382372,
   "files": [
@@ -432,7 +432,7 @@
     },
     {
       "projectID": 242638,
-      "fileID": 2746892,
+      "fileID": 2980904,
       "required": true
     },
     {
@@ -448,6 +448,11 @@
     {
       "projectID": 253449,
       "fileID": 2568751,
+      "required": true
+    },
+    {
+      "projectID": 250957,
+      "fileID": 2630860,
       "required": true
     },
     {

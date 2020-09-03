@@ -1,4 +1,4 @@
-#priority 500
+#priority 5000
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IItemStack;
@@ -20,6 +20,3 @@ val md=<minecraft:diamond>;
 recipes.remove(md);
 recipes.addShapeless(md, [<ore:blockDiamond>]);
 recipes.addShaped("Diamond",md, [[beed, beed, beed],[beed, beed, beed], [beed, beed, beed]]);
-
-
-

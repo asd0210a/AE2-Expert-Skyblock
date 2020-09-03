@@ -58,3 +58,24 @@ b204
 2. Upgrade mod [IC2]
 3. Recipes changed:
 - Geothermal Generator [disable] (Perm)
+
+9/2 b205
+1. Add mods [RFTools],[RFTools' Dimension]
+2. Recipes removed:
+- Dimension Builder
+- Dimension Editer
+
+3. Recipes changed:
+- Washing Factory
+- Energy Field Provider
+
+9/3 b206
+
+Recipes modified:
+- EIO Simple Chassis [fix]
+- Charged Quartz Fixture [change]
+- TE Machine Frame [add/change]
+- Opinium Core [change]
+- Basic Fusion Injector [change]
+- Fusion Crafting Core [change]
+- Electrical Steel [change]

@@ -1,0 +1,19 @@
+[
+    {
+        "mode": "ADD",
+        "result": "thermalexpansion:frame",
+        "catalyst": "enderio:block_alloy",
+        "energy": 986,
+        "tier": 0,
+        "ingredients": [
+"draconicevolution:draconic_core",
+"ore:blockSilver",
+"minecraft:nether_star",
+"industrialforegoing:pink_slime_ingot",
+"astralsorcery:itemcraftingcomponent,1,3",
+"industrialforegoing:pink_slime_ingot",
+"appliedenergistics2:quartz_fixture",
+"thaumcraft:metal_thaumium"
+        ]
+    }
+]

@@ -26,6 +26,10 @@ var namePress = <appliedenergistics2:material:21>.withTag({InscribeName: circuit
 recipes.remove(<appliedenergistics2:part:340>);
 recipes.remove(<appliedenergistics2:inscriber>);
 
+val cerCh=<appliedenergistics2:material:1>;
+recipes.remove(<appliedenergistics2:quartz_fixture>);
+recipes.addShaped("Quartz Fixture",<appliedenergistics2:quartz_fixture>,[[cerCh,cerCh,cerCh],[cerCh,<ore:ingotSilver>,cerCh],[cerCh,cerCh,cerCh]]);
+
 recipes.addShapeless(<minecraft:gold_ingot> * 8, [<minecraft:golden_apple>]);
 recipes.addShaped("Golden Apple",<minecraft:golden_apple>, [[<appliedenergistics2:paint_ball:24>, <harvestcraft:saltitem>, <appliedenergistics2:paint_ball:24>],[<appliedenergistics2:paint_ball:24>, <minecraft:apple>, <appliedenergistics2:paint_ball:24>], [<appliedenergistics2:paint_ball:24>, <harvestcraft:saltitem>, <appliedenergistics2:paint_ball:24>]]);
 

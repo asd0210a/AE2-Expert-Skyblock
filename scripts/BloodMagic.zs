@@ -8,10 +8,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.oredict.IOreDict;
 
-recipes.remove(<bloodmagic:living_armour_boots>);
-recipes.remove(<bloodmagic:living_armour_helmet>);
-recipes.remove(<bloodmagic:living_armour_chest>);
-recipes.remove(<bloodmagic:living_armour_leggings>);
+val rr=[<bloodmagic:ritual_controller>,<bloodmagic:living_armour_boots>,<bloodmagic:living_armour_helmet>,<bloodmagic:living_armour_chest>,<bloodmagic:living_armour_leggings>,] as IItemStack[];
+for r in rr{recipes.remove(r);}
 
 //Sawdust
 tf.addRecipe(<mekanism:sawdust>,[<psi:material>,<thaumcraft:slab_greatwood>],40,1);
