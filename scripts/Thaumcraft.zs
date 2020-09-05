@@ -34,44 +34,46 @@ Infusion.removeRecipe(t);
 
 Infusion.registerRecipe("Bullet Blue Print","INFUSION",<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}),150,[<aspect:ignis>*32,<aspect:humanus>*64,<aspect:aversio>*48,<aspect:tenebrae>*48],<extrautils2:playerchest>,[<thermalfoundation:material:264>,<actuallyadditions:item_crate_keeper>,<gendustry:gene_template>,<ic2:remote>,<mekanism:balloon:4>,<ic2:cover:1>,<industrialforegoing:laser_lens_inverted:3>,<appliedenergistics2:tiny_tnt>,<immersiveengineering:material:15>]);
 
-Crucible.registerRecipe("AutoCertus","",<appliedenergistics2:material>,<appliedenergistics2:material:2>,[<aspect:metallum>]);
+Crucible.registerRecipe("AutoCertus","",<appliedenergistics2:material:2>,<appliedenergistics2:material>,[<aspect:metallum>]);
+
+Crucible.registerRecipe("Mithril Gear","",<thermalfoundation:material:264>,<thermalfoundation:material:72>,[<aspect:machina>*8]);
 /*
 -Aspects
---Aspect Aer
---Aspect Terra
---Aspect Ignis
---Aspect Aqua
---Aspect Ordo
---Aspect Perditio
---Aspect Vacuos
---Aspect Lux
---Aspect Motus
---Aspect Gelum
---Aspect Vitreus
---Aspect Metallum
---Aspect Victus
---Aspect Mortuus
---Aspect Potentia
---Aspect Permutatio
---Aspect Praecantatio
---Aspect Auram
---Aspect Alkimia
---Aspect Vitium
---Aspect Tenebrae
---Aspect Alienis
---Aspect Volatus
---Aspect Herba
---Aspect Instrumentum
---Aspect Fabrico
---Aspect Machina
---Aspect Vinculum
---Aspect Spiritus
---Aspect Cognitio
---Aspect Sensus
---Aspect Aversio
---Aspect Praemunio
---Aspect Desiderium
---Aspect Exanimis
---Aspect Bestia
---Aspect Humanus
+<aspect:aer>
+<aspect:alienis>
+<aspect:alkimia>
+<aspect:aqua>
+<aspect:auram>
+<aspect:aversio>
+<aspect:bestia>
+<aspect:cognitio>
+<aspect:desiderium>
+<aspect:exanimis>
+<aspect:fabrico>
+<aspect:gelum>
+<aspect:herba>
+<aspect:humanus>
+<aspect:ignis>
+<aspect:instrumentum>
+<aspect:lux>
+<aspect:machina>
+<aspect:metallum>
+<aspect:mortuus>
+<aspect:motus>
+<aspect:ordo>
+<aspect:perditio>
+<aspect:permutatio>
+<aspect:potentia>
+<aspect:praecantatio>
+<aspect:praemunio>
+<aspect:sensus>
+<aspect:spiritus>
+<aspect:tenebrae>
+<aspect:terra>
+<aspect:vacuos>
+<aspect:victus>
+<aspect:vinculum>
+<aspect:vitium>
+<aspect:vitreus>
+<aspect:volatus>
 */

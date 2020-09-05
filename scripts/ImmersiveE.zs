@@ -5,6 +5,7 @@ import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.CokeOven;
 import mods.immersiveengineering.AlloySmelter;
 import mods.immersiveengineering.Crusher;
+import mods.immersiveengineering.MetalPress;
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
@@ -24,11 +25,16 @@ CokeOven.removeRecipe(<immersiveengineering:stone_decoration:3>);
 CokeOven.addRecipe(<immersiveengineering:metal>,1,<minecraft:iron_ingot>,100);
 
 //Molds (Steel->Iron)
-val mold=<immersiveengineering:mold>.definition;
+val mold=<immersiveengineering:mold>.definition;var i=0;
 for m in mold.subItems{
+
 Blueprint.removeRecipe(m);
+if(i != 1 | i != 3 ){
 Blueprint.addRecipe("molds",m,[<ore:plateIron>,<ore:plateIron>,<ore:plateIron>,<ore:plateIron>,<ore:plateIron>,<immersiveengineering:tool:1>]);
 }
+i+=1;
+}
+<immersiveengineering:mold:3>.displayName="Blank Metal Mold";
 
 AlloySmelter.addRecipe(<thermalfoundation:coin:72>,<thermalfoundation:material:72>,<tconstruct:clay_cast>.withTag({PartType: "tconstruct:pan_head"}),1200);
 
@@ -47,3 +53,9 @@ cru(<ic2:dust:5>);
 recipes.remove(<thermalfoundation:material:26>);
 AlloySmelter.addRecipe(<thermalfoundation:material:26>,<actuallyadditions:item_dust:2>*2,<appliedenergistics2:material:40>, 400);
 
+val c=<enderio:item_alloy_ingot:2>;val e=<extrautils2:flattransfernode>;
+recipes.remove(<immersiveengineering:metal_decoration0:3>);
+recipes.addShaped("Redstone eng",<immersiveengineering:metal_decoration0:3>,[[c,e,c],[e,<draconicevolution:energy_infuser>,e],[c,e,c]]);
+
+MetalPress.removeRecipe(<immersiveengineering:bullet>);
+MetalPress.addRecipe(<immersiveengineering:mold:1>,<immersiveengineering:mold:3>,<thermalfoundation:material:26>,16000);

@@ -79,3 +79,19 @@ Recipes modified:
 - Basic Fusion Injector [change]
 - Fusion Crafting Core [change]
 - Electrical Steel [change]
+
+9/6 b207
+1. IF machines now only support Tesla Core Lib's frame.
+2. Removed all TE Gears' crafting table recipes and TiC casting recipes(except Iron, Copper, Tin, Silver).
+3. EIO's Alloy Smelter no longer support TE recipes.
+4. Recipes changed:
+- DE Energy Core Stabilizer [change]
+- Redstone Engineering block [add/change]
+- Gear/Bullet Metal Press Mold [change]
+- IC2 Reactor Redstone Port [change]
+- IC2 Reactor Pressure Vessel [change]
+- Block of Lead [separate from ore:blockLead]
+- Factorizer [change]
+- Tiny Potato Mask [remove]
+- Tiny Pile of sulfur Dust [add]
+- Augment: Enstabulation Apparatus [change]

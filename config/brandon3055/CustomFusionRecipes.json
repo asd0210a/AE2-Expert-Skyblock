@@ -15,5 +15,20 @@
 "appliedenergistics2:quartz_fixture",
 "thaumcraft:metal_thaumium"
         ]
+    },
+	{
+        "mode": "ADD",
+        "result": "draconicevolution:particle_generator,1,2",
+        "catalyst": "draconicevolution:particle_generator",
+        "energy": 986,
+        "tier": 0,
+        "ingredients": [
+"thermalexpansion:frame",
+"minecraft:diamond",
+"thaumcraft:metal_brass",
+"thermalfoundation:material,1,288",
+"minecraft:redstone",
+"minecraft:redstone"
+        ]
     }
 ]
