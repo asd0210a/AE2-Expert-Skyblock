@@ -1,7 +1,7 @@
 {
 "ore:stone": [
     {
-      "item": "chisel:marble:0",
+      "item": "astralsorcery:blockmarble",
       "amount": 3,
       "miningLevel": 0,
       "chance": 1.0,

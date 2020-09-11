@@ -36,3 +36,6 @@ var generators = [
 for g in generators{
 recipes.remove(g);
 }
+
+//Kinetic Dynamo
+recipes.addShaped(<immersiveengineering:metal_device1:2>, [[<thermalfoundation:material:160>, <immersiveengineering:connector>, <thermalfoundation:material:160>],[<tconstruct:large_plate>, <draconicevolution:draconic_core>, <tconstruct:large_plate>], [<bloodmagic:blood_rune>, <thermalfoundation:material:160>, <bloodmagic:blood_rune>]]);

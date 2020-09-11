@@ -6,21 +6,21 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IItemStack;
 
 recipes.remove(<extendedcrafting:table_basic>);
-recipes.addShaped("Basic Crafting Table",<extendedcrafting:table_basic>, [[<botania:spark>, <excompressum:iron_mesh>, <botania:spark>],[<chisel:antiblock>, <bloodmagic:path:1>, <chisel:antiblock>], [<appliedenergistics2:part:75>, <appliedenergistics2:part:75>, <appliedenergistics2:part:75>]]);
+recipes.addShaped("Basic Crafting Table",<extendedcrafting:table_basic>,[[<botania:spark>,<excompressum:iron_mesh>,<botania:spark>],[<chisel:antiblock>,<bloodmagic:path:1>,<chisel:antiblock>],[<appliedenergistics2:part:75>,<appliedenergistics2:part:75>,<appliedenergistics2:part:75>]]);
 
 recipes.remove(<extendedcrafting:table_advanced>);
-recipes.addShaped("Advanced Crafting Table",<extendedcrafting:table_advanced>, [[null, <harvestcraft:juiceritem>, null],[<minecraft:golden_apple:1>, <extendedcrafting:table_basic>, <minecraft:golden_apple:1>], [null, <minecraft:golden_apple:1>, null]]);
+recipes.addShaped("Advanced Crafting Table",<extendedcrafting:table_advanced>,[[null,<harvestcraft:juiceritem>,null],[<minecraft:golden_apple:1>,<extendedcrafting:table_basic>,<minecraft:golden_apple:1>],[null,<minecraft:golden_apple:1>,null]]);
 
 recipes.remove(<extendedcrafting:table_elite>);
-recipes.addShaped("Elite Crafting Table",<extendedcrafting:table_elite>, [[<thaumcraft:shimmerleaf>, <botania:cosmetic:10>, <thaumcraft:cinderpearl>],[<thaumcraft:ore_quartz>, <extendedcrafting:table_advanced>, <thaumcraft:ore_quartz>], [<chisel:lapis:3>, <thaumcraft:vishroom>, <chisel:lapis:3>]]);
+recipes.addShaped("Elite Crafting Table",<extendedcrafting:table_elite>,[[<thaumcraft:shimmerleaf>,<botania:cosmetic:10>,<thaumcraft:cinderpearl>],[<thaumcraft:ore_quartz>,<extendedcrafting:table_advanced>,<thaumcraft:ore_quartz>],[<chisel:lapis:3>,<thaumcraft:vishroom>,<chisel:lapis:3>]]);
 
-recipes.addShaped(<extendedcrafting:material:8>, [[null, <appliedenergistics2:material:11>, null],[<appliedenergistics2:material:11>, <extendedcrafting:material:9>, <appliedenergistics2:material:11>], [null, <appliedenergistics2:material:11>, null]]);
+recipes.addShaped(<extendedcrafting:material:8>,[[null,<appliedenergistics2:material:11>,null],[<appliedenergistics2:material:11>,<extendedcrafting:material:9>,<appliedenergistics2:material:11>],[null,<appliedenergistics2:material:11>,null]]);
 
-recipes.addShaped(<extendedcrafting:material:9>, [[null, <thaumcraft:ingot:2>, null],[<thaumcraft:ingot:2>, <extendedcrafting:material:10>, <thaumcraft:ingot:2>], [null, <thaumcraft:ingot:2>, null]]);
+recipes.addShaped(<extendedcrafting:material:9>,[[null,<thaumcraft:ingot:2>,null],[<thaumcraft:ingot:2>,<extendedcrafting:material:10>,<thaumcraft:ingot:2>],[null,<thaumcraft:ingot:2>,null]]);
 
-recipes.addShaped(<extendedcrafting:material:10>, [[null, <astralsorcery:itemperkgem>, null],[<astralsorcery:itemperkgem>, <extendedcrafting:material:11>, <astralsorcery:itemperkgem>], [null, <astralsorcery:itemperkgem>, null]]);
+recipes.addShaped(<extendedcrafting:material:10>,[[null,<astralsorcery:itemperkgem>,null],[<astralsorcery:itemperkgem>,<extendedcrafting:material:11>,<astralsorcery:itemperkgem>],[null,<astralsorcery:itemperkgem>,null]]);
 
-recipes.addShaped(<extendedcrafting:material:11>, [[<minecraft:emerald>, null, <minecraft:emerald>],[null, <extendedcrafting:material:12>, null], [<minecraft:emerald>, null, <minecraft:emerald>]]);
+recipes.addShaped(<extendedcrafting:material:11>,[[<minecraft:emerald>,null,<minecraft:emerald>],[null,<extendedcrafting:material:12>,null],[<minecraft:emerald>,null,<minecraft:emerald>]]);
 
 recipes.replaceAllOccurences(<minecraft:gunpowder>,<ic2:dust:15>,<extendedcrafting:material:7>);
 recipes.replaceAllOccurences(<minecraft:ender_eye>,<extendedcrafting:material>,<extendedcrafting:ender_crafter>);
@@ -28,7 +28,7 @@ recipes.replaceAllOccurences(<minecraft:ender_eye>,<extendedcrafting:material>,<
 mods.thaumcraft.Crucible.registerRecipe("Black Iron Slate","BASEALCHEMY",<extendedcrafting:material:2>,<extendedcrafting:material:8>,[<aspect:permutatio>*40,<aspect:potentia>*10,<aspect:desiderium>*10]);
 
 //Beacon
-Ender.addShaped(<minecraft:beacon>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], [<ore:blockGlassColorless>, <ore:netherStar>, <ore:blockGlassColorless>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+Ender.addShaped(<minecraft:beacon>,[[<ore:blockGlassColorless>,<ore:blockGlassColorless>,<ore:blockGlassColorless>],[<ore:blockGlassColorless>,<ore:netherStar>,<ore:blockGlassColorless>],[<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>]]);
 
 //9x9 Craft
 val m =<thermalfoundation:storage:8>; //Mithril Block
@@ -63,9 +63,9 @@ function pt(a as int) as IItemStack{
 }
 
 recipes.remove(<extrautils2:indexerremote>);
-recipes.addShaped("Indexer Remote", <extrautils2:indexerremote>, [[<ore:stone>, <extrautils2:ingredients:2>, <ore:stone>], [<ore:stone>, <extrautils2:indexer>, <ore:stone>], [<ore:stone>, <extrautils2:ingredients:2>, <ore:stone>]]);
+recipes.addShaped("Indexer Remote",<extrautils2:indexerremote>,[[<ore:stone>,<extrautils2:ingredients:2>,<ore:stone>],[<ore:stone>,<extrautils2:indexer>,<ore:stone>],[<ore:stone>,<extrautils2:ingredients:2>,<ore:stone>]]);
 recipes.remove(<immersiveengineering:toolbox>);
-recipes.addShaped("Toolbox", <immersiveengineering:toolbox>, [[null,<immersiveengineering:maintenance_kit>,null],[<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>], [<ore:dyeRed>, <immersiveengineering:wooden_device0>, <ore:dyeRed>]]);
+recipes.addShaped("Toolbox",<immersiveengineering:toolbox>,[[null,<immersiveengineering:maintenance_kit>,null],[<ore:plateAluminum>,<ore:plateAluminum>,<ore:plateAluminum>],[<ore:dyeRed>,<immersiveengineering:wooden_device0>,<ore:dyeRed>]]);
 
 table.addShaped(4,<appliedenergistics2:part:340>,[
 [f,f,f,f,f,i,<actuallyadditions:item_booklet>,<industrialforegoing:book_manual>,<extrautils2:book>],
@@ -79,15 +79,30 @@ table.addShaped(4,<appliedenergistics2:part:340>,[
 [pt(6),pt(7),pt(8),<appliedenergistics2:material:48>,<appliedenergistics2:material:48>,i,<ic2:te:88>,<botania:opencrate:1>,<extrautils2:crafter>]]);
 
 //Crystaltine Ingot
+val lapis=<ore:gemLapis>;val cer=<ore:crystalCertusQuartz>;val fluix=<ore:crystalFluix>;val silver=<ore:ingotSilver>;val bras=<ore:nuggetAlubrass>;
 table.remove(<extendedcrafting:material:24>);
-table.addShaped(0, <extendedcrafting:material:24>, [
-	[<ore:crystalFluix>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:crystalFluix>], 
-	[<ore:crystalCertusQuartz>, <ore:nuggetAlubrass>, <ore:ingotSilver>, <ore:ingotGold>, <ore:ingotSilver>, <ore:nuggetAlubrass>, <ore:crystalCertusQuartz>], 
-	[<ore:crystalCertusQuartz>, <ore:nuggetAlubrass>, <ore:ingotSilver>, <ore:ingotGold>, <ore:ingotSilver>, <ore:nuggetAlubrass>, <ore:crystalCertusQuartz>], 
-	[<ore:crystalFluix>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:crystalFluix>], 
-	[null, null, null, null, null, null, null], 
-	[null, null, null, null, null, null, null], 
-	[null, null, null, null, null, null, null]
+table.addShaped(0,<extendedcrafting:material:24>,[
+	[fluix,lapis,lapis,lapis,lapis,lapis,fluix],
+	[cer,bras,silver,<ore:ingotGold>,silver,bras,cer],
+	[cer,bras,silver,<ore:ingotGold>,silver,bras,cer],
+	[fluix,lapis,lapis,lapis,lapis,lapis,fluix],
+	[null,null,null,null,null,null,null],
+	[null,null,null,null,null,null,null],
+	[null,null,null,null,null,null,null]
+]);
+
+//Auto Chisel
+val ande=<chisel:andesite1>;val basa=<chisel:basalt1>;val lavs=<chisel:lavastone1>;
+table.addShaped(0,<chisel:chisel_hitech>,[
+	[ande,ande,ande,ande,ande,ande,ande,ande,ande],
+	[null,null,null,null,null,null,null,null,null],
+	[ande,ande,ande,ande,ande,ande,ande,ande,ande],
+	[lavs,lavs,lavs,lavs,lavs,lavs,lavs,lavs,lavs],
+	[null,null,null,null,<chisel:chisel_diamond:*>,null,null,null,null],
+	[lavs,lavs,lavs,lavs,lavs,lavs,lavs,lavs,lavs],
+	[basa,basa,basa,basa,basa,basa,basa,basa,basa],
+	[null,null,null,null,null,null,null,null,null],
+	[basa,basa,basa,basa,basa,basa,basa,basa,basa]
 ]);
 
 comp.addRecipe(<teslacorelib:machine_case>,<minecraft:iron_bars>,1000,<extendedcrafting:frame>,10000);

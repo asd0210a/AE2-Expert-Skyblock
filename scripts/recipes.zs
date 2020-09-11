@@ -1,6 +1,10 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<ic2:plate:3>);
+
+recipes.remove(<immersiveengineering:metal:39>);
+recipes.remove(<thaumcraft:plate:1>);
 recipes.remove(<thermalexpansion:frame>);
 recipes.remove(<mekanism:basicblock:8>);
 recipes.remove(<actuallyadditions:block_misc:9>);

@@ -12,3 +12,8 @@ for a in arr{
 //brewing.addBrew(arr[0].withTag({Potion: brew}), ori ,arr[1].withTag({Potion: brew}));
 }
 po("minecraft:weakness",<minecraft:fermented_spider_eye>,<ic2:misc_resource:5>);
+
+recipes.remove(<ic2:plate:3>);
+recipes.remove(<immersiveengineering:metal:39>);
+recipes.remove(<thaumcraft:plate:1>);
+recipes.addShaped(<thaumcraft:plate:1>, [[null,<minecraft:piston>.reuse(), null],[<psi:material>,<minecraft:iron_ingot>, <psi:material>], [null, <minecraft:anvil:*>.reuse(), null]]);

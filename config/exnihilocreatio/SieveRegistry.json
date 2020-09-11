@@ -149,5 +149,12 @@
      "chance": 1,
      "meshLevel": 3
   }
+  ],
+  "minecraft:stone:1": [
+  {
+    "drop": "forestry:alveary.plain",
+     "chance": 1,
+     "meshLevel": 3
+  }
   ]
 }

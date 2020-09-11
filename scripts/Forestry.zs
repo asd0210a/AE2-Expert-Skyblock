@@ -20,6 +20,8 @@ recipes.replaceAllOccurences(<ore:beeComb>,<ore:blockGlass>,<forestry:bee_house>
 //Apiary
 recipes.replaceAllOccurences(<forestry:impregnated_casing>,<ore:beeComb>,<forestry:apiary>);
 
+recipes.addShaped("Escritoire",<forestry:escritoire>, [[<ore:fenceWood>, null, null],[<astralsorcery:blockinfusedwood>, <astralsorcery:blockinfusedwood>, <astralsorcery:blockinfusedwood>], [<ore:fenceWood>, null, <ore:fenceWood>]]);
+
 val bal as IItemStack=<magicbees:propolis:5>;
 val woolList=[0,14,4,12,15,3,13] as int[];
 var woolDef=<minecraft:wool>.definition;

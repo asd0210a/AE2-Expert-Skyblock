@@ -51,7 +51,7 @@ pool.addAlchemy(<extendedcrafting:material>,<ic2:ingot>,1600);
 
 //Rune of Earth
 rune.removeRecipe(<botania:rune:2>);
-rune.addRecipe(<botania:rune:2>,[<thaumcraft:tallow>,<harvestcraft:maplesyrupwafflesitem>,<forestry:bee_combs>,<bloodmagic:component:22>,<minecraft:coal>,<botania:manaresource>],3200);
+rune.addRecipe(<botania:rune:2>,[<thaumcraft:tallow>,<harvestcraft:maplesyrupwafflesitem>,<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "herba"}]}),<bloodmagic:component:22>,<minecraft:coal>,<botania:manaresource>],3200);
 
 //Rune of Fire
 rune.removeRecipe(<botania:rune:1>);
@@ -80,7 +80,11 @@ var delore=[
 "oreGold",
 "oreSilver",
 "oreDiamond",
-"oreCoal"
+"oreCoal",
+"orePlatinum",
+"oreUranium",
+"oreOsmium",
+"oreCinnabar",
 ] as string[];
 for d in delore{
 Orechid.removeOre(d);

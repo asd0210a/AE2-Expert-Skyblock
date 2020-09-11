@@ -95,3 +95,38 @@ Recipes modified:
 - Tiny Potato Mask [remove]
 - Tiny Pile of sulfur Dust [add]
 - Augment: Enstabulation Apparatus [change]
+
+9/8 b208
+1. Botania Orechid removed ores:
+- Platinum
+- Osmium
+- Uranium
+- Cinnabar
+2. Modified Wither Skeleton's Coal drop amount.
+3. Add advencements [Chisel a Bit], [Acquire Hardened].
+4. Recipes modified:
+- Focal Manipulator [change]
+- Reinforced Blast Brick [temp disable]
+- Radiator Block [temp disable]
+- Basalt_Mosaic [change/remove oredict and the chisel group]
+- Andesite_Mosaic [change/remove oredict and the chisel group]
+- Lavastone_Mosaic [change/remove chisel group]
+- iChisel [add/change]
+- Auto Chisel [add/change]
+- Kinetic Dynamo [add/change]
+- Water Wheel [change]
+- Platinum's, Signalum's, Lumium's and Enderium's Gear [disable from TE Gear Die]
+
+5. Will add some Tips&Hints.
+6. Updated DE and the Core.
+
+9/9 b209-Age1-tempfix
+1. Island biome now unified.
+2. Advancement [Beat the Mod]'s tier "Deep" change to "Tutorial".
+3. Add Marble's detail on JEI.
+4. Recipes modified:
+- BM Weak Orb [change/sorry for late]
+- Iron Plates [remove/change]
+- Alveary [add]
+- Escritoire [add]
+- Rune of Earth [change]

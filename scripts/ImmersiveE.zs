@@ -25,15 +25,16 @@ CokeOven.removeRecipe(<immersiveengineering:stone_decoration:3>);
 CokeOven.addRecipe(<immersiveengineering:metal>,1,<minecraft:iron_ingot>,100);
 
 //Molds (Steel->Iron)
-val mold=<immersiveengineering:mold>.definition;var i=0;
+val mold=<immersiveengineering:mold>.definition;
+var i=0 as int;
 for m in mold.subItems{
-
 Blueprint.removeRecipe(m);
-if(i != 1 | i != 3 ){
 Blueprint.addRecipe("molds",m,[<ore:plateIron>,<ore:plateIron>,<ore:plateIron>,<ore:plateIron>,<ore:plateIron>,<immersiveengineering:tool:1>]);
-}
 i+=1;
 }
+
+Blueprint.removeRecipe(<immersiveengineering:mold:1>);
+Blueprint.removeRecipe(<immersiveengineering:mold:3>);
 <immersiveengineering:mold:3>.displayName="Blank Metal Mold";
 
 AlloySmelter.addRecipe(<thermalfoundation:coin:72>,<thermalfoundation:material:72>,<tconstruct:clay_cast>.withTag({PartType: "tconstruct:pan_head"}),1200);
@@ -59,3 +60,14 @@ recipes.addShaped("Redstone eng",<immersiveengineering:metal_decoration0:3>,[[c,
 
 MetalPress.removeRecipe(<immersiveengineering:bullet>);
 MetalPress.addRecipe(<immersiveengineering:mold:1>,<immersiveengineering:mold:3>,<thermalfoundation:material:26>,16000);
+
+//Blast Brick
+recipes.remove(<immersiveengineering:stone_decoration:2>);
+
+//Raditor Block
+recipes.remove(<immersiveengineering:metal_decoration0:7>);
+
+//Water Wheel
+recipes.replaceAllOccurences(<ore:ingotSteel>,<exnihilocreatio:block_waterwheel>,<immersiveengineering:wooden_device1>);
+recipes.replaceAllOccurences(<minecraft:iron_ingot>,<ore:ingotElectrum>,<immersiveengineering:connector:3>);
+recipes.replaceAllOccurences(<minecraft:iron_ingot>,<ore:ingotElectrum>,<immersiveengineering:connector:2>);

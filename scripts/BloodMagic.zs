@@ -30,10 +30,13 @@ tf.addRecipe(<bloodmagic:soul_gem>.withTag({}),[<minecraft:redstone>,<botania:ma
 	altar.removeRecipe(<minecraft:stone>);
 	altar.addRecipe(<bloodmagic:slate>, <botania:rune:2>,0,1000,5,5);
 
+	//Weak Orb
+	altar.removeRecipe(<minecraft:diamond>);
+	altar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),<appliedenergistics2:material:9>,0,2000,1,2);
 	//Greatwood Log
 	altar.addRecipe(<thaumcraft:log_greatwood>,<forestry:logs.0:3>,1,1500,8,5);
 
-//----------End-------------
+
 
 //Pixle Dust
 ara.addRecipe(<botania:manaresource:8>,<botania:manaresource:1>,<bloodmagic:component:4>);

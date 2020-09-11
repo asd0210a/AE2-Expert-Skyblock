@@ -1,6 +1,6 @@
-setIcon(<minecraft:map>)
+setIcon(<appliedenergistics2:network_tool>)
 setTitle("AE2 Expert Skyblock")
-setDescription("Welcome to AE2 Expert Skyblock. Thanks for playing! You can press F4 to see this pack's hints and major tips, or pressing L to follow advancements to the goal!")
+setDescription("Welcome to AE2 Expert Skyblock. Thanks for playing!\nYou can press F4 \n(Depend on your questing keybind, Go to Setting-> Control-> Search \"quest\") \nto see this pack's hints and major tips, or pressing L to follow the advancements to the goal!")
 setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
 setShowToast(false)
 setAnnounceToChat(false)

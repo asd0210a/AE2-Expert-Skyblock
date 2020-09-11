@@ -1,4 +1,4 @@
-setTitle("[Deep] Beat The Mod!")
+setTitle("[Tutorial] Beat The Mod!")
 setIcon(<minecraft:furnace>)
 setDescription("Craft a furnace")
 addParent("triumph:sky/root")

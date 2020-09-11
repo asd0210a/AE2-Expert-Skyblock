@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "mob": "minecraft:wither_skeleton",
+    "remove": "minecraft:coal"
+  },
+  {
+    "mob": "minecraft:wither_skeleton",
+    "item": "minecraft:coal",
+    "itemcount": "5-8/1-2/1-2"
+  }
+]
