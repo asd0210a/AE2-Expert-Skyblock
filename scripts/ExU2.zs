@@ -14,3 +14,4 @@ recipes.addShaped("Lava Mill",<extrautils2:passivegenerator:2>,[[<minecraft:ston
 recipes.remove(<extrautils2:goldenlasso:1>);
 recipes.addShapeless("Cursed Lasso",<extrautils2:goldenlasso:1>,[<extrautils2:goldenlasso>,<extrautils2:ingredients:10>,<draconicevolution:crystal_binder>]);
 
+
