@@ -3,7 +3,7 @@ import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 
-JEI.addDescription(<ore:blockMarble>,"Can be obtained by sieve Granite, See Astral Sorcery's recipe");
+JEI.addDescription(<ore:blockMarble>,"Can be obtained by smashing Chiseled Stone, See Astral Sorcery's recipe");
 <bloodmagic:alchemic_vial>.displayName = "Vial of Mixed Potion";
 <minecraft:gold_ingot>.addTooltip(format.gold("Craftable from Golden Apple, and Golden Apple can be Crafted without Gold"));
 

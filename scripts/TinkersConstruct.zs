@@ -11,3 +11,5 @@ recipes.remove(<ic2:te:26>);
 recipes.addShaped("Reactor Port",<ic2:te:26>,[[b,a,b],[a,<extrautils2:redstonelantern>,a],[b,a,b]]);
 
 Casting.addTableRecipe(<immersiveengineering:mold:3>,<ic2:dust:27>,<fluid:concrete>,2000,true,160);
+Casting.removeTableRecipe(<tconstruct:cast_custom:4>);
+Casting.addTableRecipe(<tconstruct:cast_custom:4>, <exnihilocreatio:item_material:7>, <liquid:gold>, 288, true,40);

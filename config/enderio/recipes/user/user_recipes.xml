@@ -19,6 +19,8 @@
  <output name="ingotElectricalSteel"/>
  </alloying>
  </recipe>
+<recipe name="Gear, Stone" disabled="true"></recipe>
+<recipe name="Gear, Stone, Upgrade" disabled="true"></recipe>
 
  <recipe name="Alloy: Manyullyn" disabled="true"></recipe>
 <recipe name="Alloy: Steel" disabled="true"></recipe>

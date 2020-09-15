@@ -30,5 +30,15 @@
 "minecraft:redstone",
 "minecraft:redstone"
         ]
+    },
+	{
+        "mode": "ADD",
+        "result": "bloodmagic:ritual_controller",
+        "catalyst": "bloodmagic:ritual_controller,1,1",
+        "energy": 300,
+        "tier": 0,
+        "ingredients": [
+"botania:lexicon","thaumcraft:thaumometer","thaumcraft:thaumonomicon","guideapi:bloodmagic-guide","bloodmagic:sanguine_book","astralsorcery:itemjournal"
+        ]
     }
 ]

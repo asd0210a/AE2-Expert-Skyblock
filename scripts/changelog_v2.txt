@@ -1,9 +1,8 @@
 8/22
 1. Disabled Mekanism's cables, EIO Item Conduit, End Cake.
 2. Changed recipes:
-<ol>
-<li style="margin-left:28px">-EIO Machine Cases</li>
-<li style="margin-left:28px">->IC2, AA's Diamond Dusts</li>
+-EIO Machine Cases
+-IC2, AA's Diamond Dusts
 <li style="margin-left:28px">->Diamond Gear</li>
 <li style="margin-left:28px">->IF's Laser Base</li>
 </ol>
@@ -130,3 +129,28 @@ Recipes modified:
 - Alveary [add]
 - Escritoire [add]
 - Rune of Earth [change]
+
+9/11 b209-hotfix-v2
+1. Added/Changed Magic Age's Tips&Hints so that newcomer can easy follow.
+2. Re-enable Iron Gear recipe that I removed uncareful.
+3. Add file "zMod-Official-Website.html" at main path, use it often !!
+4. Edited Marble recipes description.
+5. Stone Gear recipe won't show wrong recipes.
+
+9/12 b210
+1. Added an advencement [Hoe Hoe Hoeooh !!].
+2. Add/changed some of Tips&Hints.
+3. Steel no longer obtain by Induction Smelter.
+3. Compressed zMod-Official-Website.html file.
+4. Recipes modified:
+- Mekanism's Steel Casing [add/change]
+- Chisel some of Block of Golds [change]
+- IC2 Stirling Generator [temp disable]
+- Ex Compressum Iron Mesh [change]
+- Ash Brick [change]
+- Alchemy Catalyst [change]
+- Void Metal [change, NO available in Magic Age]
+- Nether Wart [add]
+- Oblivion Frame [change]
+- Oblivion Essense [change]
+- Soulful Wax [add]

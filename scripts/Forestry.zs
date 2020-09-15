@@ -8,10 +8,10 @@ import crafttweaker.item.IIngredient;
 import mods.forestry.Carpenter;
 
 Carpenter.removeRecipe(<forestry:portable_alyzer>);
-recipes.addShaped("Bee ana",<forestry:portable_alyzer>, [[<forestry:ash>, <forestry:pipette>, <forestry:ash>],[<forestry:ash>, <forestry:stamps>, <forestry:ash>], [<forestry:ash>, <forestry:resource_storage>, <forestry:ash>]]);
+recipes.addShaped("Bee ana",<forestry:portable_alyzer>,[[<forestry:ash>,<forestry:pipette>,<forestry:ash>],[<forestry:ash>,<forestry:stamps>,<forestry:ash>],[<forestry:ash>,<forestry:resource_storage>,<forestry:ash>]]);
 
 Carpenter.removeRecipe(<forestry:habitat_screen>);
-recipes.addShaped("weather",<forestry:portable_alyzer>, [[<forestry:ash>, <forestry:pipette>, <forestry:ash>],[<forestry:ash>, <forestry:stamps:3>, <forestry:ash>], [<forestry:ash>, <forestry:resource_storage>, <forestry:ash>]]);
+recipes.addShaped("weather",<forestry:portable_alyzer>,[[<forestry:ash>,<forestry:pipette>,<forestry:ash>],[<forestry:ash>,<forestry:stamps:3>,<forestry:ash>],[<forestry:ash>,<forestry:resource_storage>,<forestry:ash>]]);
 recipes.addShapeless("Honey Drop",<forestry:honey_drop>,[<ore:beeComb>]);
 
 //Bee House
@@ -20,7 +20,13 @@ recipes.replaceAllOccurences(<ore:beeComb>,<ore:blockGlass>,<forestry:bee_house>
 //Apiary
 recipes.replaceAllOccurences(<forestry:impregnated_casing>,<ore:beeComb>,<forestry:apiary>);
 
-recipes.addShaped("Escritoire",<forestry:escritoire>, [[<ore:fenceWood>, null, null],[<astralsorcery:blockinfusedwood>, <astralsorcery:blockinfusedwood>, <astralsorcery:blockinfusedwood>], [<ore:fenceWood>, null, <ore:fenceWood>]]);
+//Peat2
+recipes.replaceAllOccurences(<forestry:propolis:*>,<ore:slimeball>,<forestry:bituminous_peat>);
+
+recipes.remove(<forestry:ash_brick>);
+recipes.addShaped("Ash Brick",<forestry:ash_brick>*2,[[<ore:dustAsh>,<minecraft:brick:*>,<ore:dustAsh>],[<minecraft:brick:*>,<forestry:bituminous_peat>,<minecraft:brick:*>],[<ore:dustAsh>,<minecraft:brick:*>,<ore:dustAsh>]]);
+
+recipes.addShaped("Escritoire",<forestry:escritoire>,[[<ore:fenceWood>,null,null],[<astralsorcery:blockinfusedwood>,<astralsorcery:blockinfusedwood>,<astralsorcery:blockinfusedwood>],[<ore:fenceWood>,null,<ore:fenceWood>]]);
 
 val bal as IItemStack=<magicbees:propolis:5>;
 val woolList=[0,14,4,12,15,3,13] as int[];

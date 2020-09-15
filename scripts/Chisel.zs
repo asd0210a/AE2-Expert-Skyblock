@@ -21,8 +21,12 @@ for n in r{
 n.remove(o);
 }
 recipes.addShaped(o,[[i,i,i],[i,i,i],[i,i,i]]);
+if(s!=""){
 Carving.removeVariation(s,o);
+}
 }
 chi([<ore:stoneAndesite>,<ore:stoneAndesitePolished>],<chisel:andesite1>,<chisel:andesite1:13>,"andesite");
 chi([<ore:stoneBasalt>,<ore:stoneBasaltPolished>],<chisel:basalt1>,<chisel:basalt2:3>,"basalt");
 chi([],<chisel:lavastone1>,<chisel:lavastone1:13>,"lavastone");
+chi([<ore:blockGold>],<chisel:blockgold:6>,<chisel:gold:1>,"");
+<chisel:blockgold:6>.displayName="Compressored Block of Gold";

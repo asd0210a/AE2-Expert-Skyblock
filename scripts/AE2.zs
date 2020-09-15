@@ -55,7 +55,8 @@ recipes.addShaped("1k Storage Component",<appliedenergistics2:material:35>, [[<b
 recipes.replaceAllOccurences(<appliedenergistics2:material:8>,<ore:dyePurple>, <appliedenergistics2:condenser>);
 
 //Grinder.addRecipe(output,  i, int turns, ....)
-Grinder.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "herba"}]}), <minecraft:grass>,1);
+val her=<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "herba"}]});
+Grinder.addRecipe(her, <minecraft:grass>,1,her,1,her,1);
 Grinder.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "machina"}]}), <thermalfoundation:material:24>,1);
 Grinder.addRecipe(<appliedenergistics2:material:5>*8,<appliedenergistics2:quartz_block>,1);
 

@@ -16,4 +16,6 @@ po("minecraft:weakness",<minecraft:fermented_spider_eye>,<ic2:misc_resource:5>);
 recipes.remove(<ic2:plate:3>);
 recipes.remove(<immersiveengineering:metal:39>);
 recipes.remove(<thaumcraft:plate:1>);
+recipes.addShapeless(<minecraft:nether_wart>* 4, [<minecraft:red_mushroom_block>]);
+
 recipes.addShaped(<thaumcraft:plate:1>, [[null,<minecraft:piston>.reuse(), null],[<psi:material>,<minecraft:iron_ingot>, <psi:material>], [null, <minecraft:anvil:*>.reuse(), null]]);

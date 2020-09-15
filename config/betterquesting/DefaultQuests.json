@@ -58,7 +58,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Welcome",
-          "desc:8": "Welcome and Thanks for playing AE2 Expert Skyblock!\nThere are something which mention the pack changed or the hints for progression to the goal. You must look it whatever you are expert or not for won\u0027t waste time/materials.\n\nThe pack will force you going much deep with each mods, especially AE2 automation art.\nAnd not only avoid player playing \"waste basic easy-to-get materials\" , but also the pack force on server-friendly"
+          "desc:8": "Welcome and Thanks for playing AE2 Expert Skyblock!\nThere are something which mention the pack changed or the hints for progression to the goal. You must look it whatever you are expert or not for won\u0027t waste time/materials.\n\nThe pack will force you going much deep with each mods, especially AE2 automation art.\nAnd not only avoid player playing \"waste basic easy-to-get materials\" , but also the pack force on server-friendly.\nAlmost every §ctip or hint§f has the §ckey to automation§f.\n\nMods\u0027 official guide/website I collected and merged to §ca html file in modpack folder called \"zMod-Official-Website.html\"§f, If you are messing, check it !!"
         }
       },
       "tasks:9": {},
@@ -112,7 +112,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:grass",
+            "id:8": "minecraft:stone",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -122,9 +122,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "It\u0027s just very early-game !",
-          "desc:8": "It\u0027s just very early-game !\n  When you did something wrong that §cirreversible§f, don\u0027t worry, just restart your island.\nBy the way, §cChisel§f can be crafted without an §cIron§f."
+          "desc:8": "It\u0027s just very early-game !\n  When you did something wrong that §cirreversible§f, don\u0027t worry, just restart your island.\nBy the way, §cChisel§f can be crafted without an §cIron§f.\nAnd §cafter chisel a Stone§f, mine it will§c return you the Chiseled Stone§f instead of§c Cobblestone§f."
         }
       },
       "tasks:9": {},
@@ -155,7 +155,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "About Torch",
-          "desc:8": "§cTorch §fis useful, it can §cbe placed on a Hopper catching something§f."
+          "desc:8": "§cTorch §fis useful, it can §cbe placed on a Hopper catching something§f, like §cSand§f."
         }
       },
       "tasks:9": {},
@@ -245,7 +245,10 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "exnihilocreatio:block_barrel1",
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "magicbees:frames.oblivion",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -256,8 +259,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Fluid in Barrel",
-          "desc:8": "The §cBarrel §fwas buffed that decreasing §cliquid transform §ftime."
+          "name:8": "Magic Bee",
+          "desc:8": "We have §cMagic Bee §fmod.\n§cOblivion Frame§f easy to craft."
         }
       },
       "tasks:9": {},
@@ -319,7 +322,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Precious Emerald",
-          "desc:8": "§cEmeralds§f is precious, Those were considered as §ccurrency§f."
+          "desc:8": "§cEmeralds§f is precious, Those were considered as §ccurrency§f, can be traded items at §cMarket§f."
         }
       },
       "tasks:9": {},
@@ -402,8 +405,15 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "astralsorcery:blockwell",
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "forge:bucketfilled",
             "Count:3": 1,
+            "tag:10": {
+              "FluidName:8": "astralsorcery.liquidstarlight",
+              "Amount:3": 1000
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -414,7 +424,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Lightwell and Rock Crystal",
-          "desc:8": "§cLightwell§f and §cRock Crystal§f are easy to obtain, look into it !"
+          "desc:8": "§cLightwell§f and §cRock Crystal§f are easy to obtain, look into it !\nRock Crtstal get from sieve."
         }
       },
       "tasks:9": {},
@@ -661,7 +671,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "About Tree Mutation",
-          "desc:8": "In order to see these pollinated blocks, you\u0027ll need §cSpectacles §f§d§for an §cApiarist\u0027s Hat§f§f§f§d; when you put these in the head armor slot in your inventory, you can see the pollinated leaf blocks as looking like leaves from different trees. If you break these leaf blocks with a §cGrafter§f, you\u0027ll be sure of a sapling drop (this does not seem to be working on any and all leaves anymore, just the pollinated ones). Grafters don\u0027t have a lot of uses before they break, so you\u0027ll need a good number of them."
+          "desc:8": "If you put normal Sapling in §cPortable Analyzer§f, it will output Forestry\u0027s.\n\nIn order to see these pollinated blocks, you\u0027ll need §cSpectacles §f§d§for an §cApiarist\u0027s Hat§f§f§f§d; when you put these in the head armor slot in your inventory, you can see the pollinated leaf blocks as looking like leaves from different trees. If you break these leaf blocks with a §cGrafter§f, you\u0027ll be sure of a sapling drop (this does not seem to be working on any and all leaves anymore, just the pollinated ones). Grafters don\u0027t have a lot of uses before they break, so you\u0027ll need a good number of them, it will take a long time."
         }
       },
       "tasks:9": {},
@@ -711,7 +721,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "thaumcraft:condenser_lattice_dirty",
+            "id:8": "thaumcraft:crystal_vitium",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -723,7 +733,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "About The Flux Rift",
-          "desc:8": "§cFlux Rifts §9CAN\u0027T §fspawn in a 64×64×64 area around an another Flux Rift. Flux Rifts must have at least a portion of §cthe rift with no blocks above it§f, up to the build limit. Creating a solid platform of any block can control the §cheight §fof the Flux Rift\u0027s spawn."
+          "desc:8": "§cFlux Rifts §9CAN\u0027T §fspawn in a 64×64×64 area around an another Flux Rift. Flux Rifts must have at least a portion of §cthe rift with no blocks above it§f, up to the build limit. Creating a solid platform of any block can control the §cheight §fof the Flux Rift\u0027s spawn.\nOther ways to reduce flux are §cTaint§f, §cCrystals Farm§f and §cCondenser Lattice§f."
         }
       },
       "tasks:9": {},
@@ -742,11 +752,12 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "actuallyadditions:item_booklet",
+            "id:8": "appliedenergistics2:facade",
             "Count:3": 1,
+            "tag:10": {
+              "damage:3": 0,
+              "item:8": "chisel:bookshelf_birch"
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -756,8 +767,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "AA\u0027s Manual",
-          "desc:8": "The manual book should be given to the player §cwhen he first crafts something§f from AA."
+          "name:8": "Oredictionary",
+          "desc:8": "Some blocks have the same §cOredictionary§f, mean they can interchange in some case."
         }
       },
       "tasks:9": {},
@@ -776,9 +787,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "appliedenergistics2:part",
+            "id:8": "minecraft:redstone_ore",
             "Count:3": 1,
-            "Damage:2": 280,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -786,9 +797,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Magic of Redstone Signal",
-          "desc:8": "§cRedstone Signal§f is one of magic in MC, It can control §cIN/OUT or ON/OFF §flike an §cAutomatic System§f."
+          "desc:8": "§cRedstone Signal§f is one of magic in MC, It can control §cIN/OUT or ON/OFF §flike an §cAutomatic System§f.\nSuch as §cLevel Emitter§f, it work §balmost same as§c Pattern Terminal §fif you really know how to use it."
         }
       },
       "tasks:9": {},
@@ -884,7 +895,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "BeeDee",
-          "desc:8": "Forestry mod has several useful blocks, check the §cManual§f!!"
+          "desc:8": "Forestry mod has several useful block §bincreasing your breed speed or chance§f, check the §cManual§f !!"
         }
       },
       "tasks:9": {},
@@ -920,6 +931,226 @@
       },
       "tasks:9": {},
       "rewards:9": {}
+    },
+    "24:10": {
+      "questID:3": 24,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "extrautils2:rainbowgenerator",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Welcome to Power Age",
+          "desc:8": "In this age you are able to §ccreate non-AE power §fsuch as RF, EU and other units.\nAnd the §cautomatic skill §fwill be more important!!"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "25:10": {
+      "questID:3": 25,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "draconicevolution:draconium_ore",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "The Core of the power",
+          "desc:8": "§cDraconium Ore§f can be obtained by IF\u0027s §cLaser Drill§f."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "26:10": {
+      "questID:3": 26,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:metal_device0",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Store the Energy",
+          "desc:8": "IE\u0027s §cLV Capacitor§f can be stored a bit of RF.\n\n§k000000000000\n§9Be careful Wires!!\n§f§k000000000000"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "27:10": {
+      "questID:3": 27,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:charger",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Charger",
+          "desc:8": "AE2\u0027s §cCharger §frequire no §cFluix Crystal§f,\nand §cWooden Crank §fcan place on the top."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "28:10": {
+      "questID:3": 28,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "forestry:alveary.plain",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Alveary",
+          "desc:8": "§cAlveary block§f is easy to get, try it speed up your breed progression !!"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "29:10": {
+      "questID:3": 29,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:skull",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Wither Skeleton",
+          "desc:8": "Kill §cWither Skeleton §fwill drop Wither Skull, §cDrop of Evil§f, Sulfur, and §cmany Coals§f."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "30:10": {
+      "questID:3": 30,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "thaumcraft:thaumonomicon",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Thaumcraft Progress",
+          "desc:8": "§bYou must §nsleep§r§b after§r§b pick up Vis Crystal§f, so that you could make §cThaumonomicon§f."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -948,7 +1179,7 @@
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -132,
+          "x:3": -36,
           "y:3": -24,
           "id:3": 4,
           "sizeY:3": 24
@@ -962,35 +1193,35 @@
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 12,
+          "x:3": 108,
           "y:3": -96,
           "id:3": 6,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": -36,
+          "x:3": 60,
           "y:3": 24,
           "id:3": 7,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": -24,
+          "x:3": 12,
+          "y:3": -144,
           "id:3": 8,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -84,
+          "x:3": 12,
           "y:3": -48,
           "id:3": 9,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": -36,
+          "x:3": 60,
           "y:3": -120,
           "id:3": 10,
           "sizeY:3": 24
@@ -1004,70 +1235,70 @@
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": -132,
+          "x:3": -36,
           "y:3": -72,
           "id:3": 12,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 12,
+          "x:3": 108,
           "y:3": -48,
           "id:3": 14,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": -72,
+          "x:3": 108,
+          "y:3": -192,
           "id:3": 15,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": -36,
+          "x:3": 60,
           "y:3": -168,
           "id:3": 16,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 12,
+          "x:3": 108,
           "y:3": 48,
           "id:3": 17,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": 0,
+          "x:3": 60,
+          "y:3": -24,
           "id:3": 18,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -96,
+          "x:3": 60,
+          "y:3": -72,
           "id:3": 19,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
           "x:3": -84,
-          "y:3": 0,
+          "y:3": -48,
           "id:3": 20,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -144,
+          "x:3": 108,
+          "y:3": 0,
           "id:3": 21,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 12,
+          "x:3": 108,
           "y:3": -144,
           "id:3": 22,
           "sizeY:3": 24
@@ -1075,8 +1306,36 @@
         "21:10": {
           "sizeX:3": 24,
           "x:3": -132,
-          "y:3": -120,
+          "y:3": -72,
           "id:3": 23,
+          "sizeY:3": 24
+        },
+        "22:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -96,
+          "id:3": 27,
+          "sizeY:3": 24
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": 0,
+          "id:3": 28,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": -120,
+          "id:3": 29,
+          "sizeY:3": 24
+        },
+        "25:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -96,
+          "id:3": 30,
           "sizeY:3": 24
         }
       },
@@ -1084,7 +1343,7 @@
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
-          "name:8": "Tips \u0026 Hints",
+          "name:8": "Magic Age - Tips \u0026 Hints",
           "icon:10": {
             "id:8": "minecraft:book",
             "Count:3": 1,
@@ -1097,6 +1356,48 @@
         }
       },
       "order:3": 0
+    },
+    "1:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": -60,
+          "id:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": -84,
+          "id:3": 25,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": -36,
+          "id:3": 26,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Power Age - Tips \u0026 Hints",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 1
     }
   },
   "questSettings:10": {
