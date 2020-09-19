@@ -6,6 +6,8 @@ import mods.botania.RuneAltar as rune;
 import mods.botania.Orechid;
 import crafttweaker.recipes.ICraftingRecipe;
 
+recipes.remove(<minecraft:end_portal_frame>);
+
 recipes.addShapeless("Elven Botania",<botania:lexicon>.withTag({"knowledge.alfheim": 1 as byte,forcedMessage: ""}),[<botania:lexicon>,<botania:manaresource:18>,<botania:manaresource:18>]);
 
 recipes.remove(<botania:alfheimportal>);
@@ -24,6 +26,7 @@ recipes.replaceAllOccurences(<ore:blockRedstone>,<minecraft:redstone>,<botania:c
 recipes.remove(<botania:corporeaindex>);
 recipes.remove(<botania:corporeaspark:1>);
 recipes.remove(<botania:corporeaspark>);
+
 recipes.addShaped("Corporea Index",<botania:corporeaindex>,[[<minecraft:potion>,<ore:obsidian>,<minecraft:potion>],[<ore:obsidian>,<botania:corporeaspark:1>,<ore:obsidian>],[<minecraft:written_book>,<ore:obsidian>,<minecraft:written_book>]]);
 
 //Mana Dimond,End Pearl
@@ -64,14 +67,16 @@ rune.addRecipe(<botania:rune:3> * 2,[<thaumcraft:crystal_essence>.withTag({Aspec
 //Flux Crystal
 rune.addRecipe(<thaumcraft:crystal_vitium>,[<mekanism:machineblock2:11>.withTag({tier: 0,mekData: {fluidTank: {FluidName: "astralsorcery.liquidstarlight",Amount: 14000}}}),<bloodmagic:blood_tank:1>.withTag({Fluid: {FluidName: "astralsorcery.liquidstarlight",Amount: 32000}}),<minecraft:lit_pumpkin>,<bloodmagic:sigil_void>,<botania:brewvial>.withTag({brewKey: "regen"}),<botania:forestdrum:2>,<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1,key: "vitium"}]})],9100);
 
+//AA Iron Casing
+var cof=<actuallyadditions:item_coffee>.withTag({"1": {Duration: 25, ID: 14, Amplifier: 1}, "2": {Duration: 130, ID: 13, Amplifier: 0}, Counter: 3, "3": {Duration: 125, ID: 10, Amplifier: 1}});
+rune.addRecipe(<actuallyadditions:block_misc:9>,[<chisel:iron>,cof,<ore:ingotEnderium>,<chisel:iron>,cof,<ore:ingotEnderium>],25000);
+
 //Terra Plate
 recipes.replaceAllOccurences(<botania:storage>,<immersiveengineering:storage:8>,<botania:terraplate>);
 
 val Ashb=<forestry:ash_brick>;
 recipes.remove(<botania:alchemycatalyst>);
 recipes.addShaped("Alchemy Catalyst",<botania:alchemycatalyst>,[[Ashb,<ore:ingotGold>,Ashb],[<minecraft:brewing_stand>,<extendedcrafting:material:2>,<minecraft:brewing_stand>],[Ashb,<ore:ingotGold>,Ashb]]);
-
-
 
 //Corporea Crystal Cube
 recipes.replaceAllOccurences(<botania:elfglass>,<minecraft:glass>,<botania:corporeacrystalcube>);
@@ -83,7 +88,6 @@ var delore=[
 "oreGold",
 "oreSilver",
 "oreDiamond",
-"oreCoal",
 "orePlatinum",
 "oreUranium",
 "oreOsmium",
@@ -93,4 +97,5 @@ for d in delore{
 Orechid.removeOre(d);
 }
 
-Orechid.addOre("oreCoal",66000);
+Orechid.addOre("oreAluminum",10000);
+Orechid.addOre("oreAmber",7000);

@@ -58,7 +58,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Welcome",
-          "desc:8": "Welcome and Thanks for playing AE2 Expert Skyblock!\nThere are something which mention the pack changed or the hints for progression to the goal. You must look it whatever you are expert or not for won\u0027t waste time/materials.\n\nThe pack will force you going much deep with each mods, especially AE2 automation art.\nAnd not only avoid player playing \"waste basic easy-to-get materials\" , but also the pack force on server-friendly.\nAlmost every §ctip or hint§f has the §ckey to automation§f.\n\nMods\u0027 official guide/website I collected and merged to §ca html file in modpack folder called \"zMod-Official-Website.html\"§f, If you are messing, check it !!"
+          "desc:8": "Welcome and thank you for playing AE2 Expert Skyblock!\n\nHere you can find some information to progress in this Modpack §3(Modpack is still in development, so please report it if you hav an issue).\nSome recipies got changed §c(JEI is your best friend) §fcheck them before wasting materials and/or time.\n\nThis modpack is designed that you need to go deeper into each mod.\nEspecially the §5art of AE2 automation §fis required for having a easier progress.\nThis should prevent \"waste easy to get materials\" and this pack is focused on being server-friendly.\n\nI have gathered links to §cofficial guides/websites from the Mods §fused in this Modpack and merged them into an html-file which §cyou can find in your modpack folder called \"zMod-Official-Website.html\"§f\nIf you're not familiar with some mods, feel free to look it up! (:"
         }
       },
       "tasks:9": {},
@@ -90,8 +90,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "About the Chicken",
-          "desc:8": "§cChicken Egg §fcan be crafted."
+          "name:8": "SBCFC (SkyBlock Compressed Fried Chicken)",
+          "desc:8": "You're in need of a chicken.\n§cChicken Spawn Eggs §fare craftable here."
         }
       },
       "tasks:9": {},
@@ -124,7 +124,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "It\u0027s just very early-game !",
-          "desc:8": "It\u0027s just very early-game !\n  When you did something wrong that §cirreversible§f, don\u0027t worry, just restart your island.\nBy the way, §cChisel§f can be crafted without an §cIron§f.\nAnd §cafter chisel a Stone§f, mine it will§c return you the Chiseled Stone§f instead of§c Cobblestone§f."
+          "desc:8": "It\u0027s just very early-game !\n When you did something wrong that §cirreversible§f, don\u0027t worry, just restart your island.\nBy the way, §cChisel§f is craftable without an §cIron§f.\nAnd §cafter chisel a Stone§f, mine it will§c return you the Chiseled Stone§f instead of§c Cobblestone§f."
         }
       },
       "tasks:9": {},
@@ -154,7 +154,7 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "About Torch",
+          "name:8": "Put it into the right Light",
           "desc:8": "§cTorch §fis useful, it can §cbe placed on a Hopper catching something§f, like §cSand§f."
         }
       },
@@ -188,8 +188,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 1,
-          "name:8": "For Going to Progression",
-          "desc:8": "You need 3 initial types of §cVis Srystal §f- §4Vicius, §2Herba §fand §7Machina §f, to craft a §cSali Mundus."
+          "name:8": "First steps",
+          "desc:8": "Thaumcraft will accompany you for a long time in the Age of Magic.\nTo start with it you'll need to take a good ol' nap while having 3 Vis Crystals in your inventory.\nYou need 3 initial craftable types of §cVis Srystal §f- §4Vicius, §2Herba §fand §7Machina §f, to craft a §cSali Mundus.\n\n§3Important Note: Go to bed BEFORE crafting Salis Mundus, otherwise you cannot make the Sali Mundus"
         }
       },
       "tasks:9": {
@@ -260,7 +260,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Magic Bee",
-          "desc:8": "We have §cMagic Bee §fmod.\n§cOblivion Frame§f easy to craft."
+          "desc:8": "We have §cMagic Bees §fhere.\nAlso if you want to speed up your bee breeding drastically, try out the §cOblivion Frame§f."
         }
       },
       "tasks:9": {},
@@ -291,7 +291,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Lava Mill",
-          "desc:8": "The §cLava Mill§f is easy to craft. Use it !"
+          "desc:8": "Clean Energy is always a way to go!\nA §cLava Mill §fis easy to setup, use less space and is very economical.\n\nHint:It provides useful machines with energy to setup some basic automation and might be able to lift you(r mind) someday."
         }
       },
       "tasks:9": {},
@@ -321,8 +321,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Precious Emerald",
-          "desc:8": "§cEmeralds§f is precious, Those were considered as §ccurrency§f, can be traded items at §cMarket§f."
+          "name:8": "MYYYY PRECIOUS!!",
+          "desc:8": "§cEmeralds§f is precious, those are considered as §ccurrency§f.\nIf you want an better price for your hard earned goods I might could interest you for your own §cMARKET§f.\nThey're always looking for some fish.\n\nHint: Most §caquatic creatures §fcould be craft to raw cod in any crafting grid."
         }
       },
       "tasks:9": {},
@@ -353,7 +353,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "About Squid",
-          "desc:8": "Squid commonly spawn in water§c between layers 46 and level 64§f especially with§c Squid Bait§f."
+          "desc:8": "Squid commonly spawn in water§c between layers 46 and level 64§f especially with§c Squid Bait§f, die if they aren't in water."
         }
       },
       "tasks:9": {},
@@ -385,8 +385,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Cobblestone Quest",
-          "desc:8": "There has §cmany ways §fto deal with cobble gen at early game §cEXCEPT Item Transfer Node§f, You can craft it later."
+          "name:8": "Quest for Cobblestone",
+          "desc:8": "There are §cmany ways §fto (semi-)automate Cobblestone early §cEXCEPT Item Transfer Node§f. You can craft it later."
         }
       },
       "tasks:9": {},
@@ -423,190 +423,12 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Lightwell and Rock Crystal",
-          "desc:8": "§cLightwell§f and §cRock Crystal§f are easy to obtain, look into it !\nRock Crtstal get from sieve."
+          "name:8": "Astronomical Requirements",
+          "desc:8": "§cLightwell§f and §cRock Crystal§f are easy to obtain, look into it !\n§cRock Crtstal Ore §fcould be obtained by sifting."
         }
       },
       "tasks:9": {},
       "rewards:9": {}
-    },
-    "13:10": {
-      "questID:3": 13,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "OR",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Vis Crystal Reward here!",
-          "desc:8": "To complete a Thaumcraft\u0027s research."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "thaumcraft:crystal_essence",
-              "Count:3": 1,
-              "tag:10": {
-                "Aspects:9": {
-                  "0:10": {
-                    "amount:3": 1,
-                    "key:8": "vacuos"
-                  }
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "thaumcraft:crystal_essence",
-              "Count:3": 1,
-              "tag:10": {
-                "Aspects:9": {
-                  "0:10": {
-                    "amount:3": 1,
-                    "key:8": "lux"
-                  }
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "thaumcraft:crystal_essence",
-              "Count:3": 1,
-              "tag:10": {
-                "Aspects:9": {
-                  "0:10": {
-                    "amount:3": 1,
-                    "key:8": "motus"
-                  }
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "thaumcraft:crystal_essence",
-              "Count:3": 1,
-              "tag:10": {
-                "Aspects:9": {
-                  "0:10": {
-                    "amount:3": 1,
-                    "key:8": "gelum"
-                  }
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "4:10": {
-              "id:8": "thaumcraft:crystal_essence",
-              "Count:3": 1,
-              "tag:10": {
-                "Aspects:9": {
-                  "0:10": {
-                    "amount:3": 1,
-                    "key:8": "vitreus"
-                  }
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "5:10": {
-              "id:8": "thaumcraft:crystal_essence",
-              "Count:3": 1,
-              "tag:10": {
-                "Aspects:9": {
-                  "0:10": {
-                    "amount:3": 1,
-                    "key:8": "metallum"
-                  }
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "6:10": {
-              "id:8": "thaumcraft:crystal_essence",
-              "Count:3": 1,
-              "tag:10": {
-                "Aspects:9": {
-                  "0:10": {
-                    "amount:3": 1,
-                    "key:8": "victus"
-                  }
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "7:10": {
-              "id:8": "thaumcraft:crystal_essence",
-              "Count:3": 1,
-              "tag:10": {
-                "Aspects:9": {
-                  "0:10": {
-                    "amount:3": 1,
-                    "key:8": "mortuus"
-                  }
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "8:10": {
-              "id:8": "thaumcraft:crystal_essence",
-              "Count:3": 1,
-              "tag:10": {
-                "Aspects:9": {
-                  "0:10": {
-                    "amount:3": 1,
-                    "key:8": "potentia"
-                  }
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "9:10": {
-              "id:8": "thaumcraft:crystal_essence",
-              "Count:3": 1,
-              "tag:10": {
-                "Aspects:9": {
-                  "0:10": {
-                    "amount:3": 1,
-                    "key:8": "permutatio"
-                  }
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
     },
     "14:10": {
       "questID:3": 14,
@@ -640,7 +462,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Primal Mana",
-          "desc:8": "§cPrimal Mana §fis obtainable."
+          "desc:8": "§cPrimal Mana §fis obtainable.\n\nPrimal Mana is very useful to transform a few Block into other ones, it seems like having properties of an Philosopher Stone when it touches specific Blocks.\nThis process is very reactive so keep some distance and try to avoid touching the liquid.\nHint: As you're not finding a recipe in JEI, try to throw a bucket in a Mana Pool filled with Mana."
         }
       },
       "tasks:9": {},
@@ -671,7 +493,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "About Tree Mutation",
-          "desc:8": "If you put normal Sapling in §cPortable Analyzer§f, it will output Forestry\u0027s.\n\nIn order to see these pollinated blocks, you\u0027ll need §cSpectacles §f§d§for an §cApiarist\u0027s Hat§f§f§f§d; when you put these in the head armor slot in your inventory, you can see the pollinated leaf blocks as looking like leaves from different trees. If you break these leaf blocks with a §cGrafter§f, you\u0027ll be sure of a sapling drop (this does not seem to be working on any and all leaves anymore, just the pollinated ones). Grafters don\u0027t have a lot of uses before they break, so you\u0027ll need a good number of them, it will take a long time."
+          "desc:8": "Our nature is one of the most beautiful things we could observe we could observe with our naked eye.\nNo tree looks like another and even same kinds of trees could differ in their specification.\n§3Mutation is not bad in every case, as it could improve size, income, growth or simply becomes another type§f.\nTo get your first Leaf Blocks pollinated you'll need bees or butterflies and have vanilla saplings put into your §cPortable Analyzer (use up 1 Honey Drop for each analysis) §fto get the §5Forestry version (Oak Sapling -> Apple Oak Sapling)§f.\nAnd in addition to see if you got a pollinated Leaf Block you need to wear §cSpectacles §for an §cApiarists' Hat(requires to be equipped in head slot)§f.\nWhile wearing one of these, you're able to see which ones got pollinated and/or maybe gets pollinated soon (Leafs change texture).\nAfter a successfull pollination you need to use a §cGrafter (break Leaf Block with left click) §fwhich grants you a sapling drop (even if it's not pollinated).\n\nHint: §cButterflies §fspawn randomly if you have §5Forestry Saplings §fgrown.\nThey are useful for tree pollination until having your first bees you could even collect them by right clicking it with a §cScoop §f(doesn't use up durability)\n\nTip: If you make a §cGreenhouse §fby simply placing a box out of glass around your tree breeding area, you could §3contain most of the butterflies in your artificial eco system§f.\nSome would still glitch through, as Glass is still a transparent block (but free line to sky is required to have butterflies spawning).\n\nTip 2: Simple Grafters have less durability, so if you don't want to craft many of them, try out the Manasteel Grafter as soon as you have the possibility to keep an (partly) filled Mana Tablet/Band of Mana with you."
         }
       },
       "tasks:9": {},
@@ -702,7 +524,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Dolls",
-          "desc:8": "The Ex Nihilo\u0027s §cDolls§f are useful, those can §csummon some mobs§f."
+          "desc:8": "As you're progressing you might come to a point where valuable drops from Mobs are hard to gain.\nMaybe a specific §cDoll §fcould be helpful to get some useful resources.\n§5Hint: Enderman in a Tinkers Construct Smeltere won't teleport away if you wan't to automate early on.\nThe Downside is that you get less Enderpearls than killing them with a weapon enchanted with Looting."
         }
       },
       "tasks:9": {},
@@ -733,7 +555,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "About The Flux Rift",
-          "desc:8": "§cFlux Rifts §9CAN\u0027T §fspawn in a 64×64×64 area around an another Flux Rift. Flux Rifts must have at least a portion of §cthe rift with no blocks above it§f, up to the build limit. Creating a solid platform of any block can control the §cheight §fof the Flux Rift\u0027s spawn.\nOther ways to reduce flux are §cTaint§f, §cCrystals Farm§f and §cCondenser Lattice§f."
+          "desc:8": "If too much §3flux §fis built up in an area, a §cFlux Rift §fcould open up.\nThere is nothing you can do against it early on and this thing could really mess up your base and harm you.\nGood to know, §5that it is impossible that another one opens up in an area up to 64 blocks around in each direction§f.\nTo get a little bit of control you could limit the height of it spawning by simply creating a solid platform above the \"contaminated\" area.\nSome ways to reduce flux are §cTaint (which the Rift creates itself)§f,§c Crystal Farms §fand §cCondenser Lattice§f.\n\nHint: If you need to process much Essentia, try to spawn a Flux Rift far away from your base, as it will destroy Blocks/Machines instantly, harms you if you come too close, spawns different Thaumcraft Mobs and Taint the area around it.\n\n§3Tip: When a rift collapses it might drops useful things, try to make a platform below it so you might get them!"
         }
       },
       "tasks:9": {},
@@ -768,7 +590,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Oredictionary",
-          "desc:8": "Some blocks have the same §cOredictionary§f, mean they can interchange in some case."
+          "desc:8": "Some blocks have the same §cOredictionary§f, which means they could be interchanged in some cases.\n\nHint: If you're working with Drawers, you could use a Conversion Upgrade so you could different resources of the same type into it.\n\nTip: In some cases a specific Block is needed, use the §cForge Lexicon §fto convert it to the version if possible."
         }
       },
       "tasks:9": {},
@@ -798,8 +620,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 1,
-          "name:8": "Magic of Redstone Signal",
-          "desc:8": "§cRedstone Signal§f is one of magic in MC, It can control §cIN/OUT or ON/OFF §flike an §cAutomatic System§f.\nSuch as §cLevel Emitter§f, it work §balmost same as§c Pattern Terminal §fif you really know how to use it."
+          "name:8": "The Magic of Redstone Signals",
+          "desc:8": "§cRedstone Signal§f could be seen as ancient magic in the world of MC, It could be used to control §cInput/Output or ON/OFF §flike an §5Automatic System§f.\nSome mods adding tools which could improve your automation, Such as §cLevel Emitter§f, it work §balmost same as§c Pattern Terminal §fif you really know how to use it."
         }
       },
       "tasks:9": {},
@@ -829,8 +651,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Improvement Sieve",
-          "desc:8": "Assemble the §cImprovement Auto Sieve§f ASAP will help you a lot.\nAnd it DON\u0027T require blueprint for working."
+          "name:8": "S(i)ever Improvement",
+          "desc:8": "To get your basic resources automated I recommend you to assemble the §cImprovement Auto Sieve§f ASAP,as it will help you a lot.\nHint:It doesn\u0027T require blueprint to work.\nIn addition it also has no need for energy, just supply it with enough resources."
         }
       },
       "tasks:9": {},
@@ -860,8 +682,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Matter Energy - AE",
-          "desc:8": "§§You can access §cAE power §fearly before the first RF generater crafted."
+          "name:8": "Good Vibes",
+          "desc:8": "You can generate §cAE-Power §flong before you can craft your first RF generator.\nIt might be useful, so you don't need to crank your chargers for a while."
         }
       },
       "tasks:9": {},
@@ -895,7 +717,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "BeeDee",
-          "desc:8": "Forestry mod has several useful block §bincreasing your breed speed or chance§f, check the §cManual§f !!"
+          "desc:8": "The Forestry mod offers you several useful blocks to §5increase your breeding speed/chance§f, check the §cForester's Manual §ffor further information!"
         }
       },
       "tasks:9": {},
@@ -926,7 +748,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Corporea Logistics Network",
-          "desc:8": "§cCorporea Sparks§f are easy to get! Try out autocrafting with these logistics network items."
+          "desc:8": "§cCorporea Sparks§f are easy to obtain!\n§9It is also capable of setting up your first automation with it.\n§3Tip: Try to stay away from time related automation (maybe an item is missing).\nTime related automations could break your autocraft (especially §cRunic Altar or Arcane Infusion§3).\n§fFeel free to use different ways to automate your desired Crafting recipe."
         }
       },
       "tasks:9": {},
@@ -957,7 +779,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Welcome to Power Age",
-          "desc:8": "In this age you are able to §ccreate non-AE power §fsuch as RF, EU and other units.\nAnd the §cautomatic skill §fwill be more important!!"
+          "desc:8": "Finally you're able to §cgenerate non AE Power§f!\nNow your skills in automation become more important than in the Age of Magic!!"
         }
       },
       "tasks:9": {},
@@ -988,7 +810,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "The Core of the power",
-          "desc:8": "§cDraconium Ore§f can be obtained by IF\u0027s §cLaser Drill§f."
+          "desc:8": "To open up new possibilities in progressing you should get some §cDraconium Ore§f, which could be obtained by setting up the §cLaser Drill + Laser Base §f(check for setting it up correctly) from §cIndustrial Foregoing§f §4in Nether§f.\n\nHint: You could focus on a variety of ores by using different lenses"
         }
       },
       "tasks:9": {},
@@ -1018,8 +840,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Store the Energy",
-          "desc:8": "IE\u0027s §cLV Capacitor§f can be stored a bit of RF.\n\n§k000000000000\n§9Be careful Wires!!\n§f§k000000000000"
+          "name:8": "Store your Energy",
+          "desc:8": "Having some energy stored could be crucial, so try to store some early on to have it later on.\nThe §cLV Capacitor§f from Immersive Engineering can be stored a bit of RF.\n\n§k000000000000\n§9Be careful Wires!!\n§f§k000000000000\nTip: Growing some §cIndustrial Hemp §fcould help you craft §cInsulated Wires§f, so you don't get harmed if you touch them."
         }
       },
       "tasks:9": {},
@@ -1050,7 +872,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Charger",
-          "desc:8": "AE2\u0027s §cCharger §frequire no §cFluix Crystal§f,\nand §cWooden Crank §fcan place on the top."
+          "desc:8": "AE2\u0027s §cCharger §frequire no §cFluix Crystal§f.\nAs long as you cannot provide it constantly with Energy, §cWooden Crank §fcan place on the top to power it.\n§4By The Way, don't overturn it, as it might could break!"
         }
       },
       "tasks:9": {},
@@ -1080,8 +902,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Alveary",
-          "desc:8": "§cAlveary block§f is easy to get, try it speed up your breed progression !!"
+          "name:8": "Beemprovement",
+          "desc:8": "The §cAlveary Multiblock§f is very useful.\nIt helps you speeding up your breeding progression!!"
         }
       },
       "tasks:9": {},
@@ -1111,42 +933,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Wither Skeleton",
-          "desc:8": "Kill §cWither Skeleton §fwill drop Wither Skull, §cDrop of Evil§f, Sulfur, and §cmany Coals§f."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "30:10": {
-      "questID:3": 30,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "thaumcraft:thaumonomicon",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Thaumcraft Progress",
-          "desc:8": "§bYou must §nsleep§r§b after§r§b pick up Vis Crystal§f, so that you could make §cThaumonomicon§f."
+          "name:8": "Coal Needs",
+          "desc:8": "You will come to a point where charcoal isn't enough.\nThere are multiple ways to get some black gold in this pack.\nBut your first option is risky and requires to decimate the Wither Skeleton population (which you might have caused?)\nNoone could insult you if maybe a Skeleton \"accidentally\" fall into Witch Water.\nSometimes their skull isn't the best part of them.\nHint: A Witch Water Mob farm needs much care to sustain.\nYou might should make it critter proof (Cave Spiders fit through 1/2 Block gaps), as they could hurt themself if they got lost and find themself far away from their save space! (:"
         }
       },
       "tasks:9": {},
@@ -1247,7 +1035,7 @@
           "id:3": 14,
           "sizeY:3": 24
         },
-        "13:10": {
+		"13:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": -192,

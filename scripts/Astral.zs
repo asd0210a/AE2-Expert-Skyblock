@@ -32,3 +32,5 @@ recipes.addShaped("Lightwell",<astralsorcery:blockwell>, [[<minecraft:stone>, nu
 // Small Lapis dust
 mods.astralsorcery.Grindstone.addRecipe(<ic2:dust:9>, <ic2:dust:22>, 0.7f);
 mods.astralsorcery.Grindstone.addRecipe(<thermalfoundation:material:136>,<thermalfoundation:material:72>);
+
+recipes.addShaped(<astralsorcery:itemwand>, [[null, null, <botania:spark>],[null, <astralsorcery:itemcraftingcomponent>, null], [<exnihilocreatio:item_material:6>, null, null]]);

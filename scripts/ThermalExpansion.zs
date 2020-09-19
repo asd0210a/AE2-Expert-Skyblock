@@ -12,6 +12,9 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.recipes.ICraftingRecipe;
 
 global mat as function(int)IItemStack=function (a as int) as IItemStack{return itemUtils.getItem("thermalfoundation:material",a);};
+
+recipes.remove(<thermalexpansion:frame>);
+
 //Gears
 val gear=[22,256,288] as int[];
 for n in gear{
@@ -43,7 +46,7 @@ for m in mithril {
 	for s in <ore:sand>.items{
 iS.removeRecipe(s,m);
 }}
-
+/*
 val iron=[<ore:dustIron>,<ore:ingotIron>] as IOreDictEntry[];
 val coal=[<ore:dustCoal>,<ore:dustCharcoal>,<ore:fuelCoke>] as IOreDictEntry[];
 for st in coal{
@@ -53,7 +56,7 @@ for st in coal{
 		iS.removeRecipe(st4,st3);
 	}
 }}}
-
+*/
 //Compactor
 
 val gs=[165,166,167,134] as int[];

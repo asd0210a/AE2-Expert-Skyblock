@@ -12,6 +12,9 @@ recipes.remove(<thaumcraft:thaumium_boots>);
 recipes.replaceAllOccurences(<minecraft:dragon_egg:*>,<thaumictinkerer:black_quartz_block>,<magicbees:resource:11>);
 recipes.replaceAllOccurences(<forestry:frame_proven>,<forestry:frame_untreated>,<magicbees:frames.oblivion>);
 
+recipes.remove(<thaumcraft:table_stone>);
+recipes.addShaped("stoneTable", <thaumcraft:table_stone>, [[<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>], [<ore:stone>,<thaumcraft:research_table>,<ore:stone>]]);
+
 table.removeRecipe(<thaumcraft:thaumometer>);
 recipes.addShaped("Thaumometer",<thaumcraft:thaumometer>,[[null,<minecraft:iron_ingot>,null],[<minecraft:iron_ingot>,<ore:paneGlass>,<minecraft:iron_ingot>],[null,<minecraft:iron_ingot>,null]]);
 
@@ -34,6 +37,9 @@ Infusion.removeRecipe(t);
 }
 
 Infusion.registerRecipe("Bullet Blue Print","",<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}),150,[<aspect:ignis>*32,<aspect:humanus>*64,<aspect:aversio>*48,<aspect:tenebrae>*48],<extrautils2:playerchest>,[<thermalfoundation:material:264>,<actuallyadditions:item_crate_keeper>,<gendustry:gene_template>,<ic2:remote>,<mekanism:balloon:4>,<ic2:cover:1>,<industrialforegoing:laser_lens_inverted:3>,<appliedenergistics2:tiny_tnt>,<immersiveengineering:material:15>]);
+
+Infusion.removeRecipe(<thaumicenergistics:infusion_provider>);
+Infusion.registerRecipe("Infusion Provider","INFUSIONPROVIDER",<thaumicenergistics:infusion_provider>,1,[<aspect:machina>*25,<aspect:praecantatio>*25,<aspect:perditio>*20],<teslacorelib:machine_case>,[<thaumcraft:salis_mundus>,<thaumicenergistics:diffusion_core>,<thaumcraft:salis_mundus>,<thaumicenergistics:coalescence_core>]);
 
 Crucible.registerRecipe("AutoCertus","",<appliedenergistics2:material:2>,<appliedenergistics2:material>,[<aspect:metallum>]);
 

@@ -4,6 +4,7 @@ recipes.remove(<extrautils2:passivegenerator:7>);
 recipes.remove(<extrautils2:grocket>);
 recipes.remove(<extrautils2:pipe>);
 recipes.remove(<extrautils2:machine>);
+recipes.remove(<extrautils2:teleporter:1>);
 
 recipes.addShaped("Transfer node_items",<extrautils2:grocket>*4,[[<ore:dustRedstone>,<appliedenergistics2:part:*>,<ore:dustRedstone>],[<bloodmagic:blood_rune>,<ore:chestWood>,<bloodmagic:blood_rune>]]);
 

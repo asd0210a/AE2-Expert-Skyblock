@@ -41,3 +41,5 @@ var ch  as IItemStack= woolDef.makeStack(k) ;
 		recipes.addShaped(hiveDef.makeStack(i),[[bal,bal,bal],[bal,ch,bal],[bal,bal,bal]]);
 	i=i+1;
 }
+
+recipes.addShaped("Soul Wax",<magicbees:wax:1> * 16, [[<minecraft:soul_sand>, <minecraft:soul_sand>, <minecraft:soul_sand>],[<thaumictinkerer:soul_mould>, <ore:beeComb>, <thaumictinkerer:soul_mould>], [<minecraft:soul_sand>, <minecraft:soul_sand>, <minecraft:soul_sand>]]);

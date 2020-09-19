@@ -9,6 +9,7 @@ import mods.immersiveengineering.MetalPress;
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
+
 //Scribing Tools
 recipes.remove(<thaumcraft:scribing_tools>);
 Blueprint.addRecipe("components",<thaumcraft:scribing_tools>,[<minecraft:feather>,<botania:manabottle>,<ore:dyeBlack>]);
@@ -71,3 +72,4 @@ recipes.remove(<immersiveengineering:metal_decoration0:7>);
 recipes.replaceAllOccurences(<ore:ingotSteel>,<exnihilocreatio:block_waterwheel>,<immersiveengineering:wooden_device1>);
 recipes.replaceAllOccurences(<minecraft:iron_ingot>,<ore:ingotElectrum>,<immersiveengineering:connector:3>);
 recipes.replaceAllOccurences(<minecraft:iron_ingot>,<ore:ingotElectrum>,<immersiveengineering:connector:2>);
+recipes.replaceAllOccurences(<ore:ingotElectrum>,<draconicevolution:draconium_block>,<immersiveengineering:metal_decoration0:5>);

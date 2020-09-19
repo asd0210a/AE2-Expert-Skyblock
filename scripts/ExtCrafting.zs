@@ -104,5 +104,5 @@ table.addShaped(0,<chisel:chisel_hitech>,[
 	[null,null,null,null,null,null,null,null,null],
 	[basa,basa,basa,basa,basa,basa,basa,basa,basa]
 ]);
-
+recipes.remove(<teslacorelib:machine_case>);
 comp.addRecipe(<teslacorelib:machine_case>,<minecraft:iron_bars>,1000,<extendedcrafting:frame>,10000);
