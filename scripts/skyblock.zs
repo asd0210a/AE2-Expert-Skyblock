@@ -23,11 +23,5 @@ recipes.addShaped("ExC Iron Mesh",<excompressum:iron_mesh>,[[bar,Ash,bar],[Ash,<
 //Spore
 furnace.addRecipe(<exnihilocreatio:item_material:3>,<harvestcraft:whitemushroomseeditem>,0.0);
 
-//Dolls
 recipes.remove(<exnihilocreatio:item_doll:1>);
 recipes.addShaped("Enderman",<exnihilocreatio:item_doll:1>,[[<minecraft:dye>,<exnihilocreatio:item_material:5>,<minecraft:dye>]]);
-
-//CDirt,Seed
-recipes.remove(<minecraft:dirt:1>);
-recipes.addShaped("Coarse Dirt",<minecraft:dirt:1>,[[<minecraft:dirt>,<harvestcraft:applejuiceitem>]]);
-furnace.addRecipe(<minecraft:wheat_seeds> * 2,<minecraft:dirt:1>,0.5);

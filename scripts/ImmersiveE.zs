@@ -10,6 +10,8 @@ import mods.immersiveengineering.MetalPress;
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 
+recipes.remove(<immersiveengineering:metal:39>);
+
 //Scribing Tools
 recipes.remove(<thaumcraft:scribing_tools>);
 Blueprint.addRecipe("components",<thaumcraft:scribing_tools>,[<minecraft:feather>,<botania:manabottle>,<ore:dyeBlack>]);

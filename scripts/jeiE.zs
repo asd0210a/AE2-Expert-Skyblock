@@ -54,8 +54,8 @@ rh(n);
 
 //ME Cable
 var cc=0;
-for c in 0 .. 4{
- for c2 in 0 .. 15{
+for c in 0 .. 5{
+ for c2 in 0 .. 16{
 	JEI.hide(itemUtils.getItem("appliedenergistics2:part", c2+cc));
 	}
 cc+=20;
@@ -63,7 +63,7 @@ if(c==3){cc+=420;}
 }
 
 //container
-val cont=[<forestry:can:1>,<forestry:capsule:1>,<forestry:refractory:1>,<thermalexpansion:florb>.withTag({})] as IItemStack[];
+val cont=[<forestry:can:*>,<forestry:capsule:*>,<forestry:refractory:*>,<thermalexpansion:florb>.withTag({})] as IItemStack[];
 for f in cont{
 JEI.hide(f);
 }

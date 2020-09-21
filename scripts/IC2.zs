@@ -1,5 +1,5 @@
 recipes.remove(<ic2:resource:12>);
-
+recipes.remove(<ic2:plate:3>);
 recipes.remove(<ic2:scaffold:2>);
 val bi=<ore:blockIron>;
 bi.add(<ic2:scaffold:2>);

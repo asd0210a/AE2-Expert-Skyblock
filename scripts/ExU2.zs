@@ -8,11 +8,14 @@ recipes.remove(<extrautils2:teleporter:1>);
 
 recipes.addShaped("Transfer node_items",<extrautils2:grocket>*4,[[<ore:dustRedstone>,<appliedenergistics2:part:*>,<ore:dustRedstone>],[<bloodmagic:blood_rune>,<ore:chestWood>,<bloodmagic:blood_rune>]]);
 
-recipes.addShaped("Lava Mill",<extrautils2:passivegenerator:2>,[[<minecraft:stone>,<minecraft:stone>,<minecraft:stone>],[<minecraft:stone>,<extrautils2:ingredients>,<minecraft:stone>],[<minecraft:stone>,<ore:ingotGold>,<minecraft:stone>]]);
+val st=<minecraft:stone>;
+recipes.addShaped("Lava Mill",<extrautils2:passivegenerator:2>,[[st,st,st],[st,<extrautils2:ingredients>,st],[st,<ore:ingotGold>,st]]);
 
 <extrautils2:decorativebedrock>.hardness=3.0;
 
 recipes.remove(<extrautils2:goldenlasso:1>);
 recipes.addShapeless("Cursed Lasso",<extrautils2:goldenlasso:1>,[<extrautils2:goldenlasso>,<extrautils2:ingredients:10>,<draconicevolution:crystal_binder>]);
 
+val ironDrum=<extrautils2:drum:1>;
+recipes.addShaped("Reinforce Drum",<extrautils2:drum:2>, [[ironDrum, <minecraft:light_weighted_pressure_plate>, ironDrum],[ironDrum, <appliedenergistics2:material:52>, ironDrum], [ironDrum, <minecraft:light_weighted_pressure_plate>, ironDrum]]);
 

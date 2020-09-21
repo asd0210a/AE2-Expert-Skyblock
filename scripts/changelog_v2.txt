@@ -154,3 +154,12 @@ Recipes modified:
 - Oblivion Frame [change]
 - Oblivion Essense [change]
 - Soulful Wax [add]
+
+b214
+1. Added mod [Clumps].
+2. Updated mods:
+- Ender IO
+- Magic bees
+3. Slime Islands no longer generate.
+3. Recipes modified:
+- 

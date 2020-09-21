@@ -58,7 +58,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Welcome",
-          "desc:8": "Welcome and thank you for playing AE2 Expert Skyblock!\n\nHere you can find some information to progress in this Modpack §3(Modpack is still in development, so please report it if you hav an issue).\nSome recipies got changed §c(JEI is your best friend) §fcheck them before wasting materials and/or time.\n\nThis modpack is designed that you need to go deeper into each mod.\nEspecially the §5art of AE2 automation §fis required for having a easier progress.\nThis should prevent \"waste easy to get materials\" and this pack is focused on being server-friendly.\n\nI have gathered links to §cofficial guides/websites from the Mods §fused in this Modpack and merged them into an html-file which §cyou can find in your modpack folder called \"zMod-Official-Website.html\"§f\nIf you're not familiar with some mods, feel free to look it up! (:"
+          "desc:8": "Welcome and thank you for playing AE2 Expert Skyblock!\n\nHere you can find some information to progress in this Modpack §3(Modpack is still in development, so please report it if you hav an issue).\nSome recipies got changed §c(JEI is your best friend) §fcheck them before wasting materials and/or time.\n\nThis modpack is designed that you need to go deeper into each mod.\nEspecially the §5art of AE2 automation §fis required for having a easier progress.\nThis should prevent \"waste easy to get materials\" and this pack is focused on being server-friendly.\n\nI have gathered links to §cofficial guides/websites from the Mods §fused in this Modpack and merged them into an html-file which §cyou can find in your modpack folder called \"zMod-Official-Website.html\"§f\nIf you\u0027re not familiar with some mods, feel free to look it up! (:"
         }
       },
       "tasks:9": {},
@@ -91,7 +91,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "SBCFC (SkyBlock Compressed Fried Chicken)",
-          "desc:8": "You're in need of a chicken.\n§cChicken Spawn Eggs §fare craftable here."
+          "desc:8": "You\u0027re in need of a chicken.\n§cChicken Spawn Eggs §fare craftable here."
         }
       },
       "tasks:9": {},
@@ -189,7 +189,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "First steps",
-          "desc:8": "Thaumcraft will accompany you for a long time in the Age of Magic.\nTo start with it you'll need to take a good ol' nap while having 3 Vis Crystals in your inventory.\nYou need 3 initial craftable types of §cVis Srystal §f- §4Vicius, §2Herba §fand §7Machina §f, to craft a §cSali Mundus.\n\n§3Important Note: Go to bed BEFORE crafting Salis Mundus, otherwise you cannot make the Sali Mundus"
+          "desc:8": "Thaumcraft will accompany you for a long time in the Age of Magic.\nTo start with it you\u0027ll need to take a good ol\u0027 nap while having 3 Vis Crystals in your inventory.\nYou need 3 initial craftable types of §cVis Srystal §f- §4Vicius, §2Herba §fand §7Machina §f, to craft a §cSali Mundus.\n\n§3Important Note: Go to bed BEFORE crafting Salis Mundus, otherwise you cannot make the Sali Mundus"
         }
       },
       "tasks:9": {
@@ -322,7 +322,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "MYYYY PRECIOUS!!",
-          "desc:8": "§cEmeralds§f is precious, those are considered as §ccurrency§f.\nIf you want an better price for your hard earned goods I might could interest you for your own §cMARKET§f.\nThey're always looking for some fish.\n\nHint: Most §caquatic creatures §fcould be craft to raw cod in any crafting grid."
+          "desc:8": "§cEmeralds§f is precious, those are considered as §ccurrency§f.\nIf you want an better price for your hard earned goods I might could interest you for your own §cMARKET§f.\nThey\u0027re always looking for some fish.\n\nHint: Most §caquatic creatures §fcould be craft to raw cod in any crafting grid."
         }
       },
       "tasks:9": {},
@@ -353,7 +353,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "About Squid",
-          "desc:8": "Squid commonly spawn in water§c between layers 46 and level 64§f especially with§c Squid Bait§f, die if they aren't in water."
+          "desc:8": "Squid commonly spawn in water§c between layers 46 and level 64§f especially with§c Squid Bait§f, die if they aren\u0027t in water."
         }
       },
       "tasks:9": {},
@@ -430,6 +430,37 @@
       "tasks:9": {},
       "rewards:9": {}
     },
+    "13:10": {
+      "questID:3": 13,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "bloodmagic:incense_altar",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Insane the Altar!!",
+          "desc:8": "The §cIncense Altar §fused to §g§bgain a bonus(up to +300%max) to the LP gained when self-sacrificing§f.\n\nIt drains 90% of current health and applies bonus LP depending on the bonus given by the Incense Altar.\n\nUse a §cDivination Sigil §fon the Incense Altar to see §dits Current Tranquility and Current Bonus§f.\n\n§cStone Path §fcraftable only with tier 2 orb."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
     "14:10": {
       "questID:3": 14,
       "preRequisites:11": [],
@@ -462,7 +493,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Primal Mana",
-          "desc:8": "§cPrimal Mana §fis obtainable.\n\nPrimal Mana is very useful to transform a few Block into other ones, it seems like having properties of an Philosopher Stone when it touches specific Blocks.\nThis process is very reactive so keep some distance and try to avoid touching the liquid.\nHint: As you're not finding a recipe in JEI, try to throw a bucket in a Mana Pool filled with Mana."
+          "desc:8": "§cPrimal Mana §fis obtainable.\n\nPrimal Mana is very useful to transform a few Block into other ones, it seems like having properties of an Philosopher Stone when it touches specific Blocks.\nThis process is very reactive so keep some distance and try to avoid touching the liquid.\nHint: As you\u0027re not finding a recipe in JEI, try to throw a bucket in a Mana Pool filled with Mana."
         }
       },
       "tasks:9": {},
@@ -493,7 +524,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "About Tree Mutation",
-          "desc:8": "Our nature is one of the most beautiful things we could observe we could observe with our naked eye.\nNo tree looks like another and even same kinds of trees could differ in their specification.\n§3Mutation is not bad in every case, as it could improve size, income, growth or simply becomes another type§f.\nTo get your first Leaf Blocks pollinated you'll need bees or butterflies and have vanilla saplings put into your §cPortable Analyzer (use up 1 Honey Drop for each analysis) §fto get the §5Forestry version (Oak Sapling -> Apple Oak Sapling)§f.\nAnd in addition to see if you got a pollinated Leaf Block you need to wear §cSpectacles §for an §cApiarists' Hat(requires to be equipped in head slot)§f.\nWhile wearing one of these, you're able to see which ones got pollinated and/or maybe gets pollinated soon (Leafs change texture).\nAfter a successfull pollination you need to use a §cGrafter (break Leaf Block with left click) §fwhich grants you a sapling drop (even if it's not pollinated).\n\nHint: §cButterflies §fspawn randomly if you have §5Forestry Saplings §fgrown.\nThey are useful for tree pollination until having your first bees you could even collect them by right clicking it with a §cScoop §f(doesn't use up durability)\n\nTip: If you make a §cGreenhouse §fby simply placing a box out of glass around your tree breeding area, you could §3contain most of the butterflies in your artificial eco system§f.\nSome would still glitch through, as Glass is still a transparent block (but free line to sky is required to have butterflies spawning).\n\nTip 2: Simple Grafters have less durability, so if you don't want to craft many of them, try out the Manasteel Grafter as soon as you have the possibility to keep an (partly) filled Mana Tablet/Band of Mana with you."
+          "desc:8": "Our nature is one of the most beautiful things we could observe we could observe with our naked eye.\nNo tree looks like another and even same kinds of trees could differ in their specification.\n§3Mutation is not bad in every case, as it could improve size, income, growth or simply becomes another type§f.\nTo get your first Leaf Blocks pollinated you\u0027ll need bees or butterflies and have vanilla saplings put into your §cPortable Analyzer (use up 1 Honey Drop for each analysis) §fto get the §5Forestry version (Oak Sapling -\u003e Apple Oak Sapling)§f.\nAnd in addition to see if you got a pollinated Leaf Block you need to wear §cSpectacles §for an §cApiarists\u0027 Hat(requires to be equipped in head slot)§f.\nWhile wearing one of these, you\u0027re able to see which ones got pollinated and/or maybe gets pollinated soon (Leafs change texture).\nAfter a successfull pollination you need to use a §cGrafter (break Leaf Block with left click) §fwhich grants you a sapling drop (even if it\u0027s not pollinated).\n\nHint: §cButterflies §fspawn randomly if you have §5Forestry Saplings §fgrown.\nThey are useful for tree pollination until having your first bees you could even collect them by right clicking it with a §cScoop §f(doesn\u0027t use up durability)\n\nTip: If you make a §cGreenhouse §fby simply placing a box out of glass around your tree breeding area, you could §3contain most of the butterflies in your artificial eco system§f.\nSome would still glitch through, as Glass is still a transparent block (but free line to sky is required to have butterflies spawning).\n\nTip 2: Simple Grafters have less durability, so if you don\u0027t want to craft many of them, try out the Manasteel Grafter as soon as you have the possibility to keep an (partly) filled Mana Tablet/Band of Mana with you."
         }
       },
       "tasks:9": {},
@@ -524,7 +555,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Dolls",
-          "desc:8": "As you're progressing you might come to a point where valuable drops from Mobs are hard to gain.\nMaybe a specific §cDoll §fcould be helpful to get some useful resources.\n§5Hint: Enderman in a Tinkers Construct Smeltere won't teleport away if you wan't to automate early on.\nThe Downside is that you get less Enderpearls than killing them with a weapon enchanted with Looting."
+          "desc:8": "As you\u0027re progressing you might come to a point where valuable drops from Mobs are hard to gain.\nMaybe a specific §cDoll §fcould be helpful to get some useful resources.\n§5Hint: Enderman in a Tinkers Construct Smeltere won\u0027t teleport away if you wan\u0027t to automate early on.\nThe Downside is that you get less Enderpearls than killing them with a weapon enchanted with Looting."
         }
       },
       "tasks:9": {},
@@ -590,7 +621,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Oredictionary",
-          "desc:8": "Some blocks have the same §cOredictionary§f, which means they could be interchanged in some cases.\n\nHint: If you're working with Drawers, you could use a Conversion Upgrade so you could different resources of the same type into it.\n\nTip: In some cases a specific Block is needed, use the §cForge Lexicon §fto convert it to the version if possible."
+          "desc:8": "Some blocks have the same §cOredictionary§f, which means they could be interchanged in some cases.\n\nHint: If you\u0027re working with Drawers, you could use a Conversion Upgrade so you could different resources of the same type into it.\n\nTip: In some cases a specific Block is needed, use the §cForge Lexicon §fto convert it to the version if possible."
         }
       },
       "tasks:9": {},
@@ -683,7 +714,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Good Vibes",
-          "desc:8": "You can generate §cAE-Power §flong before you can craft your first RF generator.\nIt might be useful, so you don't need to crank your chargers for a while."
+          "desc:8": "You can generate §cAE-Power §flong before you can craft your first RF generator.\nIt might be useful, so you don\u0027t need to crank your chargers for a while."
         }
       },
       "tasks:9": {},
@@ -717,7 +748,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "BeeDee",
-          "desc:8": "The Forestry mod offers you several useful blocks to §5increase your breeding speed/chance§f, check the §cForester's Manual §ffor further information!"
+          "desc:8": "The Forestry mod offers you several useful blocks to §5increase your breeding speed/chance§f, check the §cForester\u0027s Manual §ffor further information!"
         }
       },
       "tasks:9": {},
@@ -779,7 +810,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Welcome to Power Age",
-          "desc:8": "Finally you're able to §cgenerate non AE Power§f!\nNow your skills in automation become more important than in the Age of Magic!!"
+          "desc:8": "Finally you\u0027re able to §cgenerate non AE Power§f!\nNow your skills in automation become more important than in the Age of Magic!!"
         }
       },
       "tasks:9": {},
@@ -841,7 +872,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Store your Energy",
-          "desc:8": "Having some energy stored could be crucial, so try to store some early on to have it later on.\nThe §cLV Capacitor§f from Immersive Engineering can be stored a bit of RF.\n\n§k000000000000\n§9Be careful Wires!!\n§f§k000000000000\nTip: Growing some §cIndustrial Hemp §fcould help you craft §cInsulated Wires§f, so you don't get harmed if you touch them."
+          "desc:8": "Having some energy stored could be crucial, so try to store some early on to have it later on.\nThe §cLV Capacitor§f from Immersive Engineering can be stored a bit of RF.\n\n§k000000000000\n§9Be careful Wires!!\n§f§k000000000000\nTip: Growing some §cIndustrial Hemp §fcould help you craft §cInsulated Wires§f, so you don\u0027t get harmed if you touch them."
         }
       },
       "tasks:9": {},
@@ -872,7 +903,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Charger",
-          "desc:8": "AE2\u0027s §cCharger §frequire no §cFluix Crystal§f.\nAs long as you cannot provide it constantly with Energy, §cWooden Crank §fcan place on the top to power it.\n§4By The Way, don't overturn it, as it might could break!"
+          "desc:8": "AE2\u0027s §cCharger §frequire no §cFluix Crystal§f.\nAs long as you cannot provide it constantly with Energy, §cWooden Crank §fcan place on the top to power it.\n§4By The Way, don\u0027t overturn it, as it might could break!"
         }
       },
       "tasks:9": {},
@@ -933,8 +964,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Coal Needs",
-          "desc:8": "You will come to a point where charcoal isn't enough.\nThere are multiple ways to get some black gold in this pack.\nBut your first option is risky and requires to decimate the Wither Skeleton population (which you might have caused?)\nNoone could insult you if maybe a Skeleton \"accidentally\" fall into Witch Water.\nSometimes their skull isn't the best part of them.\nHint: A Witch Water Mob farm needs much care to sustain.\nYou might should make it critter proof (Cave Spiders fit through 1/2 Block gaps), as they could hurt themself if they got lost and find themself far away from their save space! (:"
+          "name:8": "Coal Needs \u0026 Witch Water",
+          "desc:8": "You will come to a point where charcoal isn\u0027t enough.\n§bThere are multiple ways to get some black gold in this pack.\n§fBut your first option is risky and requires to decimate the §cWither Skeleton §fpopulation (which you might have caused?)\nNoone could insult you if maybe a Skeleton \"accidentally\" fall into §cWitch Water§f.\n\nThe Witch Water can used to:\n- Make specific §5Block Transform §fwith it on §cBarrel§f.\n- Place it on§5 the World and it can be interated§f with §centities§f, §cyou§f, §cflowers §for §csomethings that little-known§f.\n\nSee Ex Nihilo Creatio configuration  for more detail."
         }
       },
       "tasks:9": {},
@@ -1030,96 +1061,103 @@
         },
         "12:10": {
           "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -96,
+          "id:3": 13,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
           "x:3": 108,
           "y:3": -48,
           "id:3": 14,
           "sizeY:3": 24
         },
-		"13:10": {
+        "14:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": -192,
           "id:3": 15,
           "sizeY:3": 24
         },
-        "14:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": -168,
           "id:3": 16,
           "sizeY:3": 24
         },
-        "15:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 48,
           "id:3": 17,
           "sizeY:3": 24
         },
-        "16:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": -24,
           "id:3": 18,
           "sizeY:3": 24
         },
-        "17:10": {
+        "18:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": -72,
           "id:3": 19,
           "sizeY:3": 24
         },
-        "18:10": {
+        "19:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -48,
           "id:3": 20,
           "sizeY:3": 24
         },
-        "19:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 0,
           "id:3": 21,
           "sizeY:3": 24
         },
-        "20:10": {
+        "21:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": -144,
           "id:3": 22,
           "sizeY:3": 24
         },
-        "21:10": {
+        "22:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": -72,
           "id:3": 23,
           "sizeY:3": 24
         },
-        "22:10": {
+        "23:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -96,
           "id:3": 27,
           "sizeY:3": 24
         },
-        "23:10": {
+        "24:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": 0,
           "id:3": 28,
           "sizeY:3": 24
         },
-        "24:10": {
+        "25:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -120,
           "id:3": 29,
           "sizeY:3": 24
         },
-        "25:10": {
+        "26:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -96,

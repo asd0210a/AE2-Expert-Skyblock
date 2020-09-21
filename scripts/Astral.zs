@@ -34,3 +34,7 @@ mods.astralsorcery.Grindstone.addRecipe(<ic2:dust:9>, <ic2:dust:22>, 0.7f);
 mods.astralsorcery.Grindstone.addRecipe(<thermalfoundation:material:136>,<thermalfoundation:material:72>);
 
 recipes.addShaped(<astralsorcery:itemwand>, [[null, null, <botania:spark>],[null, <astralsorcery:itemcraftingcomponent>, null], [<exnihilocreatio:item_material:6>, null, null]]);
+
+val tcv=<thaumcraft:ingot:1>;
+Altar.removeAltarRecipe("astralsorcery:shaped/attunementaltar");
+Altar.addAttunmentAltarRecipe(aes+"attune",<astralsorcery:blockattunementaltar>,1200,150,[<botania:quartztypesunny>,<astralsorcery:itemskyresonator>,<botania:quartztypesunny>,tcv,<astralsorcery:blockaltar:1>,tcv,tcv,<bloodmagic:sigil_blood_light>,tcv,<botania:sparkupgrade>,<botania:sparkupgrade>,<actuallyadditions:item_resonant_rice>,<actuallyadditions:item_resonant_rice>]);

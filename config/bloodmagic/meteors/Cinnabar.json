@@ -1,0 +1,32 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "thaumcraft",
+      "path": "crystal_perditio"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 200,
+      "oreName": "oreTin"
+    },
+    {
+      "weight": 500,
+      "oreName": "oreLapis"
+    },
+    {
+      "weight": 180,
+      "oreName": "oreEmerald"
+    },
+    {
+      "weight": 400,
+      "oreName": "oreCinnabar"
+    }
+  ],
+  "explosionStrength": 5.0,
+  "radius": 3,
+  "maxWeight": 1040,
+  "version": 1,
+  "cost": 100000
+}

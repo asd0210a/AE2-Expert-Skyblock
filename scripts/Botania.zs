@@ -99,3 +99,4 @@ Orechid.removeOre(d);
 
 Orechid.addOre("oreAluminum",10000);
 Orechid.addOre("oreAmber",7000);
+Orechid.addOre("oreApatite",26000);
