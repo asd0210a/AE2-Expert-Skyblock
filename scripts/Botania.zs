@@ -3,14 +3,16 @@ import mods.botania.ManaInfusion as pool;
 import mods.botania.Apothecary as apo;
 import mods.botania.PureDaisy as daisy;
 import mods.botania.RuneAltar as rune;
+import mods.botania.ElvenTrade as trade;
 import mods.botania.Orechid;
 import crafttweaker.recipes.ICraftingRecipe;
 
 recipes.remove(<minecraft:end_portal_frame>);
-
-recipes.addShapeless("Elven Botania",<botania:lexicon>.withTag({"knowledge.alfheim": 1 as byte,forcedMessage: ""}),[<botania:lexicon>,<botania:manaresource:18>,<botania:manaresource:18>]);
-
 recipes.remove(<botania:alfheimportal>);
+
+recipes.addShapeless("Elven Botania",<botania:lexicon>.withTag({"knowledge.alfheim": 1 as byte,forcedMessage: ""}),[<botania:lexicon>,<botania:manaresource>]);
+
+
 recipes.remove(<botania:runealtar>);
 recipes.addShaped("Runic Altar",<botania:runealtar>,[[null,<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),null],[<ore:livingrock>,<ore:livingrock>,<ore:livingrock>],[<ore:livingrock>,<ore:manaPearl> | <ore:manaDiamond>,<ore:livingrock>]]);
 
@@ -20,8 +22,7 @@ recipes.addShaped("Horn of the Wild",<botania:grasshorn>,[[null,<ore:livingwood>
 recipes.remove(<botania:fertilizer>);
 recipes.addShapeless("Floral Fertilizer",<botania:fertilizer> * 4,
 [<minecraft:dye:15>,<minecraft:dye:11>,<minecraft:dye:11>,<minecraft:dye:1>,<minecraft:dye:1>]);
-recipes.remove(<botania:corporeainterceptor>);
-recipes.replaceAllOccurences(<ore:blockRedstone>,<minecraft:redstone>,<botania:corporeainterceptor>);
+
 
 recipes.remove(<botania:corporeaindex>);
 recipes.remove(<botania:corporeaspark:1>);
@@ -39,7 +40,7 @@ apo.addRecipe(<botania:manaresource:1>,[<ore:mysticFlowerPurple>,<botania:flower
 apo.removeRecipe(<botania:specialflower>.withTag({type: "loonium"}));
 
 //Primal Mana
-pool.addInfusion(<forge:bucketfilled>.withTag({FluidName: "mana",Amount: 1000}),<minecraft:bucket>,100000);
+pool.addInfusion(<forge:bucketfilled>.withTag({FluidName: "mana",Amount: 1000}),<minecraft:bucket>,400000);
 
 //Livingrock
 daisy.removeRecipe(<ore:livingrock>);
@@ -81,6 +82,9 @@ recipes.addShaped("Alchemy Catalyst",<botania:alchemycatalyst>,[[Ashb,<ore:ingot
 //Corporea Crystal Cube
 recipes.replaceAllOccurences(<botania:elfglass>,<minecraft:glass>,<botania:corporeacrystalcube>);
 
+//Crafty Crate
+recipes.replaceAllOccurences(<botania:dreamwood:1>,<ore:plankWood>,<botania:opencrate:1>);
+
 //Orechid
 var delore=[
 "oreMithril",
@@ -92,11 +96,19 @@ var delore=[
 "oreUranium",
 "oreOsmium",
 "oreCinnabar",
+"oreIron",
+"oreAluminum",
+"oreAmber",
+"oreApatite"
 ] as string[];
 for d in delore{
 Orechid.removeOre(d);
 }
 
-Orechid.addOre("oreAluminum",10000);
-Orechid.addOre("oreAmber",7000);
-Orechid.addOre("oreApatite",26000);
+Orechid.addOre("oreAluminum",20000);
+Orechid.addOre("oreAmber",2000);
+Orechid.addOre("oreApatite",10000);
+
+val rb=<immersiveengineering:metal_decoration0:7>;
+val bk=<extrautils2:decorativebedrock>;
+trade.addRecipe([rb,rb],[bk]);

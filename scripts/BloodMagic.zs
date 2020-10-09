@@ -78,3 +78,6 @@ recipes.addShaped("Vial of Mixed Potion",<bloodmagic:alchemic_vial>,[[null,<bota
 
 recipes.remove(<bloodmagic:blood_tank>);
 recipes.addShaped("Blood Tank 1",<bloodmagic:blood_tank>,[[<bloodmagic:blood_rune>,<bloodmagic:alchemic_vial>,<bloodmagic:blood_rune>],[<ore:blockGlass>,null,<ore:blockGlass>],[<bloodmagic:blood_rune>,<bloodmagic:blood_rune>,<bloodmagic:blood_rune>]]);
+
+//Tome of Peritia
+recipes.replaceAllOccurences(<bloodmagic:slate:2>,<bloodmagic:slate>,<bloodmagic:experience_tome>);

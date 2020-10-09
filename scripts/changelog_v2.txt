@@ -156,10 +156,38 @@ Recipes modified:
 - Soulful Wax [add]
 
 b214
-1. Added mod [Clumps].
+1. Added mods [Clumps], [WR-CBE].
 2. Updated mods:
 - Ender IO
 - Magic bees
 3. Slime Islands no longer generate.
-3. Recipes modified:
+4. Removed all compressed mobs.
+4. Recipes modified:
+- Experience Obelisk [change]
+- Liquid Conduit [temp disable]
+- Coal Chunk-> Diamond [remove]
+- Tome of Peritia [change]
+
+b215
+1. Attuned Crystal now can transfrom to Mineralis'.
+2. Stone Hammer or higher tier can smash Compressed Cobblestone to Gravels, and so on.
+3. Now: ("A ore can be obtained by B." as "A->B" )
+- Platinum -> Ritual of Mineralis from Astral Sorcery
+- Cinnabar -> Mark of the Falling Tower from Blood Magic
+- Osmium -> Lens of the Miner from Actually Additions
+- Uranium -> Excavator from Immersive Engineering
+
+4. Recipes modified:
+- Packing 3x3 Mold [change]
+- Raditor Block [add/change]
 - 
+
+AS
+BM
+AA
+IE
+
+platinum - AS o
+uranium - IE
+cinnabar - BM o
+osmium -AA

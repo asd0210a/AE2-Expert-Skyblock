@@ -1,3 +1,6 @@
+import extrautilities2.Tweaker.IMachine;
+import extrautilities2.Tweaker.IMachineRegistry as machR;
+
 recipes.remove(<extrautils2:passivegenerator:2>);
 recipes.remove(<extrautils2:passivegenerator:4>);
 recipes.remove(<extrautils2:passivegenerator:7>);
@@ -19,3 +22,8 @@ recipes.addShapeless("Cursed Lasso",<extrautils2:goldenlasso:1>,[<extrautils2:go
 val ironDrum=<extrautils2:drum:1>;
 recipes.addShaped("Reinforce Drum",<extrautils2:drum:2>, [[ironDrum, <minecraft:light_weighted_pressure_plate>, ironDrum],[ironDrum, <appliedenergistics2:material:52>, ironDrum], [ironDrum, <minecraft:light_weighted_pressure_plate>, ironDrum]]);
 
+machR.getMachine("crafttweaker:lavaconstructor").addRecipe({inp:<ore:cobblestone>},{lava:<fluid:lava>*1000},0,20);
+game.setLocalization("machine.crafttweaker:lavaconstructor", "Lava Constructor");
+val lava=<minecraft:lava_bucket>;
+val gl=<minecraft:stained_glass:15>;
+recipes.addShaped("lc",<extrautils2:machine>.withTag({Type: "crafttweaker:lavaconstructor"}),[[lava,lava,lava],[gl,<enderio:block_tank:0>,gl],[lava,<ore:blockIron>,lava]]);

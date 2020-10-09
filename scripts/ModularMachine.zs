@@ -29,4 +29,4 @@ function itemIO(recipeName as string,machine as string,inp as IItemStack,outputA
 }
 //Sieve
 itemIO("IronSieve","sieve",<minecraft:sand>,[<minecraft:iron_ingot>,<appliedenergistics2:material>,<minecraft:redstone>,<minecraft:gunpowder>,<minecraft:glowstone_dust>,<minecraft:blaze_powder>,<minecraft:quartz>,<minecraft:dye:4>],[ 1,1,1,0.10,1,1,1,0.45],5);
-itemIO("FishSieve","sieve",<chisel:waterstone>,[<minecraft:fish>],[0.2],20);
+itemIO("FishSieve","sieve",<chisel:waterstone>,[<minecraft:fish>],[0.7],20);

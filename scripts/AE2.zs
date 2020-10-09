@@ -7,22 +7,25 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.recipes.ICraftingRecipe;
 
 global aem as function(int)IItemStack=function (a as int) as IItemStack{return itemUtils.getItem("appliedenergistics2:material",a);};
-global ae as function(string)IItemStack=function (a as string) as IItemStack{return itemUtils.getItem("appliedenergistics2",a);};
+global ae as function(string)IItemStack=function (a as string) as IItemStack{return itemUtils.getItem("appliedenergistics2:"~a);};
 
 var circuit=["Logic Circuit","Calculation Circuit","Engineering Circuit","Silicon Circuit"] as string[];
 var inp=[<minecraft:gold_ingot>,aem(10),<minecraft:dye:4>,aem(5)] as IItemStack[];
-var outp=[18,16,17,20] as int[];
-var processor=[22,23,24] as int[];
+val outp=[18,16,17,20] as int[];
+val processor=[22,23,24] as int[];
+
 for k in 0 .. 4{
-var out = aem(outp[k]);
-var namePress = aem(21).withTag({InscribeName: circuit[k]}).reuse();
+	var out = aem(outp[k]);
+	var namePress = aem(21).withTag({InscribeName: circuit[k]}).reuse();
+	
 	recipes.addShapeless(out,[<ic2:forge_hammer:*>,namePress,inp[k]]);	
 	if(k !=3){
 		recipes.addShaped(aem(processor[k])*15,[[<immersiveengineering:mold:6>.reuse(),<projectred-core:resource_item:251>,null],[<immersiveengineering:tool>,aem(20),null],[null,out,null]]);
 	}
 }
-//Tooltip for Name Press
-aem(21).addTooltip(format.red("Won't be consumed after crafting circuits."));
+
+//Tooltip NamePress
+aem(21).addTooltip(format.red("Won't be consumed after crafting circuits.\nNeed to correspond Press name!!"));
 
 recipes.remove(<appliedenergistics2:part:340>);
 recipes.remove(ae("inscriber"));
@@ -64,6 +67,3 @@ Grinder.removeRecipe(aem(45));
 Grinder.addRecipe(her,<minecraft:grass>,1,her,1,her,1);
 Grinder.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1,key: "machina"}]}),<thermalfoundation:material:24>,1);
 Grinder.addRecipe(aem(5)*8,ae("quartz_block"),1);
-
-
-

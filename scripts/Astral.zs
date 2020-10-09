@@ -1,11 +1,15 @@
 #modloaded astralsorcery
 import mods.astralsorcery.Altar ;
+import mods.astralsorcery.Utils;
+
 var aa ="astralsorcery:shaped/internal/altar/";
 var aes ="aes:shaped/internal/altar/";
 
+recipes.addShapeless("Change Attune",<astralsorcery:itemtunedrockcrystal>,[Utils.getCrystalORIngredient(false, true).marked("attun"),<minecraft:stone>], function(o,i,c){return i.attun.updateTag({astralsorcery:{constellationName:"astralsorcery.constellation.mineralis"}});},null);
+
 //illumination powder
 Altar.removeAltarRecipe(aa+"illuminationpowder");
-Altar.addDiscoveryAltarRecipe(aes+"illuminationpowder",<astralsorcery:itemusabledust>,200,16,[<minecraft:glowstone_dust>,<astralsorcery:itemcraftingcomponent>,<ore:gunpowder>,null,null,null,null,null,null]);
+Altar.addDiscoveryAltarRecipe(aes+"illuminationpowder",<astralsorcery:itemusabledust>,50,16,[<minecraft:glowstone_dust>,<astralsorcery:itemcraftingcomponent>,<ore:gunpowder>,null,null,null,null,null,null]);
 
 //Silver Ingot
 Altar.addDiscoveryAltarRecipe(aes+"silveringot",<ic2:ingot:4>,5,5,[<minecraft:iron_ingot>,null,null,null,null,null,null,null,null]);
@@ -16,11 +20,12 @@ Altar.addDiscoveryAltarRecipe(aes+"pot", <harvestcraft:potitem>,250,300, [null,n
 
 // Tier 2
 Altar.removeAltarRecipe(aa+"upgrade_tier2");
-Altar.addDiscoveryAltarRecipe(aes+"upgrade_tier2",<astralsorcery:blockaltar:1>, 350, 100, [<bloodmagic:blood_tank>,<appliedenergistics2:facade>.withTag({item: "astralsorcery:blockmarble"}),<bloodmagic:blood_tank>,<appliedenergistics2:facade>.withTag({item: "astralsorcery:blockmarble"}),<appliedenergistics2:part:360>,<appliedenergistics2:facade>.withTag({item: "astralsorcery:blockmarble"}),<bloodmagic:blood_tank>,<appliedenergistics2:facade>.withTag({item: "astralsorcery:blockmarble"}),<bloodmagic:blood_tank>]);
+val facade=<appliedenergistics2:facade>.withTag({item: "astralsorcery:blockmarble"});
+Altar.addDiscoveryAltarRecipe(aes+"upgrade_tier2",<astralsorcery:blockaltar:1>, 350, 100, [<bloodmagic:blood_tank>,facade,<bloodmagic:blood_tank>,facade,<appliedenergistics2:part:360>,facade,<bloodmagic:blood_tank>,facade,<bloodmagic:blood_tank>]);
 
 Altar.addDiscoveryAltarRecipe(aes+"blackIron",<extendedcrafting:trimmed:5>*5,50,120,[<minecraft:iron_pickaxe>,<minecraft:iron_axe>,<minecraft:iron_sword>,<minecraft:iron_hoe>,<minecraft:iron_helmet>,<minecraft:iron_chestplate>,<minecraft:iron_leggings>,<minecraft:iron_boots>,<psi:cad_assembly:1>]);
 
-var wd=<mekanism:sawdust>;
+val wd=<mekanism:sawdust>;
 Altar.addAttunmentAltarRecipe(aes+"silverWood",<thaumcraft:plank_silverwood>*16,1200,100,[wd,wd,wd,wd,<minecraft:slime_ball>,wd,wd,wd,wd,<ore:blockSilver>,<ore:blockSilver>,<ore:blockSilver>,<ore:blockSilver>]);
 
 //Research Table

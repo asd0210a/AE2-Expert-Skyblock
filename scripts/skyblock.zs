@@ -25,3 +25,5 @@ furnace.addRecipe(<exnihilocreatio:item_material:3>,<harvestcraft:whitemushrooms
 
 recipes.remove(<exnihilocreatio:item_doll:1>);
 recipes.addShaped("Enderman",<exnihilocreatio:item_doll:1>,[[<minecraft:dye>,<exnihilocreatio:item_material:5>,<minecraft:dye>]]);
+
+recipes.addShapeless("Emer Nug",<extendedcrafting:material:129>,[<minecraft:dye:0>,<exnihilocreatio:item_material:3>.reuse()]);

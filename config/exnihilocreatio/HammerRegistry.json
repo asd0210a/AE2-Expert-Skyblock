@@ -25,6 +25,33 @@
       "fortuneChance": 0.6
     }
   ],
+  "ore:compressed1xCobblestone": [
+    {
+      "item": "minecraft:gravel:0",
+      "amount": 9,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+    "ore:compressed1xGravel": [
+    {
+      "item": "minecraft:sand:0",
+      "amount": 9,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ], 
+  "ore:compressed1xSand": [
+    {
+      "item": "exnihilocreatio:block_dust:0",
+      "amount": 9,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
     "ore:gravel": [
     {
       "item": "minecraft:sand:0",

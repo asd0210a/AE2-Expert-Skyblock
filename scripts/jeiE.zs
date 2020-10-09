@@ -4,6 +4,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 
 JEI.addDescription(<ore:blockMarble>,"Can be obtained by smashing Chiseled Stone, See Astral Sorcery's recipe");
+JEI.addDescription(<enderio:item_material>,"Only working with Iron Ore Meat");
 
 <bloodmagic:alchemic_vial>.displayName = "Vial of Mixed Potion";
 <ic2:resource>.displayName="Cooled Basalt";

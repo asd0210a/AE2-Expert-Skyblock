@@ -5,6 +5,7 @@
   "tconstruct:molten_cobalt:-1": 2,
   "minecraft:flowing_lava:-1": 3,
   "minecraft:lava:-1": 3,
+  "minecraft:gold_block:-1": 50,
   "tconstruct:molten_iron:-1": 2,
   "tconstruct:molten_stone:-1": 2,
   "tconstruct:blood:-1": 1,

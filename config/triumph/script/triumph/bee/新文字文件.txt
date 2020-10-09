@@ -1,0 +1,15 @@
+1. Hivebees
+2. Beehouse
+2-2. Escorinte
+3. trees
+3-2. apiary
+4. common
+5. culvative
+6. diligent
+6-2. unweary
+7. red
+7-2. industrious
+8. generate
+9. hive -done
+
+gendustry (need ic2 gen)

@@ -46,6 +46,8 @@ Infusion.registerRecipe("Infusion Provider","INFUSIONPROVIDER",<thaumicenergisti
 
 Crucible.registerRecipe("AutoCertus","",<appliedenergistics2:material:2>,<appliedenergistics2:material>,[<aspect:metallum>]);
 
+Crucible.registerRecipe("AutoFluix","",<appliedenergistics2:material:8>,<appliedenergistics2:material:7>,[<aspect:metallum>]);
+
 Crucible.registerRecipe("Mithril Gear","",<thermalfoundation:material:264>,<thermalfoundation:material:72>,[<aspect:machina>*8]);
 
 recipes.remove(<thaumcraft:ingot:1>);
