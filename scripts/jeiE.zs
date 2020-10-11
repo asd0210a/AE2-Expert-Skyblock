@@ -22,6 +22,7 @@ val bl=[
 <extrautils2:grocket:6>,
 <thermalfoundation:material:22>,
 <immersiveengineering:metal:8>,
+<exnihilocreatio:item_doll:7>,
 //Metal tweak
 	//Tin 
 		<ic2:ingot:6>, 

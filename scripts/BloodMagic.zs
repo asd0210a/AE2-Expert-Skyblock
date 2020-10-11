@@ -46,6 +46,10 @@ ara.addRecipe(<botania:manaresource:8>,<botania:manaresource:1>,<bloodmagic:comp
 //Element ingot
 ara.addRecipe(<botania:manaresource:7>,<immersiveengineering:bullet:2>.withTag({bullet: "terrasteel"}),<thermalexpansion:augment:448>);
 
+//Bound Sword
+ara.removeRecipe(<bloodmagic:component:8>,<minecraft:diamond_sword>);
+ara.addRecipe(<bloodmagic:bound_sword>,<bloodmagic:component:8>,<thaumcraft:thaumium_sword>);
+
 //Dragonstone
 recipes.addShaped("Railgun Scope",<immersiveengineering:toolupgrade:8>,[[<ore:paneGlassColorless>,<ore:ingotCopper>,null],[<ore:ingotCopper>,<thermalfoundation:material:352>,<ore:ingotCopper>],[null,<ore:ingotCopper>,<ore:paneGlassColorless>]]);
 ara.addRecipe(<botania:manaresource:9>,<botania:manaresource:2>,<immersiveengineering:toolupgrade:8>);

@@ -28,5 +28,5 @@ function itemIO(recipeName as string,machine as string,inp as IItemStack,outputA
 	mc.addItemInput(inp).build();
 }
 //Sieve
-itemIO("IronSieve","sieve",<minecraft:sand>,[<minecraft:iron_ingot>,<appliedenergistics2:material>,<minecraft:redstone>,<minecraft:gunpowder>,<minecraft:glowstone_dust>,<minecraft:blaze_powder>,<minecraft:quartz>,<minecraft:dye:4>],[ 1,1,1,0.10,1,1,1,0.45],5);
+itemIO("IronSieve","sieve",<minecraft:sand>*10,[<minecraft:iron_ingot>*10,<appliedenergistics2:material>*10,<minecraft:redstone>*10,<minecraft:gunpowder>*10,<minecraft:glowstone_dust>*10,<minecraft:blaze_powder>*10,<minecraft:quartz>*10,<minecraft:dye:4>*10],[ 1,1,1,0.10,1,1,1,0.45],50);
 itemIO("FishSieve","sieve",<chisel:waterstone>,[<minecraft:fish>],[0.7],20);

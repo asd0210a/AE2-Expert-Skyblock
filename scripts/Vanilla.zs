@@ -17,3 +17,5 @@ recipes.addShapeless(<minecraft:nether_wart>* 4, [<minecraft:red_mushroom_block>
 
 //Drawer Controller
 recipes.replaceAllOccurences(<ore:gemDiamond>,<rftools:noteleport_module>,<storagedrawers:controller>);
+
+recipes.addShapeless("ez Clay",<minecraft:clay_ball>*4,[<minecraft:clay>]);

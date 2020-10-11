@@ -2,10 +2,9 @@ import mods.tconstruct.Casting;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 val thau={
-<thaumcraft:shimmerleaf>:<minecraft:red_flower>,
 <thaumcraft:cinderpearl>:<minecraft:yellow_flower>,
 <thaumcraft:vishroom>:<minecraft:red_mushroom>} as IItemStack[IItemStack];
-for k,v in thau{Casting.addTableRecipe(k ,v,<liquid:purifying_fluid>,1000,true,100);}
+for k,v in thau{Casting.addTableRecipe(k ,v,<liquid:purifying_fluid>,500,true,100);}
 
 val a=<ic2:resource:14>;val b=<projectred-core:resource_item:312>;
 recipes.remove(a);

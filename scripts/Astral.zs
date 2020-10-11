@@ -1,6 +1,7 @@
 #modloaded astralsorcery
 import mods.astralsorcery.Altar ;
 import mods.astralsorcery.Utils;
+import mods.astralsorcery.Grindstone;
 
 var aa ="astralsorcery:shaped/internal/altar/";
 var aes ="aes:shaped/internal/altar/";
@@ -35,8 +36,10 @@ Altar.addAttunmentAltarRecipe(aes+"researchTable",<thaumcraft:table_wood>,600,20
 recipes.addShaped("Lightwell",<astralsorcery:blockwell>, [[<minecraft:stone>, null, <minecraft:stone>],[<minecraft:wool>, <minecraft:glass_pane>, <minecraft:wool>], [<minecraft:stone>, <minecraft:bucket>, <minecraft:stone>]]);
 
 // Small Lapis dust
-mods.astralsorcery.Grindstone.addRecipe(<ic2:dust:9>, <ic2:dust:22>, 0.7f);
-mods.astralsorcery.Grindstone.addRecipe(<thermalfoundation:material:136>,<thermalfoundation:material:72>);
+Grindstone.addRecipe(<thermalfoundation:material:136>,<thermalfoundation:material:72>);
+
+//Red Heart
+Grindstone.addRecipe(<harvestcraft:grilledcheeseitem>,<bhc:red_heart>,1);
 
 recipes.addShaped(<astralsorcery:itemwand>, [[null, null, <botania:spark>],[null, <astralsorcery:itemcraftingcomponent>, null], [<exnihilocreatio:item_material:6>, null, null]]);
 

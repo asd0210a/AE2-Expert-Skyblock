@@ -1,4 +1,5 @@
 #modloaded thaumcraft
+import thaumcraft.aspect.CTAspectStack;
 import mods.thaumcraft.ArcaneWorkbench as table;
 import mods.thaumcraft.Infusion;
 import mods.thaumcraft.Crucible;
@@ -21,7 +22,7 @@ recipes.addShaped("stoneTable",<thaumcraft:table_stone>,[[<minecraft:stone_slab>
 table.removeRecipe(<thaumcraft:thaumometer>);
 recipes.addShaped("Thaumometer",<thaumcraft:thaumometer>,[[null,<minecraft:iron_ingot>,null],[<minecraft:iron_ingot>,<ore:paneGlass>,<minecraft:iron_ingot>],[null,<minecraft:iron_ingot>,null]]);
 
-table.registerShapedRecipe("Lumiuous Crafting Table","BASEALCHEMY",10,[<aspect:aqua>,<aspect:ignis>,<aspect:terra>,<aspect:ordo>,<aspect:aer>,<aspect:perditio>],<astralsorcery:blockaltar>,[[<astralsorcery:blockmarble>,<astralsorcery:itemcraftingcomponent>,<astralsorcery:blockmarble>],[null,<ore:workbench>,null],[<ore:livingwood>,<ore:livingwood>,<ore:livingwood>]]);
+table.registerShapedRecipe("Lumiuous Crafting Table","BASEALCHEMY",10,[<aspect:aqua>],<astralsorcery:blockaltar>,[[<astralsorcery:blockmarble>,<astralsorcery:itemcraftingcomponent>,<astralsorcery:blockmarble>],[null,<ore:workbench>,null],[<ore:livingwood>,<ore:livingwood>,<ore:livingwood>]]);
 
 recipes.remove(<botania:pylon:2>);
 table.registerShapedRecipe("Gaia Pylon","INFUSIONSTABLE",500,[<aspect:aqua>*10,<aspect:ignis>*10,<aspect:terra>*10,<aspect:ordo>*10,<aspect:aer>*10,<aspect:perditio>*10],<botania:pylon:2>,[[<botania:manaresource:8>,<botania:manaresource:7>,<botania:manaresource:9>],[<astralsorcery:blockritualpedestal>,<botania:pylon:1>,<bloodmagic:activation_crystal>],[<forge:bucketfilled>.withTag({FluidName: "lifeessence",Amount: 1000}),<thaumcraft:stabilizer>,<forge:bucketfilled>.withTag({FluidName: "lifeessence",Amount: 1000})]]);
@@ -52,6 +53,8 @@ Crucible.registerRecipe("Mithril Gear","",<thermalfoundation:material:264>,<ther
 
 recipes.remove(<thaumcraft:ingot:1>);
 Crucible.removeRecipe(<thaumcraft:ingot:1>);
+
+<minecraft:blaze_powder>.removeAspects([<aspect:alkimia>,<aspect:potentia>]);
 /*
 -Aspects
 <aspect:aer>

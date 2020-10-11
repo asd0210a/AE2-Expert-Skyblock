@@ -7,5 +7,14 @@
     "mob": "minecraft:wither_skeleton",
     "item": "minecraft:coal",
     "itemcount": "5-8/1-2/1-2"
+  },
+  {
+    "mob": "minecraft:blaze",
+    "remove": "minecraft:coal"
+  },
+  {
+    "mob": "minecraft:blaze",
+    "item": "minecraft:blaze_rod",
+    "itemcount": "2-3/2-3/3-5"
   }
 ]

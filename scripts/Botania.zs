@@ -9,9 +9,13 @@ import crafttweaker.recipes.ICraftingRecipe;
 
 recipes.remove(<minecraft:end_portal_frame>);
 recipes.remove(<botania:alfheimportal>);
+recipes.remove(<botania:corporeaindex>);
+recipes.remove(<botania:corporeaspark:1>);
+recipes.remove(<botania:corporeaspark>);
+val peb=<botania:manaresource:21>;
+recipes.removeShapeless(<minecraft:cobblestone>,[peb,peb,peb,peb]);
 
 recipes.addShapeless("Elven Botania",<botania:lexicon>.withTag({"knowledge.alfheim": 1 as byte,forcedMessage: ""}),[<botania:lexicon>,<botania:manaresource>]);
-
 
 recipes.remove(<botania:runealtar>);
 recipes.addShaped("Runic Altar",<botania:runealtar>,[[null,<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),null],[<ore:livingrock>,<ore:livingrock>,<ore:livingrock>],[<ore:livingrock>,<ore:manaPearl> | <ore:manaDiamond>,<ore:livingrock>]]);
@@ -22,11 +26,6 @@ recipes.addShaped("Horn of the Wild",<botania:grasshorn>,[[null,<ore:livingwood>
 recipes.remove(<botania:fertilizer>);
 recipes.addShapeless("Floral Fertilizer",<botania:fertilizer> * 4,
 [<minecraft:dye:15>,<minecraft:dye:11>,<minecraft:dye:11>,<minecraft:dye:1>,<minecraft:dye:1>]);
-
-
-recipes.remove(<botania:corporeaindex>);
-recipes.remove(<botania:corporeaspark:1>);
-recipes.remove(<botania:corporeaspark>);
 
 recipes.addShaped("Corporea Index",<botania:corporeaindex>,[[<minecraft:potion>,<ore:obsidian>,<minecraft:potion>],[<ore:obsidian>,<botania:corporeaspark:1>,<ore:obsidian>],[<minecraft:written_book>,<ore:obsidian>,<minecraft:written_book>]]);
 
@@ -99,15 +98,22 @@ var delore=[
 "oreIron",
 "oreAluminum",
 "oreAmber",
-"oreApatite"
+"oreApatite",
+"oreTin",
+"oreLead",
+"oreCoal"
 ] as string[];
 for d in delore{
 Orechid.removeOre(d);
 }
 
 Orechid.addOre("oreAluminum",20000);
+Orechid.addOre("oreTin",20000);
+Orechid.addOre("oreLead",20000);
 Orechid.addOre("oreAmber",2000);
 Orechid.addOre("oreApatite",10000);
+Orechid.addOre("oreCoal",5000);
+
 
 val rb=<immersiveengineering:metal_decoration0:7>;
 val bk=<extrautils2:decorativebedrock>;
