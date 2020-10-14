@@ -8,9 +8,11 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.oredict.IOreDict;
 
+//Blood Rune in Botania
 
 val rr=[<bloodmagic:ritual_controller>,<bloodmagic:living_armour_boots>,<bloodmagic:living_armour_helmet>,<bloodmagic:living_armour_chest>,<bloodmagic:living_armour_leggings>,<bloodmagic:path:2>] as IItemStack[];
 for r in rr{recipes.remove(r);}
+
 val st=<ore:stone>;
 recipes.addShapeless("Stone Path",<bloodmagic:path:2>*4,[st,st,st,st,<bloodmagic:path:1>]);
 
@@ -21,7 +23,7 @@ tf.addRecipe(<mekanism:sawdust>,[<psi:material>,<thaumcraft:slab_greatwood>],40,
 tf.removeRecipe([<minecraft:redstone>,<minecraft:gold_ingot>,<minecraft:glass>,<minecraft:dye:4>]);
 tf.addRecipe(<bloodmagic:soul_gem>.withTag({}),[<minecraft:redstone>,<botania:manaresource>,<ore:blockGlass>,<minecraft:dye:4>],1,1);
 
-//----------Blood Altar-------------
+//-Blood Altar-
 
 	//Victus Crystal
 	altar.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1,key: "victus"}]}),<thaumcraft:nugget:9>,0,600,10,20);
@@ -38,7 +40,6 @@ tf.addRecipe(<bloodmagic:soul_gem>.withTag({}),[<minecraft:redstone>,<botania:ma
 	altar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),<appliedenergistics2:material:9>,0,2000,1,2);
 	//Greatwood Log
 	altar.addRecipe(<thaumcraft:log_greatwood>,<forestry:logs.0:3>,1,1500,8,5);
-
 
 //Pixle Dust
 ara.addRecipe(<botania:manaresource:8>,<botania:manaresource:1>,<bloodmagic:component:4>);
@@ -70,9 +71,6 @@ At.addRecipe(dic,[<ic2:dust:5>,<bloodmagic:cutting_fluid>],400,80,0);
 
 recipes.remove(<bloodmagic:soul_snare>);
 recipes.addShaped("Snare",<bloodmagic:soul_snare>,[[<minecraft:string>,<astralsorcery:itemcraftingcomponent>,<minecraft:string>],[<minecraft:iron_ingot>,null,<minecraft:iron_ingot>],[null,<minecraft:name_tag>,null]]);
-
-recipes.remove(<bloodmagic:blood_rune>);
-recipes.addShaped("Blood Rune",<bloodmagic:blood_rune>,[[<ore:livingrock>,<ore:livingrock>,<ore:livingrock>],[<astralsorcery:itemusabledust>,<bloodmagic:slate>,<astralsorcery:itemusabledust>],[<ore:livingrock>,<ore:livingrock>,<ore:livingrock>]]);
 
 recipes.remove(<bloodmagic:altar>);
 recipes.addShaped("Blood Altar",<bloodmagic:altar>,[[st,null,st],[st,<bloodmagic:sentient_sword>.withTag({}),st],[<ore:ingotGold>,<minecraft:furnace>,<ore:ingotGold>]]);

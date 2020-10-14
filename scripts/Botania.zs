@@ -17,11 +17,18 @@ recipes.removeShapeless(<minecraft:cobblestone>,[peb,peb,peb,peb]);
 
 recipes.addShapeless("Elven Botania",<botania:lexicon>.withTag({"knowledge.alfheim": 1 as byte,forcedMessage: ""}),[<botania:lexicon>,<botania:manaresource>]);
 
+val livR=<ore:livingrock>;
+val livW=<ore:livingwood>;
+
 recipes.remove(<botania:runealtar>);
-recipes.addShaped("Runic Altar",<botania:runealtar>,[[null,<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),null],[<ore:livingrock>,<ore:livingrock>,<ore:livingrock>],[<ore:livingrock>,<ore:manaPearl> | <ore:manaDiamond>,<ore:livingrock>]]);
+recipes.addShaped("Runic Altar",<botania:runealtar>,[[null,<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),null],[livR,livR,livR],[livR,<ore:manaPearl> | <ore:manaDiamond>,livR]]);
+
+recipes.remove(<bloodmagic:blood_rune>);
+recipes.addShaped("Blood Rune",<bloodmagic:blood_rune>,[[livR,livR,livR],[<astralsorcery:itemusabledust>,<bloodmagic:slate>,<astralsorcery:itemusabledust>],[livR,livR,livR]]);
+
 
 recipes.remove(<botania:grasshorn>);
-recipes.addShaped("Horn of the Wild",<botania:grasshorn>,[[null,<ore:livingwood>,null],[<ore:livingwood>,<botania:cacophonium>,<ore:livingwood>],[<ore:livingwood>,<ore:livingwood>,null]]);
+recipes.addShaped("Horn of the Wild",<botania:grasshorn>,[[null,livW,null],[livW,<botania:cacophonium>,livW],[livW,livW,null]]);
 
 recipes.remove(<botania:fertilizer>);
 recipes.addShapeless("Floral Fertilizer",<botania:fertilizer> * 4,
@@ -42,7 +49,7 @@ apo.removeRecipe(<botania:specialflower>.withTag({type: "loonium"}));
 pool.addInfusion(<forge:bucketfilled>.withTag({FluidName: "mana",Amount: 1000}),<minecraft:bucket>,400000);
 
 //Livingrock
-daisy.removeRecipe(<ore:livingrock>);
+daisy.removeRecipe(livR);
 daisy.addRecipe(<harvestcraft:well>,<botania:livingrock>,40);
 
 //Jaded Amaranthus (Buff)

@@ -13,3 +13,5 @@
 9. hive -done
 
 gendustry (need ic2 gen)
+
+<forestry:bee_drone_ge, meta:0, count:1, nbt:{MaxH:20,Mate:{Chromosomes:[{UID1:"forestry.speciesCommon",UID0:"forestry.speciesCommon",Slot:0b}]}}
