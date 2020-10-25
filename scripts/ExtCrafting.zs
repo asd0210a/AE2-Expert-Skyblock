@@ -14,13 +14,9 @@ recipes.addShaped("Advanced Crafting Table",<extendedcrafting:table_advanced>,[[
 recipes.remove(<extendedcrafting:table_elite>);
 recipes.addShaped("Elite Crafting Table",<extendedcrafting:table_elite>,[[<thaumcraft:shimmerleaf>,<botania:cosmetic:10>,<thaumcraft:cinderpearl>],[<thaumcraft:ore_quartz>,<extendedcrafting:table_advanced>,<thaumcraft:ore_quartz>],[<chisel:lapis:3>,<thaumcraft:vishroom>,<chisel:lapis:3>]]);
 
-recipes.addShaped(<extendedcrafting:material:8>,[[null,<appliedenergistics2:material:11>,null],[<appliedenergistics2:material:11>,<extendedcrafting:material:9>,<appliedenergistics2:material:11>],[null,<appliedenergistics2:material:11>,null]]);
+recipes.addShaped("Basic Catalyst",<extendedcrafting:material:8>,[[null,<thaumcraft:ingot:2>,null],[<thaumcraft:ingot:2>,<extendedcrafting:material:10>,<thaumcraft:ingot:2>],[null,<thaumcraft:ingot:2>,null]]);
 
-recipes.addShaped(<extendedcrafting:material:9>,[[null,<thaumcraft:ingot:2>,null],[<thaumcraft:ingot:2>,<extendedcrafting:material:10>,<thaumcraft:ingot:2>],[null,<thaumcraft:ingot:2>,null]]);
-
-recipes.addShaped(<extendedcrafting:material:10>,[[null,<astralsorcery:itemperkgem>,null],[<astralsorcery:itemperkgem>,<extendedcrafting:material:11>,<astralsorcery:itemperkgem>],[null,<astralsorcery:itemperkgem>,null]]);
-
-recipes.addShaped(<extendedcrafting:material:11>,[[<minecraft:emerald>,null,<minecraft:emerald>],[null,<extendedcrafting:material:12>,null],[<minecraft:emerald>,null,<minecraft:emerald>]]);
+recipes.addShaped("Elite",<extendedcrafting:material:10>,[[null,<astralsorcery:itemperkgem:*>,null],[<astralsorcery:itemperkgem:*>,<extendedcrafting:material:12>,<astralsorcery:itemperkgem:*>],[null,<astralsorcery:itemperkgem:*>,null]]);
 
 recipes.replaceAllOccurences(<minecraft:gunpowder>,<ic2:dust:15>,<extendedcrafting:material:7>);
 recipes.replaceAllOccurences(<minecraft:ender_eye>,<extendedcrafting:material>,<extendedcrafting:ender_crafter>);
@@ -74,9 +70,9 @@ table.addShaped(4,<appliedenergistics2:part:340>,[
 [f,w,g,w,f,i,<thaumcraft:golem>.withTag({props: 0 as long}),<bloodmagic:sanguine_book>,<thaumcraft:golem>.withTag({props: 288515162598539264 as long})],
 [f,f,f,f,f,i,<immersiveengineering:metal_device1>,<immersiveengineering:toolbox>,<immersiveengineering:metal_device1>],
 [i,i,i,i,i,<extrautils2:indexerremote>,i,i,i],
-[pt(0),pt(1),pt(2),<bloodmagic:sigil_divination>,<bloodmagic:sigil_holding>,i,<industrialforegoing:item_splitter>,<forestry:worktable>,<thermalexpansion:machine:11>],
+[pt(0),pt(1),pt(2),<bloodmagic:sigil_divination>,<bloodmagic:sigil_holding>,i,<industrialforegoing:item_splitter>,<forestry:worktable>,<thermalexpansion:augment:432>],
 [pt(3),pt(4),pt(5),<bloodmagic:sigil_lava>,<bloodmagic:sigil_water>,i,<thaumcraft:pattern_crafter>,<botania:craftinghalo>,<actuallyadditions:item_crafter_on_a_stick>],
-[pt(6),pt(7),pt(8),<appliedenergistics2:material:48>,<appliedenergistics2:material:48>,i,<ic2:te:88>,<botania:opencrate:1>,<extrautils2:crafter>]]);
+[pt(6),pt(7),pt(8),<appliedenergistics2:material:48>,<appliedenergistics2:material:48>,i,<appliedenergistics2:material:52>,<botania:opencrate:1>,<extrautils2:crafter>]]);
 
 //Crystaltine Ingot
 val lapis=<ore:gemLapis>;val cer=<ore:crystalCertusQuartz>;val fluix=<ore:crystalFluix>;val silver=<ore:ingotSilver>;val bras=<ore:nuggetAlubrass>;

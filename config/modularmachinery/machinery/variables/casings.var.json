@@ -22,5 +22,29 @@
     "casings_item": [
         "modularmachinery:blockinputbus",
         "modularmachinery:blockoutputbus"
-    ]
+    ],
+	"part0":["ic2:resource@11"],
+	"part1":["mekanism:plasticblock"],
+	"part2":["thermalfoundation:storage@2"],
+	"part3":["actuallyadditions:block_crystal_empowered@0"],
+	"part4":["minecraft:slime"],
+	"part6":["thermalfoundation:storage@6"],
+	"part7":["mekanism:basicblock@8"],
+	"part8":["mekanism:reinforcedplasticblock"],
+	"part9":["ic2:resource@10"],
+	"part10":["immersiveengineering:metal_decoration2@7"],
+	"part11":["immersiveengineering:metal_device1@1"],
+	"part12":["modularmachinery:blockcasing@0"],
+	"part13":["mekanism:basicblock2@1"],
+	"part14":["modularmachinery:blockcasing@1"],
+	"part15":["astralsorcery:blocklens"],
+	"part17":["modularmachinery:blockenergyoutputhatch@7"],
+	"part19":["modularmachinery:blockcasing@2"],
+	"part20":["ic2:te@3"],
+	"part21":["immersiveengineering:metal_decoration2@0"],
+	"part24":["modularmachinery:blockoutputbus@1"],
+	"part25":["appliedenergistics2:condenser"],
+	"part27":["thermalfoundation:fluid_cryotheum@0"],
+	"part28":["immersiveengineering:stone_decoration@8"],
+	"part29":["immersiveengineering:metal_decoration1@0"]
 }

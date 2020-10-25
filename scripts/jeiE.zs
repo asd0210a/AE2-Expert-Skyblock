@@ -10,6 +10,7 @@ JEI.addDescription(<enderio:item_material>,"Only working with Iron Ore Meat");
 <ic2:resource>.displayName="Cooled Basalt";
 <ic2:resource:11>.addTooltip(format.gold("Psi blockworks can mine it"));
 <minecraft:gold_ingot>.addTooltip(format.gold("Craftable from Golden Apple, and Golden Apple can be Crafted without Gold"));
+<appliedenergistics2:cable_bus:0>.addTooltip(format.aqua("It is "+format.gold("White Dense Covered Cable")+" !!"));
 
 val bl=[
 <harvestcraft:market>,

@@ -4,7 +4,7 @@ import mods.botania.Apothecary as apo;
 import mods.botania.PureDaisy as daisy;
 import mods.botania.RuneAltar as rune;
 import mods.botania.ElvenTrade as trade;
-import mods.botania.Orechid;
+
 import crafttweaker.recipes.ICraftingRecipe;
 
 recipes.remove(<minecraft:end_portal_frame>);
@@ -90,37 +90,6 @@ recipes.replaceAllOccurences(<botania:elfglass>,<minecraft:glass>,<botania:corpo
 
 //Crafty Crate
 recipes.replaceAllOccurences(<botania:dreamwood:1>,<ore:plankWood>,<botania:opencrate:1>);
-
-//Orechid
-var delore=[
-"oreMithril",
-"oreCopper",
-"oreGold",
-"oreSilver",
-"oreDiamond",
-"orePlatinum",
-"oreUranium",
-"oreOsmium",
-"oreCinnabar",
-"oreIron",
-"oreAluminum",
-"oreAmber",
-"oreApatite",
-"oreTin",
-"oreLead",
-"oreCoal"
-] as string[];
-for d in delore{
-Orechid.removeOre(d);
-}
-
-Orechid.addOre("oreAluminum",20000);
-Orechid.addOre("oreTin",20000);
-Orechid.addOre("oreLead",20000);
-Orechid.addOre("oreAmber",2000);
-Orechid.addOre("oreApatite",10000);
-Orechid.addOre("oreCoal",5000);
-
 
 val rb=<immersiveengineering:metal_decoration0:7>;
 val bk=<extrautils2:decorativebedrock>;

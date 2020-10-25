@@ -21,8 +21,13 @@ tf.addRecipe(<mekanism:sawdust>,[<psi:material>,<thaumcraft:slab_greatwood>],40,
 
 //Soul gem
 tf.removeRecipe([<minecraft:redstone>,<minecraft:gold_ingot>,<minecraft:glass>,<minecraft:dye:4>]);
-tf.addRecipe(<bloodmagic:soul_gem>.withTag({}),[<minecraft:redstone>,<botania:manaresource>,<ore:blockGlass>,<minecraft:dye:4>],1,1);
+tf.addRecipe(<bloodmagic:soul_gem>,[<minecraft:redstone>,<botania:manaresource>,<ore:blockGlass>,<minecraft:dye:4>],1,1);
 
+//Tier 2 gem
+tf.addRecipe(<bloodmagic:soul_gem:1>,[<bloodmagic:soul_gem>,<projectred-expansion:infused_ender_pearl>,<botania:storage:3>,<ore:gearMithril>],60,20);
+
+//Tier 3 gem 
+tf.addRecipe(<bloodmagic:soul_gem:2>,[<bloodmagic:soul_gem:1>,<bloodmagic:slate:2>,<botania:storage:1>,<psi:psi_decorative:1>],250,50);
 //-Blood Altar-
 
 	//Victus Crystal
