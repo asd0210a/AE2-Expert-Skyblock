@@ -16,3 +16,6 @@ recipes.replaceAllOccurences(<ic2:te:3>,<ic2:resource:12>,<ic2:te:9>);
 mods.immersiveengineering.CokeOven.addRecipe(<ic2:dust:15>, 1,<minecraft:cobblestone> , 200);
 
 recipes.replaceAllOccurences(<minecraft:water_bucket>,<minecraft:fish>,<chisel:waterstone>);
+
+//Circuit
+recipes.remove(<ic2:crafting:1>);

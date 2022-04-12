@@ -1,0 +1,953 @@
+{
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "nbt": {"busSize":"4","casingColor":"16730368","id":"minecraft:tileiteminputbus","inventory":{"inventoryArray":[{"holderEmpty":"1b","holderId":"0"},{"holderEmpty":"1b","holderId":"1"},{"holderEmpty":"1b","holderId":"2"},{"holderEmpty":"1b","holderId":"3"},{"holderEmpty":"1b","holderId":"4"},{"holderEmpty":"1b","holderId":"5"},{"holderEmpty":"1b","holderId":"6"},{"holderEmpty":"1b","holderId":"7"},{"holderEmpty":"1b","holderId":"8"},{"holderEmpty":"1b","holderId":"9"},{"holderEmpty":"1b","holderId":"10"},{"holderEmpty":"1b","holderId":"11"}],"outSlots":,"miscSlots":,"inSlots":,"sides":}},
+            "elements": [
+                "modularmachinery:blockinputbus@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "nbt": {"busSize":"5","casingColor":"16730368","id":"minecraft:tileitemoutputbus","inventory":{"inventoryArray":[{"holderEmpty":"1b","holderId":"0"},{"holderEmpty":"1b","holderId":"1"},{"holderEmpty":"1b","holderId":"2"},{"holderEmpty":"1b","holderId":"3"},{"holderEmpty":"1b","holderId":"4"},{"holderEmpty":"1b","holderId":"5"},{"holderEmpty":"1b","holderId":"6"},{"holderEmpty":"1b","holderId":"7"},{"holderEmpty":"1b","holderId":"8"},{"holderEmpty":"1b","holderId":"9"},{"holderEmpty":"1b","holderId":"10"},{"holderEmpty":"1b","holderId":"11"},{"holderEmpty":"1b","holderId":"12"},{"holderEmpty":"1b","holderId":"13"},{"holderEmpty":"1b","holderId":"14"},{"holderEmpty":"1b","holderId":"15"}],"outSlots":,"miscSlots":,"inSlots":,"sides":}},
+            "elements": [
+                "modularmachinery:blockoutputbus@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "nbt": {"extrastacks":[],"select":"1s","powered":"0b","upgrades":{},"button":"0s","mode":"3s","Active":"1b","contents":{"Size":"9","Items":[]},"pulses":"0","cooldown":"17","Frequency":"-172871381","id":"xu2:tileuse","sneak":"0b","redstone":"0s"},
+            "elements": [
+                "extrautils2:user@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "nbt": {"multiblockMatches":"1b","ticksExisted":"1731569","level":"1","starlight":"1541","id":"astralsorcery:tilealtar","inventory":{"Size":"25","Items":[{"Slot":"0","id":"minecraft:iron_ingot","Count":"1b","Damage":"0s"}]}},
+            "elements": [
+                "astralsorcery:blockaltar@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:cobblestone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "nbt": {"comparator":"0","blockName":"NULL","id":"thaumictinkerer:transvector_interface","blockMeta":"-1"},
+            "elements": [
+                "thaumictinkerer:transvector_interface@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:cobblestone@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:cobblestone@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:cobblestone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "nbt": {"forward":"NORTH","patterns":{"Size":"9","Items":[]},"BLOCK":"NO","storage":{"Size":"9","Items":[]},"waitingToSend":[],"priority":"0","upgrades":{"Size":"1","Items":[]},"inv":{"item0":{},"item2":{},"item1":{},"item8":{},"item7":{},"item4":{},"item3":{},"item6":{},"item5":{}},"omniDirectional":"1b","proxy":{"p":"0","g":"2121L","k":"-1L"},"id":"appliedenergistics2:interface","up":"UP","config":{"#3":{},"#4":{},"#5":{},"#6":{},"#7":{},"#8":{},"#0":{},"#1":{},"#2":{}},"INTERFACE_TERMINAL":"YES"},
+            "elements": [
+                "appliedenergistics2:interface@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "nbt": {"waiting":"0b","forward":"EAST","inventory":[],"startItemCount":"0L","proxy":{"p":"0","g":"2121L","k":"-1L"},"core":"1b","remainingItemCount":"0L","waitingFor":[],"finalOutput":{},"id":"appliedenergistics2:crafting_storage","up":"UP","tasks":[],"isComplete":"1b","elapsedTime":"0L"},
+            "elements": [
+                "appliedenergistics2:crafting_storage_1k@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "nbt": {"paused":"0b","out":{"Size":"0","Items":[]},"Stack":"1","input":{"Size":"3","Items":[],"_locked":"0b"},"size":"1","side_config":[{"color":"15","sides":["0","1","2","3","4","5"]},{"color":"6","sides":["0","1","2","3","4","5"]},{"color":"2","sides":["0","1","2","3","4","5"]},{"color":"14","sides":["0","1","2","3","4","5"]},{"color":"12","sides":["0","1","2","3","4","5"]},{"color":"7","sides":["0","1","2","3","4","5"]},{"color":"4","sides":["0","1","2","3","4","5"]},{"color":"13","sides":["0","1","2","3","4","5"]},{"color":"10","sides":["0","1","2","3","4","5"]},{"color":"11","sides":["0","1","2","3","4","5"]},{"color":"5","sides":["0","1","2","3","4","5"]},{"color":"1","sides":["0","1","2","3","4","5"]},{"color":"9","sides":["0","1","2","3","4","5"]},{"color":"3","sides":["0","1","2","3","4","5"]},{"color":"0","sides":["0","1","2","3","4","5"]},{"color":"8","sides":["0","1","2","3","4","5"]}],"Tick":"2","id":"industrialforegoing:item_splitter_tile","redstone":"AlwaysActive","fluids":{"tanks":[]}},
+            "elements": [
+                "industrialforegoing:item_splitter@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "nbt": {"subTileCmp":{"poolZ":"0","poolX":"0","poolY":"-1","mana":"0","ticksExisted":"32762","filterType":"0"},"subTileName":"hopperhockChibi","islandType":"GRASS","id":"botania:floatingspecialflower"},
+            "elements": [
+                "botania:floatingspecialflower@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "nbt": {"hasRedstone":"2","def:6":{"id":"appliedenergistics2:part","Count":"1b","Damage":"16s"},"id":"appliedenergistics2:blockcablebus","extra:6":{"part":{"p":"0","g":"2143L","k":"-1L"},"usedChannels":"2b"}},
+            "elements": [
+                "appliedenergistics2:cable_bus@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "nbt": {"hasRedstone":"2","def:6":{"id":"appliedenergistics2:part","Count":"1b","Damage":"16s"},"extra:2":{"part":{"p":"0","g":"2121L","k":"-1L"},"outer":{"p":"0","g":"2103L","k":"-1L"}},"id":"appliedenergistics2:blockcablebus","def:2":{"id":"appliedenergistics2:part","Count":"1b","Damage":"140s"},"extra:6":{"part":{"p":"0","g":"2121L","k":"-1L"},"usedChannels":"4b"}},
+            "elements": [
+                "appliedenergistics2:cable_bus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "nbt": {"Items":[],"id":"minecraft:chest","Lock":""},
+            "elements": [
+                "minecraft:chest@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "nbt": {"hasRedstone":"2","def:6":{"id":"appliedenergistics2:part","Count":"1b","Damage":"16s"},"extra:4":{"part":{"p":"0","g":"2121L","k":"-1L"},"spin":"0b","isLocked":"0b","configuredItem":{}},"extra:2":{"part":{"p":"0","g":"2121L","k":"-1L"},"STORAGE_FILTER":"EXTRACTABLE_ONLY","priority":"0","upgrades":{"Size":"5","Items":[]},"config":{"#52":{},"#53":{},"#10":{},"#54":{},"#11":{},"#55":{},"#12":{},"#56":{},"#13":{},"#57":{},"#14":{},"#58":{},"#15":{},"#59":{},"#16":{},"#17":{},"#18":{},"#19":{},"#60":{},"#61":{},"#62":{},"#20":{},"#21":{},"#22":{},"#23":{},"#24":{},"#25":{},"#26":{},"#27":{},"#28":{},"#29":{},"#30":{},"#31":{},"#32":{},"#33":{},"#34":{},"#35":{},"#36":{},"#37":{},"#38":{},"#39":{},"#40":{},"#41":{},"#42":{},"#43":{},"#44":{},"#45":{},"#46":{},"#47":{},"#48":{},"#49":{},"#0":{},"#1":{},"#2":{},"#3":{},"#4":{},"#5":{},"#6":{},"#7":{},"#8":{},"#9":{},"#50":{},"#51":{}},"ACCESS":"READ_WRITE","FUZZY_MODE":"IGNORE_ALL"},"id":"appliedenergistics2:blockcablebus","def:2":{"id":"appliedenergistics2:part","Count":"1b","Damage":"220s"},"extra:6":{"part":{"p":"0","g":"2121L","k":"-1L"},"usedChannels":"4b"},"def:4":{"id":"appliedenergistics2:part","Count":"1b","Damage":"400s"}},
+            "elements": [
+                "appliedenergistics2:cable_bus@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "nbt": {"forward":"NORTH","patterns":{"Size":"9","Items":[]},"BLOCK":"NO","storage":{"Size":"9","Items":[]},"waitingToSend":[],"priority":"0","upgrades":{"Size":"1","Items":[]},"inv":{"item0":{},"item2":{},"item1":{},"item8":{},"item7":{},"item4":{},"item3":{},"item6":{},"item5":{}},"omniDirectional":"1b","proxy":{"p":"0","g":"2143L","k":"-1L"},"id":"appliedenergistics2:interface","up":"UP","config":{"#3":{},"#4":{},"#5":{},"#6":{},"#7":{},"#8":{},"#0":{},"#1":{},"#2":{}},"INTERFACE_TERMINAL":"YES"},
+            "elements": [
+                "appliedenergistics2:interface@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "nbt": {"hasRedstone":"2","def:6":{"id":"appliedenergistics2:part","Count":"1b","Damage":"16s"},"id":"appliedenergistics2:blockcablebus","extra:6":{"part":{"p":"0","g":"2103L","k":"-1L"},"usedChannels":"2b"}},
+            "elements": [
+                "appliedenergistics2:cable_bus@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "nbt": {"forward":"NORTH","patterns":{"Size":"9","Items":[]},"BLOCK":"NO","storage":{"Size":"9","Items":[]},"waitingToSend":[],"priority":"0","upgrades":{"Size":"1","Items":[]},"inv":{"item0":{},"item2":{},"item1":{},"item8":{},"item7":{},"item4":{},"item3":{},"item6":{},"item5":{}},"omniDirectional":"1b","proxy":{"p":"0","g":"2103L","k":"-1L"},"id":"appliedenergistics2:interface","up":"UP","config":{"#3":{},"#4":{},"#5":{},"#6":{},"#7":{},"#8":{},"#0":{},"#1":{},"#2":{}},"INTERFACE_TERMINAL":"YES"},
+            "elements": [
+                "appliedenergistics2:interface@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "nbt": {"subTileCmp":{"poolZ":"0","poolX":"0","poolY":"-1","mana":"0","ticksExisted":"9120","filterType":"0"},"subTileName":"hopperhockChibi","islandType":"GRASS","id":"botania:floatingspecialflower"},
+            "elements": [
+                "botania:floatingspecialflower@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "nbt": {"hasRedstone":"1","def:6":{"id":"appliedenergistics2:part","Count":"1b","Damage":"11s"},"extra:2":{"CRAFT_ONLY":"NO","part":{"p":"0","g":"2141L","k":"-1L"},"nextSlot":"0","REDSTONE_CONTROLLED":"IGNORE","upgrades":{"Size":"4","Items":[]},"config":{"#3":{},"#4":{},"#5":{},"#6":{},"#7":{},"#8":{},"#0":{},"#1":{},"#2":{}},"FUZZY_MODE":"IGNORE_ALL","SCHEDULING_MODE":"DEFAULT"},"id":"appliedenergistics2:blockcablebus","extra:3":{"part":{"p":"0","g":"2141L","k":"-1L"},"STORAGE_FILTER":"EXTRACTABLE_ONLY","priority":"0","upgrades":{"Size":"5","Items":[]},"config":{"#52":{},"#53":{},"#10":{},"#54":{},"#11":{},"#55":{},"#12":{},"#56":{},"#13":{},"#57":{},"#14":{},"#58":{},"#15":{},"#59":{},"#16":{},"#17":{},"#18":{},"#19":{},"#60":{},"#61":{},"#62":{},"#20":{},"#21":{},"#22":{},"#23":{},"#24":{},"#25":{},"#26":{},"#27":{},"#28":{},"#29":{},"#30":{},"#31":{},"#32":{},"#33":{},"#34":{},"#35":{},"#36":{},"#37":{},"#38":{},"#39":{},"#40":{},"#41":{},"#42":{},"#43":{},"#44":{},"#45":{},"#46":{},"#47":{},"#48":{},"#49":{},"#0":{},"#1":{},"#2":{},"#3":{},"#4":{},"#5":{},"#6":{},"#7":{},"#8":{},"#9":{},"#50":{},"#51":{}},"ACCESS":"READ_WRITE","FUZZY_MODE":"IGNORE_ALL"},"def:2":{"id":"appliedenergistics2:part","Count":"1b","Damage":"260s"},"def:3":{"id":"appliedenergistics2:part","Count":"1b","Damage":"220s"},"extra:6":{"part":{"p":"0","g":"2141L","k":"-1L"},"usedChannels":"2b"}},
+            "elements": [
+                "appliedenergistics2:cable_bus@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "nbt": {"paused":"0b","out":{"Size":"0","Items":[]},"Stack":"1","input":{"Size":"3","Items":[],"_locked":"0b"},"size":"1","side_config":[{"color":"15","sides":["0","1","2","3","4","5"]},{"color":"6","sides":["0","1","2","3","4","5"]},{"color":"2","sides":["0","1","2","3","4","5"]},{"color":"14","sides":["0","1","2","3","4","5"]},{"color":"12","sides":["0","1","2","3","4","5"]},{"color":"7","sides":["0","1","2","3","4","5"]},{"color":"4","sides":["0","1","2","3","4","5"]},{"color":"13","sides":["0","1","2","3","4","5"]},{"color":"10","sides":["0","1","2","3","4","5"]},{"color":"11","sides":["0","1","2","3","4","5"]},{"color":"5","sides":["0","1","2","3","4","5"]},{"color":"1","sides":["0","1","2","3","4","5"]},{"color":"9","sides":["0","1","2","3","4","5"]},{"color":"3","sides":["0","1","2","3","4","5"]},{"color":"0","sides":["0","1","2","3","4","5"]},{"color":"8","sides":["0","1","2","3","4","5"]}],"Tick":"0","id":"industrialforegoing:item_splitter_tile","redstone":"AlwaysActive","fluids":{"tanks":[]}},
+            "elements": [
+                "industrialforegoing:item_splitter@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:cobblestone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "nbt": {"def:5":{"id":"appliedenergistics2:part","Count":"1b","Damage":"240s"},"hasRedstone":"1","def:6":{"id":"appliedenergistics2:part","Count":"1b","Damage":"16s"},"extra:5":{"part":{"p":"0","g":"2103L","k":"-1L"},"REDSTONE_CONTROLLED":"IGNORE","upgrades":{"Size":"4","Items":[]},"config":{"#3":{},"#4":{},"#5":{},"#6":{},"#7":{},"#8":{},"#0":{},"#1":{},"#2":{}},"FUZZY_MODE":"IGNORE_ALL"},"id":"appliedenergistics2:blockcablebus","extra:6":{"part":{"p":"0","g":"2103L","k":"-1L"},"usedChannels":"2b"}},
+            "elements": [
+                "appliedenergistics2:cable_bus@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "nbt": {"Items":[],"id":"minecraft:chest","Lock":""},
+            "elements": [
+                "minecraft:chest@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "nbt": {"hasRedstone":"2","def:6":{"id":"appliedenergistics2:part","Count":"1b","Damage":"0s"},"extra:0":{"LEVEL_TYPE":"ITEM_LEVEL","lastReportedValue":"0L","reportingValue":"0L","CRAFT_VIA_REDSTONE":"NO","prevState":"0b","REDSTONE_EMITTER":"HIGH_SIGNAL","part":{"p":"0","g":"2143L","k":"-1L"},"upgrades":{"Size":"4","Items":[]},"config":{"#0":{}},"FUZZY_MODE":"IGNORE_ALL"},"id":"appliedenergistics2:blockcablebus","def:0":{"id":"appliedenergistics2:part","Count":"1b","Damage":"280s"},"extra:6":{"part":{"p":"0","g":"2143L","k":"-1L"},"usedChannels":"2b"}},
+            "elements": [
+                "appliedenergistics2:cable_bus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@4"
+            ]
+        }
+    ]}

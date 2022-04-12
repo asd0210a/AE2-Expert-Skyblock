@@ -1,6 +1,6 @@
 {
-"registryname": "Star Energy Collector",
-    "localizedname": "Star Energy Collector",
+"registryname": "Star Energy Condenser",
+    "localizedname": "Star Energy Condenser",
 	"requires-blueprint": true,
 	"color": "FFFFFF",
     "parts": [

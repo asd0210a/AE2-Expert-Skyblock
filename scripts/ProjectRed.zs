@@ -9,6 +9,9 @@ val pearl=<projectred-expansion:infused_ender_pearl>;
 recipes.addShapeless("Infused Pearl",pearl.withTag({}), [pearl]);
 pearl.maxStackSize =8;
 
+//Teleposer
+recipes.replaceAllOccurences(<ore:gemDiamond>,<botania:rune:14>,<projectred-expansion:machine2:7>);
+
 recipes.addShaped("Bedrock Brick",<extrautils2:decorativebedrock>, [[pearl, pearl, pearl],[pearl, <thermalfoundation:storage_alloy>, pearl], [pearl, pearl, pearl]]);
 
 val poi=<projectred-core:resource_item:104>;

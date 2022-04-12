@@ -1,0 +1,8 @@
+setTitle("[Deep] Dragon Age")
+setIcon(<appliedenergistics2:inscriber>)
+setDescription("Craft an AE2 Inscriber.")
+addParent("triumph:sky/pt2__start")
+setPos(100,0)
+criteria = addCriteria("dragonage", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:inscriber>)
+setFrameType("challenge")

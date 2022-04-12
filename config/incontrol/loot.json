@@ -16,5 +16,13 @@
     "mob": "minecraft:blaze",
     "item": "minecraft:blaze_rod",
     "itemcount": "2-3/2-3/3-5"
+  },
+  {
+	 "mob":"minecraft:zombie_pigman",
+	 "removeall":true
+  },  
+  {
+	 "mob":"thaumcraft:wisp",
+	 "removeall":true
   }
 ]
