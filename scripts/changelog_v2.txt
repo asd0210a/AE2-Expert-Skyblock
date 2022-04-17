@@ -177,10 +177,40 @@ b215
 - Osmium -> Lens of the Miner from Actually Additions
 - Uranium -> Excavator from Immersive Engineering
 
-4. Recipes modified:
-- Packing 3x3 Mold [change]
-- Raditor Block [add/change]
-- 
+1. Laser Drill & Base:
+ -Energy buffer [50000->250000]
+ -RF need [3000->4000]
+ -Base work need [100->50]
+ -Removed all ores produce except Draconium
+ -Increase Draconium weight
+ -Drill recipe changed
+2. Added some advancement.(WIP)
+ -John into Rabbit Hoe
+ -Over-level Fight
+ -Gene Rocord
+ -Wake from Another World
+ -Is it Cube!?
+3. Added tooltip on Furnace.
+4. TE Cinnabar obtain method changed.
+5. Dragon's health now is half heart.
+6. Recipes temporary disabled:
+- Rod of the Bifrost
+(IE)
+- Jump Cushion
+- Strip Curtion
+- Radiator Block
+
+(ProjectRed)
+- Gold Coil
+- Iron Coil
+- Woven Cloth
+- Sail
+- Frame Linear Actuator
+- Motor
+7. Recipes changed / added:
+- Cryotheum Dust
+- Cinnamon Toast
+- Empowering Bee
 
 AS
 BM
@@ -191,3 +221,6 @@ platinum - AS o
 uranium - IE
 cinnabar - BM o
 osmium -AA
+ARC ,Excuvator-> age 3
+
+Rich Bioblend

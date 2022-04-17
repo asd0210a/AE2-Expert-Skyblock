@@ -8,3 +8,6 @@ recipes.addShaped("Well",<harvestcraft:well>*8, [[<minecraft:stonebrick>, <botan
 
 recipes.remove(<harvestcraft:shippingbin>);
 recipes.addShaped("Shipping Bin",<harvestcraft:shippingbin>, [[<ore:plankWood>, <minecraft:noteblock>, <ore:plankWood>],[<ore:logWood>, <harvestcraft:seedenergygelitem>, <ore:logWood>], [<ore:plankWood>, null, <ore:plankWood>]]);
+
+recipes.remove(<harvestcraft:cinnamontoastitem>);
+recipes.addShapeless("Cinnamon Toast", <harvestcraft:cinnamontoastitem>, [<ore:toolSkillet>, <minecraft:bread>, <ore:foodGroundcinnamon>, <ore:foodButter>, <ore:listAllsugar>,<extendedcrafting:singularity_custom:1>]);

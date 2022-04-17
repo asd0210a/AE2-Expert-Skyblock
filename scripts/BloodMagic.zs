@@ -26,7 +26,8 @@ tf.addRecipe(<bloodmagic:soul_gem>,[<minecraft:redstone>,<botania:manaresource>,
 //Tier 2 gem
 tf.addRecipe(<bloodmagic:soul_gem:1>,[<bloodmagic:soul_gem>,<projectred-expansion:infused_ender_pearl>,<botania:storage:3>,<ore:gearMithril>],60,20);
 
-//Tier 3 gem 
+//Tier 3 gem
+tf.removeRecipe([<bloodmagic:soul_gem:1>,<minecraft:diamond>,<minecraft:gold_block>,<bloodmagic:slate:2>]);
 tf.addRecipe(<bloodmagic:soul_gem:2>,[<bloodmagic:soul_gem:1>,<bloodmagic:slate:2>,<botania:storage:1>,<psi:psi_decorative:1>],250,50);
 //-Blood Altar-
 

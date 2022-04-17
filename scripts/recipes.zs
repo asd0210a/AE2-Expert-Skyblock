@@ -8,6 +8,7 @@ recipes.remove(<bhc:yellow_heart_canister>);
 recipes.remove(<bhc:red_heart_canister>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<botania:rfgenerator>, [[<botania:livingrock>, <projectred-core:resource_item:410>, <botania:livingrock>],[<minecraft:redstone_block>, <teslacorelib:machine_case>, <minecraft:redstone_block>], [<botania:livingrock>, <minecraft:redstone_block>, <botania:livingrock>]]);
 recipes.addShapeless(<enderio:item_alloy_nugget:3> * 16, [<extrautils2:redorchid>.reuse(),<minecraft:dirt:2>]);
 recipes.addShaped(<appliedenergistics2:material:52> * 16, [[<appliedenergistics2:quartz_glass>, <minecraft:glowstone_dust>, <appliedenergistics2:quartz_glass>],[<tconstruct:throwball>, <appliedenergistics2:material>, <tconstruct:throwball>], [<minecraft:iron_ingot>, <thaumictinkerer:soul_mould>, <minecraft:iron_ingot>]]);
 recipes.addShapeless(<bhc:yellow_heart_canister>, [<bhc:canister>,<bhc:yellow_heart>]);

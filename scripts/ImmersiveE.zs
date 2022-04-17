@@ -1,4 +1,5 @@
 #modloaded immersiveengineering
+#priority 5
 import mods.immersiveengineering.Blueprint;
 import mods.immersiveengineering.BlastFurnace;
 import mods.immersiveengineering.ArcFurnace;
@@ -34,19 +35,21 @@ CokeOven.addRecipe(ie("metal",0),1,<minecraft:iron_ingot>,100);
 
 //Molds (Steel->Iron)
 val mold= ie("mold",0).definition;
-var i as int = 0;
+
 for m in mold.subItems{
 	Blueprint.removeRecipe(m);
-	if( i !=1 | i != 3){
-		Blueprint.addRecipe("molds",m,[Fep,Fep,Fep,Fep,Fep,ie("tool",1)]);
-		recipes.addShapeless(m,[Fep,Fep,Fep,Fep,Fep, ie("tool",1) ,<immersiveengineering:blueprint>.withTag({blueprint: "molds"}).reuse(),<immersiveengineering:wooden_device0:2>, ie("connector", i ) ] );
-	}
-	i=i+1;
+	Blueprint.addRecipe("molds",m,[Fep,Fep,Fep,Fep,Fep,ie("tool",1)]);
+	//recipes.addShapeless(m,[Fep,Fep,Fep,Fep,Fep, ie("tool",1) ,<immersiveengineering:blueprint>.withTag({blueprint: "molds"}).reuse(),<immersiveengineering:wooden_device0:2>, ie("connector", i ) ] );
 }
 recipes.replaceAllOccurences(<ore:plateSteel>,Fep,<immersiveengineering:blueprint>.withTag({blueprint: "molds"}));
 
+Blueprint.removeRecipe(ie("mold",1));
+Blueprint.removeRecipe(ie("mold",3));
+
+
 ie("mold",3).displayName="Blank Metal Mold";
 
+/////////
 AlloySmelter.addRecipe(<thermalfoundation:coin:72>,<thermalfoundation:material:72>,<tconstruct:clay_cast>.withTag({PartType: "tconstruct:pan_head"}),1200);
 
 function cru(n as IItemStack){
@@ -94,3 +97,9 @@ recipes.replaceAllOccurences(<ore:ingotElectrum>,<draconicevolution:draconium_bl
 
 // Concrete
 recipes.remove(<immersiveengineering:stone_decoration:5>);
+
+//Jump Cushion
+recipes.remove(<immersiveengineering:cloth_device>);
+
+//Strip Curtion
+recipes.remove(<immersiveengineering:cloth_device:2>);

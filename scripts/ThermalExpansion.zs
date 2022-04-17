@@ -4,6 +4,7 @@ import mods.thermalexpansion.InductionSmelter as iS;
 import mods.thermalexpansion.Compactor as cp;
 import mods.thermalexpansion.Centrifuge as cf;
 import mods.thermalexpansion.Transposer as tp;
+import mods.thermalexpansion.Pulverizer as pul;
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemDefinition;
@@ -37,15 +38,17 @@ recipes.addShaped("Sequential Fabricator",<thermalexpansion:machine:11>,[[<minec
 
 //ISmelter
 val mithril=[
-mat(328),
-mat(264),
-<thermalfoundation:ore:8>,
-mat(72)
+	mat(328),
+	mat(264),
+	<thermalfoundation:ore:8>,
+	mat(72)
 ] as IItemStack[];
+
 for m in mithril {
 	for s in <ore:sand>.items{
-iS.removeRecipe(s,m);
-}}
+		iS.removeRecipe(s,m);
+	}
+}
 /*
 val iron=[<ore:dustIron>,<ore:ingotIron>] as IOreDictEntry[];
 val coal=[<ore:dustCoal>,<ore:dustCharcoal>,<ore:fuelCoke>] as IOreDictEntry[];
@@ -61,7 +64,7 @@ for st in coal{
 
 val gs=[165,166,167,134] as int[];
 for g in gs{
-cp.removeGearRecipe(mat(g));
+	cp.removeGearRecipe(mat(g));
 }
 cp.removeGearRecipe(<minecraft:diamond>);
 
@@ -76,4 +79,20 @@ mods.thermalexpansion.Factorizer.addRecipeCombine(mat(323)*9,<chisel:blocklead:6
 recipes.remove(<botania:cosmetic:30>);
 cf.addRecipeMob(<entity:thaumcraft:firebat>,[<ic2:dust:27>%80],null,1500,300);
 
+//Elven Gateway
 tp.addFillRecipe(<botania:alfheimportal>,<appliedenergistics2:spatial_io_port>,<fluid:biodiesel>*8000,8000);
+
+//TE Cinnabar
+mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:19>);
+mods.immersiveengineering.Crusher.removeRecipe(<minecraft:redstone>);
+mods.enderio.SagMill.removeRecipe(<thermalfoundation:ore_fluid:2>);
+tp.removeFillRecipe(<thaumcraft:ore_cinnabar>, <liquid:cryotheum>);
+tp.addFillRecipe(<thermalfoundation:material:866>,<thaumcraft:cluster:6>,<liquid:refinedcanolaoil>*200,2000);
+val pulverizerOre=[<thaumcraft:cluster:1>,<thaumcraft:cluster:6>,<minecraft:gold_ore>,<minecraft:redstone_ore>,<thermalfoundation:ore_fluid:2>] as IItemStack[];
+for p in pulverizerOre{
+	pul.removeRecipe(p);
+}
+////
+
+//Cryotheum Dust
+recipes.remove(<thermalfoundation:material:1025>);

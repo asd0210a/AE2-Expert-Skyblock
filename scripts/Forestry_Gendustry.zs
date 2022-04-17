@@ -46,3 +46,5 @@ var ch= itemUtils.getItem("minecraft:wool",k) ;
 recipes.addShaped("Soul Wax",<magicbees:wax:1>*16, [[<minecraft:soul_sand>, <minecraft:soul_sand>, <minecraft:soul_sand>],[<thaumictinkerer:soul_mould>, <ore:beeComb>, <thaumictinkerer:soul_mould>],[<minecraft:soul_sand>, <minecraft:soul_sand>, <minecraft:soul_sand>]]);
 
 recipes.addShapeless("Soul Mould",<thaumictinkerer:soul_mould>,[<minecraft:soul_sand>,<ore:beeComb>]);
+
+//Power Module

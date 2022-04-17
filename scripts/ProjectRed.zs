@@ -1,3 +1,5 @@
+import crafttweaker.item.IItemStack;
+
 recipes.addShaped("Silicon with stone saw", <projectred-core:resource_item:301>, [[<microblockcbe:saw_stone:*>], [<projectred-core:resource_item:300>]]);
 
 recipes.addShaped("Silicon with iron saw", <projectred-core:resource_item:301>*4, [[<microblockcbe:saw_iron:*>], [<projectred-core:resource_item:300>]]);
@@ -26,3 +28,6 @@ recipes.addShaped("Sapphire",<projectred-core:resource_item:201>,[[<microblockcb
 recipes.addShapeless("Scribing Tool",<thaumcraft:scribing_tools>,[<thaumcraft:scribing_tools:*>,<ore:dyeBlack>]);
 
 recipes.replaceAllOccurences(<ore:ingotIron>,<ore:ingotSilver>,<projectred-core:resource_item:252>);
+
+//Gold Coil, Iron Coil, Wavon,Sail, Motor,Frame Linear Actuator
+val itemToRemove=[<projectred-core:resource_item:402>,<projectred-core:resource_item:401>,<projectred-core:resource_item:420>,<projectred-core:resource_item:421>,<projectred-core:resource_item:410>,<projectred-expansion:machine2:9>] as IItemStack[];

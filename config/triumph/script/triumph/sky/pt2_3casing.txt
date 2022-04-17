@@ -1,5 +1,5 @@
 alwaysVisible()
-setTitle("[Deep] Hoe Hoe Hoeooh !!")
+setTitle("[Deep] John into Rabbit Hoe")
 setIcon(<mekanism:basicblock:8>)
 setDescription("Try your best to automate it require!!\nCraft a Mekanism's Steel Casing")
 addParent("triumph:sky/pt2__start")

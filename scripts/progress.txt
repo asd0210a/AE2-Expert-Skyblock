@@ -1,11 +1,1196 @@
-Aim --From--> progress
-grass seed -> Peat, wood chip, seed, coal
-blood alter ->
-blank slate ->Rune of Earth
-livingrock-> demon will
-Mana Pool -> 2xSS shatterer
-
-bee bio-mesh
+Liquids:
+<liquid:aerotheum>
+- Name: aerotheum
+- Display Name: Zephyrean Aerotheum
+- Luminosity:0
+- Density: -800
+- Temperature: 300
+- Viscosity: 100
+- Gaseous: true
+<liquid:alubrass>
+- Name: alubrass
+- Display Name: Molten Aluminum Brass
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
+<liquid:aluminum>
+- Name: aluminum
+- Display Name: Molten Aluminum
+- Luminosity:10
+- Density: 2000
+- Temperature: 330
+- Viscosity: 10000
+- Gaseous: false
+<liquid:ardite>
+- Name: ardite
+- Display Name: Molten Ardite
+- Luminosity:10
+- Density: 2000
+- Temperature: 860
+- Viscosity: 10000
+- Gaseous: false
+<liquid:astralsorcery.liquidstarlight>
+- Name: astralsorcery.liquidstarlight
+- Display Name: Liquid Starlight
+- Luminosity:15
+- Density: 1001
+- Temperature: 120
+- Viscosity: 300
+- Gaseous: false
+<liquid:betterquesting.placeholder>
+- Name: betterquesting.placeholder
+- Display Name: Placeholder
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:bio.ethanol>
+- Name: bio.ethanol
+- Display Name: Ethanol
+- Luminosity:0
+- Density: 790
+- Temperature: 295
+- Viscosity: 1000
+- Gaseous: false
+<liquid:biocrude>
+- Name: biocrude
+- Display Name: Biocrude
+- Luminosity:0
+- Density: 1500
+- Temperature: 300
+- Viscosity: 2500
+- Gaseous: false
+<liquid:biodiesel>
+- Name: biodiesel
+- Display Name: Biodiesel
+- Luminosity:0
+- Density: 789
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:biofuel>
+- Name: biofuel
+- Display Name: Biofuel
+- Luminosity:0
+- Density: 3000
+- Temperature: 600
+- Viscosity: 6000
+- Gaseous: false
+<liquid:biomass>
+- Name: biomass
+- Display Name: Biomass
+- Luminosity:0
+- Density: 400
+- Temperature: 295
+- Viscosity: 6560
+- Gaseous: false
+<liquid:blood>
+- Name: blood
+- Display Name: Blood
+- Luminosity:0
+- Density: 1000
+- Temperature: 336
+- Viscosity: 1000
+- Gaseous: false
+<liquid:brass>
+- Name: brass
+- Display Name: Molten Brass
+- Luminosity:10
+- Density: 2000
+- Temperature: 470
+- Viscosity: 10000
+- Gaseous: false
+<liquid:brine>
+- Name: brine
+- Display Name: Brine
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:bronze>
+- Name: bronze
+- Display Name: Molten Bronze
+- Luminosity:10
+- Density: 2000
+- Temperature: 475
+- Viscosity: 10000
+- Gaseous: false
+<liquid:canolaoil>
+- Name: canolaoil
+- Display Name: Canola Oil
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:clay>
+- Name: clay
+- Display Name: Molten Clay
+- Luminosity:10
+- Density: 2000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:cloud_seed>
+- Name: cloud_seed
+- Display Name: Cloud Seed
+- Luminosity:0
+- Density: 500
+- Temperature: 300
+- Viscosity: 800
+- Gaseous: false
+<liquid:cloud_seed_concentrated>
+- Name: cloud_seed_concentrated
+- Display Name: Concentrated Cloud Seed
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1200
+- Gaseous: false
+<liquid:coal>
+- Name: coal
+- Display Name: Liquifacted Coal
+- Luminosity:0
+- Density: 900
+- Temperature: 300
+- Viscosity: 2000
+- Gaseous: false
+<liquid:cobalt>
+- Name: cobalt
+- Display Name: Molten Cobalt
+- Luminosity:10
+- Density: 2000
+- Temperature: 950
+- Viscosity: 10000
+- Gaseous: false
+<liquid:concrete>
+- Name: concrete
+- Display Name: Liquid Concrete
+- Luminosity:0
+- Density: 2400
+- Temperature: 300
+- Viscosity: 4000
+- Gaseous: false
+<liquid:conductive_iron>
+- Name: conductive_iron
+- Display Name: Molten Conductive Iron
+- Luminosity:6
+- Density: 9000
+- Temperature: 1400
+- Viscosity: 3000
+- Gaseous: false
+<liquid:constantan>
+- Name: constantan
+- Display Name: Molten Constantan
+- Luminosity:0
+- Density: 2000
+- Temperature: 518
+- Viscosity: 10000
+- Gaseous: false
+<liquid:construction_alloy>
+- Name: construction_alloy
+- Display Name: Molten Iron Alloy
+- Luminosity:6
+- Density: 9000
+- Temperature: 563
+- Viscosity: 3000
+- Gaseous: false
+<liquid:copper>
+- Name: copper
+- Display Name: Molten Copper
+- Luminosity:10
+- Density: 2000
+- Temperature: 542
+- Viscosity: 10000
+- Gaseous: false
+<liquid:creosote>
+- Name: creosote
+- Display Name: Creosote Oil
+- Luminosity:0
+- Density: 1100
+- Temperature: 300
+- Viscosity: 2000
+- Gaseous: false
+<liquid:crude_oil>
+- Name: crude_oil
+- Display Name: Crude Oil
+- Luminosity:0
+- Density: 900
+- Temperature: 300
+- Viscosity: 2000
+- Gaseous: false
+<liquid:cryotheum>
+- Name: cryotheum
+- Display Name: Gelid Cryotheum
+- Luminosity:0
+- Density: 4000
+- Temperature: 50
+- Viscosity: 4000
+- Gaseous: false
+<liquid:crystaloil>
+- Name: crystaloil
+- Display Name: Crystallized Oil
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:dark_steel>
+- Name: dark_steel
+- Display Name: Molten Dark Steel
+- Luminosity:6
+- Density: 9000
+- Temperature: 1813
+- Viscosity: 3000
+- Gaseous: false
+<liquid:dirt>
+- Name: dirt
+- Display Name: Liquid Dirt
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
+<liquid:electrical_steel>
+- Name: electrical_steel
+- Display Name: Molten Electrical Steel
+- Luminosity:6
+- Density: 9000
+- Temperature: 1475
+- Viscosity: 3000
+- Gaseous: false
+<liquid:electrum>
+- Name: electrum
+- Display Name: Molten Electrum
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
+<liquid:emerald>
+- Name: emerald
+- Display Name: Molten Emerald
+- Luminosity:10
+- Density: 2000
+- Temperature: 999
+- Viscosity: 10000
+- Gaseous: false
+<liquid:empoweredoil>
+- Name: empoweredoil
+- Display Name: Empowered Oil
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:end_steel>
+- Name: end_steel
+- Display Name: Molten End Steel
+- Luminosity:6
+- Density: 9000
+- Temperature: 1213
+- Viscosity: 3000
+- Gaseous: false
+<liquid:ender>
+- Name: ender
+- Display Name: Resonant Ender
+- Luminosity:3
+- Density: 4000
+- Temperature: 300
+- Viscosity: 2500
+- Gaseous: false
+<liquid:ender_distillation>
+- Name: ender_distillation
+- Display Name: Dew of the Void
+- Luminosity:0
+- Density: 200
+- Temperature: 175
+- Viscosity: 1000
+- Gaseous: false
+<liquid:energetic_alloy>
+- Name: energetic_alloy
+- Display Name: Molten Energetic Alloy
+- Luminosity:6
+- Density: 9000
+- Temperature: 1128
+- Viscosity: 3000
+- Gaseous: false
+<liquid:essence>
+- Name: essence
+- Display Name: Essence
+- Luminosity:15
+- Density: 3000
+- Temperature: 300
+- Viscosity: 6000
+- Gaseous: false
+<liquid:ethanol>
+- Name: ethanol
+- Display Name: Ethanol
+- Luminosity:0
+- Density: 789
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:experience>
+- Name: experience
+- Display Name: Essence of Knowledge
+- Luminosity:12
+- Density: -200
+- Temperature: 300
+- Viscosity: 200
+- Gaseous: true
+<liquid:fire_water>
+- Name: fire_water
+- Display Name: Fire Water
+- Luminosity:0
+- Density: 900
+- Temperature: 2000
+- Viscosity: 1000
+- Gaseous: false
+<liquid:flux_goo>
+- Name: flux_goo
+- Display Name: Flux Goo
+- Luminosity:0
+- Density: 8
+- Temperature: 300
+- Viscosity: 6000
+- Gaseous: false
+<liquid:for.honey>
+- Name: for.honey
+- Display Name: Honey
+- Luminosity:0
+- Density: 1420
+- Temperature: 295
+- Viscosity: 75600
+- Gaseous: false
+<liquid:glass>
+- Name: glass
+- Display Name: Liquid Glass
+- Luminosity:0
+- Density: 2400
+- Temperature: 1200
+- Viscosity: 10000
+- Gaseous: false
+<liquid:glowstone>
+- Name: glowstone
+- Display Name: Energized Glowstone
+- Luminosity:15
+- Density: -500
+- Temperature: 300
+- Viscosity: 100
+- Gaseous: true
+<liquid:gold>
+- Name: gold
+- Display Name: Molten Gold
+- Luminosity:10
+- Density: 2000
+- Temperature: 532
+- Viscosity: 10000
+- Gaseous: false
+<liquid:heavywater>
+- Name: heavywater
+- Display Name: Heavy Water
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:hootch>
+- Name: hootch
+- Display Name: Hootch
+- Luminosity:0
+- Density: 900
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ic2air>
+- Name: ic2air
+- Display Name: Air
+- Luminosity:0
+- Density: 0
+- Temperature: 300
+- Viscosity: 500
+- Gaseous: true
+<liquid:ic2biogas>
+- Name: ic2biogas
+- Display Name: Biogas
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 3000
+- Gaseous: true
+<liquid:ic2biomass>
+- Name: ic2biomass
+- Display Name: Biomass
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 3000
+- Gaseous: false
+<liquid:ic2construction_foam>
+- Name: ic2construction_foam
+- Display Name: Construction Foam
+- Luminosity:0
+- Density: 10000
+- Temperature: 300
+- Viscosity: 50000
+- Gaseous: false
+<liquid:ic2coolant>
+- Name: ic2coolant
+- Display Name: IC2 Coolant
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 3000
+- Gaseous: false
+<liquid:ic2creosote>
+- Name: ic2creosote
+- Display Name: Creosote
+- Luminosity:0
+- Density: 10000
+- Temperature: 300
+- Viscosity: 50000
+- Gaseous: false
+<liquid:ic2distilled_water>
+- Name: ic2distilled_water
+- Display Name: Distilled Water
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ic2heavy_water>
+- Name: ic2heavy_water
+- Display Name: Heavy Water
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ic2hot_coolant>
+- Name: ic2hot_coolant
+- Display Name: IC2 Hot Coolant
+- Luminosity:0
+- Density: 1000
+- Temperature: 1200
+- Viscosity: 3000
+- Gaseous: false
+<liquid:ic2hot_water>
+- Name: ic2hot_water
+- Display Name: Hotspring Water
+- Luminosity:0
+- Density: 1000
+- Temperature: 350
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ic2hydrogen>
+- Name: ic2hydrogen
+- Display Name: Hydrogen
+- Luminosity:0
+- Density: 0
+- Temperature: 300
+- Viscosity: 500
+- Gaseous: true
+<liquid:ic2milk>
+- Name: ic2milk
+- Display Name: Milk
+- Luminosity:0
+- Density: 1050
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ic2oxygen>
+- Name: ic2oxygen
+- Display Name: Oxygen
+- Luminosity:0
+- Density: 0
+- Temperature: 300
+- Viscosity: 500
+- Gaseous: true
+<liquid:ic2pahoehoe_lava>
+- Name: ic2pahoehoe_lava
+- Display Name: Pahoehoe Lava
+- Luminosity:10
+- Density: 50000
+- Temperature: 1200
+- Viscosity: 250000
+- Gaseous: false
+<liquid:ic2steam>
+- Name: ic2steam
+- Display Name: Steam
+- Luminosity:0
+- Density: -800
+- Temperature: 420
+- Viscosity: 300
+- Gaseous: true
+<liquid:ic2superheated_steam>
+- Name: ic2superheated_steam
+- Display Name: Superheated Steam
+- Luminosity:0
+- Density: -3000
+- Temperature: 600
+- Viscosity: 100
+- Gaseous: true
+<liquid:ic2uu_matter>
+- Name: ic2uu_matter
+- Display Name: UU-Matter
+- Luminosity:0
+- Density: 3000
+- Temperature: 300
+- Viscosity: 3000
+- Gaseous: false
+<liquid:ic2weed_ex>
+- Name: ic2weed_ex
+- Display Name: Weed-Ex
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ice>
+- Name: ice
+- Display Name: Crushed Ice
+- Luminosity:0
+- Density: 520
+- Temperature: 265
+- Viscosity: 1000
+- Gaseous: false
+<liquid:if.ore_fluid_fermented>
+- Name: if.ore_fluid_fermented
+- Display Name: Fermented Ore Meat
+- Luminosity:0
+- Density: 3000
+- Temperature: 300
+- Viscosity: 6000
+- Gaseous: false
+<liquid:if.ore_fluid_raw>
+- Name: if.ore_fluid_raw
+- Display Name: Raw Ore Meat
+- Luminosity:0
+- Density: 3000
+- Temperature: 300
+- Viscosity: 6000
+- Gaseous: false
+<liquid:if.pink_slime>
+- Name: if.pink_slime
+- Display Name: Pink Slime
+- Luminosity:0
+- Density: 3000
+- Temperature: 300
+- Viscosity: 6000
+- Gaseous: false
+<liquid:if.protein>
+- Name: if.protein
+- Display Name: Protein
+- Luminosity:0
+- Density: 3000
+- Temperature: 600
+- Viscosity: 6000
+- Gaseous: false
+<liquid:iron>
+- Name: iron
+- Display Name: Molten Iron
+- Luminosity:10
+- Density: 2000
+- Temperature: 769
+- Viscosity: 10000
+- Gaseous: false
+<liquid:juice>
+- Name: juice
+- Display Name: Fruit Juice
+- Luminosity:0
+- Density: 1000
+- Temperature: 295
+- Viscosity: 1000
+- Gaseous: false
+<liquid:knightslime>
+- Name: knightslime
+- Display Name: Molten Knightslime
+- Luminosity:10
+- Density: 2000
+- Temperature: 520
+- Viscosity: 10000
+- Gaseous: false
+<liquid:latex>
+- Name: latex
+- Display Name: Latex
+- Luminosity:0
+- Density: 3000
+- Temperature: 375
+- Viscosity: 6000
+- Gaseous: false
+<liquid:lava>
+- Name: lava
+- Display Name: Lava
+- Luminosity:15
+- Density: 3000
+- Temperature: 1300
+- Viscosity: 6000
+- Gaseous: false
+<liquid:lead>
+- Name: lead
+- Display Name: Molten Lead
+- Luminosity:10
+- Density: 2000
+- Temperature: 400
+- Viscosity: 10000
+- Gaseous: false
+<liquid:lifeessence>
+- Name: lifeessence
+- Display Name: Life Essence
+- Luminosity:0
+- Density: 2000
+- Temperature: 300
+- Viscosity: 2000
+- Gaseous: false
+<liquid:liquid_death>
+- Name: liquid_death
+- Display Name: Liquid Death
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:liquid_sunshine>
+- Name: liquid_sunshine
+- Display Name: Liquid Sunshine
+- Luminosity:0
+- Density: 200
+- Temperature: 300
+- Viscosity: 400
+- Gaseous: false
+<liquid:liquidchlorine>
+- Name: liquidchlorine
+- Display Name: Liquid Chlorine
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquiddeuterium>
+- Name: liquiddeuterium
+- Display Name: Liquid Deuterium
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquiddna>
+- Name: liquiddna
+- Display Name: Liquid DNA
+- Luminosity:0
+- Density: 1000
+- Temperature: 295
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidethene>
+- Name: liquidethene
+- Display Name: Liquid Ethylene
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidfusionfuel>
+- Name: liquidfusionfuel
+- Display Name: Liquid D-T Fuel
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidhydrogen>
+- Name: liquidhydrogen
+- Display Name: Liquid Hydrogen
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidhydrogenchloride>
+- Name: liquidhydrogenchloride
+- Display Name: Liquid Hydrogen Chloride
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidlithium>
+- Name: liquidlithium
+- Display Name: Liquid Lithium
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidoxygen>
+- Name: liquidoxygen
+- Display Name: Liquid Oxygen
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidsodium>
+- Name: liquidsodium
+- Display Name: Liquid Sodium
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidsulfurdioxide>
+- Name: liquidsulfurdioxide
+- Display Name: Liquid Sulfur Dioxide
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidsulfurtrioxide>
+- Name: liquidsulfurtrioxide
+- Display Name: Liquid Sulfur Trioxide
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidtritium>
+- Name: liquidtritium
+- Display Name: Liquid Tritium
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:mana>
+- Name: mana
+- Display Name: Primal Mana
+- Luminosity:15
+- Density: 600
+- Temperature: 350
+- Viscosity: 6000
+- Gaseous: false
+<liquid:manyullyn>
+- Name: manyullyn
+- Display Name: Molten Manyullyn
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:meat>
+- Name: meat
+- Display Name: Liquid Meat
+- Luminosity:0
+- Density: 3000
+- Temperature: 375
+- Viscosity: 6000
+- Gaseous: false
+<liquid:milk>
+- Name: milk
+- Display Name: Milk
+- Luminosity:0
+- Density: 1030
+- Temperature: 295
+- Viscosity: 3000
+- Gaseous: false
+<liquid:mushroom_stew>
+- Name: mushroom_stew
+- Display Name: Mushroom Stew
+- Luminosity:0
+- Density: 2000
+- Temperature: 300
+- Viscosity: 2000
+- Gaseous: false
+<liquid:mutagen>
+- Name: mutagen
+- Display Name: Mutagen
+- Luminosity:0
+- Density: 1000
+- Temperature: 295
+- Viscosity: 1000
+- Gaseous: false
+<liquid:nickel>
+- Name: nickel
+- Display Name: Molten Nickel
+- Luminosity:10
+- Density: 2000
+- Temperature: 727
+- Viscosity: 10000
+- Gaseous: false
+<liquid:nutrient_distillation>
+- Name: nutrient_distillation
+- Display Name: Nutrient Distillation
+- Luminosity:0
+- Density: 1500
+- Temperature: 300
+- Viscosity: 3000
+- Gaseous: false
+<liquid:obsidian>
+- Name: obsidian
+- Display Name: Molten Obsidian
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:petrotheum>
+- Name: petrotheum
+- Display Name: Tectonic Petrotheum
+- Luminosity:0
+- Density: 4000
+- Temperature: 350
+- Viscosity: 1500
+- Gaseous: false
+<liquid:pigiron>
+- Name: pigiron
+- Display Name: Molten Pigiron
+- Luminosity:10
+- Density: 2000
+- Temperature: 600
+- Viscosity: 10000
+- Gaseous: false
+<liquid:plantoil>
+- Name: plantoil
+- Display Name: Plant Oil
+- Luminosity:0
+- Density: 925
+- Temperature: 300
+- Viscosity: 2000
+- Gaseous: false
+<liquid:potion>
+- Name: potion
+- Display Name: Potion
+- Luminosity:3
+- Density: 500
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:potion_lingering>
+- Name: potion_lingering
+- Display Name: Lingering Potion
+- Luminosity:3
+- Density: 500
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:potion_splash>
+- Name: potion_splash
+- Display Name: Splash Potion
+- Luminosity:3
+- Density: 500
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:protein>
+- Name: protein
+- Display Name: Protein
+- Luminosity:0
+- Density: 1000
+- Temperature: 295
+- Viscosity: 1000
+- Gaseous: false
+<liquid:pulsating_iron>
+- Name: pulsating_iron
+- Display Name: Molten Pulsating Iron
+- Luminosity:6
+- Density: 9000
+- Temperature: 1405
+- Viscosity: 3000
+- Gaseous: false
+<liquid:purifying_fluid>
+- Name: purifying_fluid
+- Display Name: Purifying Fluid
+- Luminosity:5
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:purpleslime>
+- Name: purpleslime
+- Display Name: Liquid Purple Slime
+- Luminosity:0
+- Density: 1600
+- Temperature: 370
+- Viscosity: 1600
+- Gaseous: false
+<liquid:pyrotheum>
+- Name: pyrotheum
+- Display Name: Blazing Pyrotheum
+- Luminosity:15
+- Density: 2000
+- Temperature: 4000
+- Viscosity: 1200
+- Gaseous: false
+<liquid:redstone>
+- Name: redstone
+- Display Name: Destabilized Redstone
+- Luminosity:7
+- Density: 1200
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:redstone_alloy>
+- Name: redstone_alloy
+- Display Name: Molten Redstone Alloy
+- Luminosity:6
+- Density: 9000
+- Temperature: 1357
+- Viscosity: 3000
+- Gaseous: false
+<liquid:refined_biofuel>
+- Name: refined_biofuel
+- Display Name: Grassoline
+- Luminosity:0
+- Density: 750
+- Temperature: 300
+- Viscosity: 800
+- Gaseous: false
+<liquid:refined_fuel>
+- Name: refined_fuel
+- Display Name: Refined Fuel
+- Luminosity:0
+- Density: 750
+- Temperature: 300
+- Viscosity: 800
+- Gaseous: false
+<liquid:refined_oil>
+- Name: refined_oil
+- Display Name: Naphtha
+- Luminosity:0
+- Density: 800
+- Temperature: 300
+- Viscosity: 1400
+- Gaseous: false
+<liquid:refinedcanolaoil>
+- Name: refinedcanolaoil
+- Display Name: Refined Canola Oil
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:resin>
+- Name: resin
+- Display Name: Resin
+- Luminosity:0
+- Density: 900
+- Temperature: 300
+- Viscosity: 3000
+- Gaseous: false
+<liquid:rocket_fuel>
+- Name: rocket_fuel
+- Display Name: Rocket Fuel
+- Luminosity:0
+- Density: 900
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:sap>
+- Name: sap
+- Display Name: Sap
+- Luminosity:0
+- Density: 1050
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:seed.oil>
+- Name: seed.oil
+- Display Name: Seed Oil
+- Luminosity:0
+- Density: 885
+- Temperature: 295
+- Viscosity: 5000
+- Gaseous: false
+<liquid:seed_oil>
+- Name: seed_oil
+- Display Name: Seed Oil
+- Luminosity:0
+- Density: 950
+- Temperature: 300
+- Viscosity: 1300
+- Gaseous: false
+<liquid:sewage>
+- Name: sewage
+- Display Name: Sewage
+- Luminosity:0
+- Density: 3000
+- Temperature: 300
+- Viscosity: 6000
+- Gaseous: false
+<liquid:short.mead>
+- Name: short.mead
+- Display Name: Short Mead
+- Luminosity:0
+- Density: 1000
+- Temperature: 295
+- Viscosity: 1200
+- Gaseous: false
+<liquid:silver>
+- Name: silver
+- Display Name: Molten Silver
+- Luminosity:10
+- Density: 2000
+- Temperature: 480
+- Viscosity: 10000
+- Gaseous: false
+<liquid:sludge>
+- Name: sludge
+- Display Name: Sludge
+- Luminosity:0
+- Density: 3000
+- Temperature: 600
+- Viscosity: 6000
+- Gaseous: false
+<liquid:soularium>
+- Name: soularium
+- Display Name: Molten Soularium
+- Luminosity:6
+- Density: 9000
+- Temperature: 636
+- Viscosity: 3000
+- Gaseous: false
+<liquid:steam>
+- Name: steam
+- Display Name: Steam
+- Luminosity:0
+- Density: -1000
+- Temperature: 750
+- Viscosity: 200
+- Gaseous: true
+<liquid:steel>
+- Name: steel
+- Display Name: Molten Steel
+- Luminosity:10
+- Density: 2000
+- Temperature: 681
+- Viscosity: 10000
+- Gaseous: false
+<liquid:stone>
+- Name: stone
+- Display Name: Seared Stone
+- Luminosity:10
+- Density: 2000
+- Temperature: 800
+- Viscosity: 10000
+- Gaseous: false
+<liquid:sulfuricacid>
+- Name: sulfuricacid
+- Display Name: Sulfuric Acid
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:syrup>
+- Name: syrup
+- Display Name: Syrup
+- Luminosity:0
+- Density: 1400
+- Temperature: 300
+- Viscosity: 2500
+- Gaseous: false
+<liquid:tin>
+- Name: tin
+- Display Name: Molten Tin
+- Luminosity:10
+- Density: 2000
+- Temperature: 350
+- Viscosity: 10000
+- Gaseous: false
+<liquid:tree_oil>
+- Name: tree_oil
+- Display Name: Tree Oil
+- Luminosity:0
+- Density: 900
+- Temperature: 300
+- Viscosity: 1200
+- Gaseous: false
+<liquid:uranium>
+- Name: uranium
+- Display Name: Molten Uranium
+- Luminosity:0
+- Density: 2000
+- Temperature: 600
+- Viscosity: 10000
+- Gaseous: false
+<liquid:vapor_of_levity>
+- Name: vapor_of_levity
+- Display Name: Vapor of Levity
+- Luminosity:0
+- Density: -10
+- Temperature: 5
+- Viscosity: 100
+- Gaseous: true
+<liquid:vibrant_alloy>
+- Name: vibrant_alloy
+- Display Name: Molten Vibrant Alloy
+- Luminosity:6
+- Density: 9000
+- Temperature: 913
+- Viscosity: 3000
+- Gaseous: false
+<liquid:water>
+- Name: water
+- Display Name: Water
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:witchwater>
+- Name: witchwater
+- Display Name: Witchwater
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:xpjuice>
+- Name: xpjuice
+- Display Name: Liquid XP
+- Luminosity:10
+- Density: 800
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:xu_demonic_metal>
+- Name: xu_demonic_metal
+- Display Name: Molten Demon Metal
+- Luminosity:0
+- Density: 1000
+- Temperature: 1000
+- Viscosity: 1000
+- Gaseous: false
+<liquid:xu_enchanted_metal>
+- Name: xu_enchanted_metal
+- Display Name: Enchanted Metal
+- Luminosity:0
+- Density: 1000
+- Temperature: 1000
+- Viscosity: 1000
+- Gaseous: false
+<liquid:xu_evil_metal>
+- Name: xu_evil_metal
+- Display Name: Evil Infused Iron
+- Luminosity:0
+- Density: 1000
+- Temperature: 1000
+- Viscosity: 1000
+- Gaseous: false
+<liquid:zinc>
+- Name: zinc
+- Display Name: Molten Zinc
+- Luminosity:10
+- Density: 2000
+- Temperature: 375
+- Viscosity: 10000
+- Gaseous: false
 
 TODO
 extra bee

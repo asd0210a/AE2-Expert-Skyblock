@@ -9,6 +9,16 @@
     "itemcount": "5-8/1-2/1-2"
   },
   {
+    "mob": "minecraft:wither_skeleton",
+    "remove": "minecraft:skull:1"
+  },
+  {
+    "mob": "minecraft:wither_skeleton",
+    "item": "minecraft:skull:1",
+    "itemcount": "1"
+  },
+  
+  {
     "mob": "minecraft:blaze",
     "remove": "minecraft:coal"
   },
@@ -17,10 +27,12 @@
     "item": "minecraft:blaze_rod",
     "itemcount": "2-3/2-3/3-5"
   },
+  
   {
 	 "mob":"minecraft:zombie_pigman",
 	 "removeall":true
   },  
+  
   {
 	 "mob":"thaumcraft:wisp",
 	 "removeall":true

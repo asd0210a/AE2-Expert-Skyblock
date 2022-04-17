@@ -1,0 +1,8 @@
+alwaysVisible()
+setTitle("[Basic] Wake from Another World")
+setIcon(<exnihilocreatio:block_end_cake>)
+setDescription("Obtain an End Cake")
+addParent("triumph:sky/pt3__start")
+setPos(300,0)
+criteria = addCriteria("endcake", "minecraft:inventory_changed")
+criteria.setItem(<exnihilocreatio:block_end_cake>)

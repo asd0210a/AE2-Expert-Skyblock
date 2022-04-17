@@ -2,5 +2,10 @@
 {
 "mob": "minecraft:witch",
 "result": "deny"
+},
+{
+"mob": "minecraft:ender_dragon",
+"healthadd": "-199",
+"onjoin":true
 }
 ]
