@@ -43,6 +43,15 @@ recipes.remove(<minecraft:furnace>);
 recipes.addShaped(<minecraft:furnace>, [[cob, cob, cob],[cob, <minecraft:stone>, cob], [cob, cob, cob]]);
 <minecraft:furnace>.addTooltip(format.gold("This is craftable!!"));
 
+//Hearts
+recipes.remove(<bhc:green_heart_canister>);
+recipes.remove(<bhc:yellow_heart_canister>);
+recipes.remove(<bhc:red_heart_canister>);
+recipes.addShapeless(<bhc:yellow_heart_canister>, [<bhc:canister>,<bhc:yellow_heart>]);
+recipes.addShapeless(<bhc:yellow_heart>, [<forestry:bee_combs>,<harvestcraft:spagettiitem>,<harvestcraft:bakewareitem>]);
+recipes.addShapeless(<bhc:red_heart_canister>, [<bhc:canister>,<bhc:red_heart>,<thermalfoundation:wrench>]);
+
+
 //Dragon killer
 /*
 events.onEntityLivingDeath( function (ent as crafttweaker.event.EntityLivingDeathEvent){

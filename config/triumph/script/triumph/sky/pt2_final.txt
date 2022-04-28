@@ -1,4 +1,4 @@
-setTitle("[Deep] Dragon Age")
+setTitle("[Goal] Dragon Age")
 setIcon(<appliedenergistics2:inscriber>)
 setDescription("Craft an AE2 Inscriber.")
 addParent("triumph:sky/pt2__start")

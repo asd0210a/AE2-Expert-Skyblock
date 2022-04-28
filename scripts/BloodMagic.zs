@@ -89,3 +89,6 @@ recipes.addShaped("Blood Tank 1",<bloodmagic:blood_tank>,[[<bloodmagic:blood_run
 
 //Tome of Peritia
 recipes.replaceAllOccurences(<bloodmagic:slate:2>,<bloodmagic:slate>,<bloodmagic:experience_tome>);
+
+//Tank tier 4
+recipes.remove(<bloodmagic:blood_tank:3>);

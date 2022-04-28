@@ -1,4 +1,5 @@
 import mods.tconstruct.Casting;
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 val thau={
@@ -20,5 +21,43 @@ Casting.addTableRecipe(<tconstruct:cast_custom:4>, <exnihilocreatio:item_materia
 
 val eio=[<liquid:vibrant_alloy>,<liquid:energetic_alloy>,<liquid:dark_steel>] as ILiquidStack[];
 for l in eio{
-mods.tconstruct.Alloy.removeRecipe(l);
+	mods.tconstruct.Alloy.removeRecipe(l);
 }
+/*
+//Silver parts
+val silverParts=[
+	<tconstruct:pick_head>,
+	<tconstruct:tool_rod>,
+	<tconstruct:axe_head>,
+	<tconstruct:broad_axe_head>,
+	<tconstruct:sword_blade>,
+	<tconstruct:large_sword_blade>,
+	<tconstruct:hammer_head>,
+	<tconstruct:excavator_head>,
+	<tconstruct:kama_head>,
+	<tconstruct:scythe_head>,
+	<tconstruct:pan_head>,
+	<tconstruct:sign_head>,
+	<tconstruct:shovel_head>,
+	<tconstruct:arrow_head>
+
+] as IItemStack[];
+
+val bolts=[
+		<tconstruct:arrow_shaft>.withTag({Material: "wood"}),
+<tconstruct:arrow_shaft>.withTag({Material: "bone"}),
+<tconstruct:arrow_shaft>.withTag({Material: "blaze"}),
+<tconstruct:arrow_shaft>.withTag({Material: "reed"}),
+<tconstruct:arrow_shaft>.withTag({Material: "ice"}),
+<tconstruct:arrow_shaft>.withTag({Material: "endrod"}),
+<tconstruct:arrow_shaft>.withTag({Material: "treatedwood"})
+] as IItemStack[];
+
+for rm in silverParts{
+	Casting.removeTableRecipe(rm.withTag({Material: "silver"}));
+}
+
+for rm2 in bolts{
+	Casting.removeTableRecipe(rm2);
+}
+*/

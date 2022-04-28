@@ -48,3 +48,7 @@ recipes.addShaped("Soul Wax",<magicbees:wax:1>*16, [[<minecraft:soul_sand>, <min
 recipes.addShapeless("Soul Mould",<thaumictinkerer:soul_mould>,[<minecraft:soul_sand>,<ore:beeComb>]);
 
 //Power Module
+
+//Database
+recipes.remove(<forestry:database>);
+recipes.addShaped("Database", <forestry:database>, [[<ore:ingotBronze>, <forestry:portable_alyzer:*>, <ore:ingotBronze>], [<draconicevolution:draconium_chest>, <forestry:sturdy_machine:*>, <draconicevolution:draconium_chest>], [<ore:plankWood>, <forestry:fruits:4>, <ore:plankWood>]]);

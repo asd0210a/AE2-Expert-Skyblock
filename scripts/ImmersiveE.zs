@@ -95,6 +95,9 @@ recipes.replaceAllOccurences(<minecraft:iron_ingot>,<ore:ingotElectrum>,ie("conn
 recipes.replaceAllOccurences(<minecraft:iron_ingot>,<ore:ingotElectrum>,ie("connector",2));
 recipes.replaceAllOccurences(<ore:ingotElectrum>,<draconicevolution:draconium_block>,ie("metal_decoration0",5));
 
+//Steel Rod
+recipes.remove(<immersiveengineering:material:2>);
+
 // Concrete
 recipes.remove(<immersiveengineering:stone_decoration:5>);
 

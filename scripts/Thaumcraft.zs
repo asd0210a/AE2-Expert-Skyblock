@@ -33,7 +33,10 @@ table.registerShapedRecipe("TC smelter","UNLOCKALCHEMY",50,[<aspect:ignis>],<tha
 
 Infusion.registerRecipe("Steel Ingot","INFUSION",<thermalfoundation:material:160>,0,[<aspect:ignis>,<aspect:metallum>*5],<minecraft:iron_ingot>,[<ic2:coke>,<botania:rune:1>,<thaumcraft:jar_brace>,<thaumcraft:jar_brace>,<appliedenergistics2:material:7>]);
 
+//Vis Generator & Magical Wood
+recipes.remove(<extrautils2:decorativesolidwood:1>)
 table.removeRecipe(<thaumcraft:vis_generator>);
+recipes.addShaped(<thaumcraft:vis_generator>, [[<minecraft:lever>, null, <extrautils2:decorativesolidwood:1>],[null, <thaumcraft:arcane_workbench>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})], [<appliedenergistics2:material:26>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}), null]]);
 
 var gears=[<thaumcraft:fortress_chest>,<thaumcraft:fortress_legs>,<thaumcraft:fortress_helm>] as IItemStack[];
 for t in gears{

@@ -7,7 +7,7 @@ import mods.extrautils2.Resonator;
 val rn=[<extrautils2:passivegenerator:2>,<extrautils2:passivegenerator:4>,<extrautils2:passivegenerator:7>,<extrautils2:grocket>,<extrautils2:pipe>,<extrautils2:machine>,<extrautils2:teleporter:1>] as IItemStack[];
 for r in rn{recipes.remove(r);}
 
-recipes.addShaped("Transfer node_items",<extrautils2:grocket>*4,[[<ore:dustRedstone>,<appliedenergistics2:part:*>,<ore:dustRedstone>],[<bloodmagic:blood_rune>,<ore:chestWood>,<bloodmagic:blood_rune>]]);
+recipes.addShaped("Transfer node_items",<extrautils2:grocket>,[[<ore:dustRedstone>,<appliedenergistics2:part:462>,<ore:dustRedstone>],[<bloodmagic:blood_rune>,<ore:chestWood>,<bloodmagic:blood_rune>]]);
 
 val st=<minecraft:stone>;
 recipes.addShaped("Lava Mill",<extrautils2:passivegenerator:2>,[[st,st,st],[st,<extrautils2:ingredients>,st],[st,<ore:ingotGold>,st]]);
@@ -26,4 +26,10 @@ val lava=<minecraft:lava_bucket>;
 val gl=<minecraft:stained_glass:15>;
 recipes.addShaped("lc",<extrautils2:machine>.withTag({Type: "crafttweaker:lavaconstructor"}),[[lava,lava,lava],[gl,<enderio:block_tank:0>,gl],[lava,<ore:blockIron>,lava]]);
 
+//Redstone Root (Botania)
+recipes.remove(<botania:manaresource:6>);
 Resonator.add(<botania:manaresource:6>,<minecraft:redstone>,100);
+
+//Flat Transfer Node
+recipes.remove(<extrautils2:flattransfernode>);
+mods.immersiveengineering.MetalPress.addRecipe(<extrautils2:flattransfernode>, <extrautils2:grocket>, <immersiveengineering:mold>, 1000, 2);

@@ -1,4 +1,6 @@
 #modloaded astralsorcery
+#ikwid
+
 import mods.astralsorcery.Altar ;
 import mods.astralsorcery.Utils;
 import mods.astralsorcery.Grindstone;

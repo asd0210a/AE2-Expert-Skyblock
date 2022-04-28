@@ -1,8 +1,0 @@
-alwaysVisible()
-setTitle("[Basic] Shooting to Sky")
-setIcon(<astralsorcery:blockaltar:2>)
-setDescription("Upgrade your Starlight Crafting Altar to Celestial one.")
-addParent("triumph:sky/pt2_2gear")
-setPos(150,75)
-criteria = addCriteria("asaltar", "minecraft:inventory_changed")
-criteria.addItem(<astralsorcery:blockaltar:2>)

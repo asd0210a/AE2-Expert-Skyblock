@@ -6,8 +6,13 @@ import crafttweaker.item.IItemTransformer;
 import crafttweaker.item.IIngredient;
 import crafttweaker.recipes.ICraftingRecipe;
 
-global aem as function(int)IItemStack=function (a as int) as IItemStack{return itemUtils.getItem("appliedenergistics2:material",a);};
-global ae as function(string)IItemStack=function (a as string) as IItemStack{return itemUtils.getItem("appliedenergistics2:"~a);};
+global aem as function(int)IItemStack=function (a as int) as IItemStack{
+	return itemUtils.getItem("appliedenergistics2:material",a);
+};
+
+global ae as function(string)IItemStack=function (a as string) as IItemStack{
+	return itemUtils.getItem("appliedenergistics2:"~a);
+};
 
 var circuit=["Logic Circuit","Calculation Circuit","Engineering Circuit","Silicon Circuit"] as string[];
 var inp=[<minecraft:gold_ingot>,aem(10),<minecraft:dye:4>,aem(5)] as IItemStack[];

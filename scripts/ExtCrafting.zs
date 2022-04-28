@@ -87,18 +87,6 @@ table.addShaped(0,<extendedcrafting:material:24>,[
 	[null,null,null,null,null,null,null]
 ]);
 
-//Auto Chisel
-val ande=<chisel:andesite1>;val basa=<chisel:basalt1>;val lavs=<chisel:lavastone1>;
-table.addShaped(0,<chisel:chisel_hitech>,[
-	[ande,ande,ande,ande,ande,ande,ande,ande,ande],
-	[null,null,null,null,null,null,null,null,null],
-	[ande,ande,ande,ande,ande,ande,ande,ande,ande],
-	[lavs,lavs,lavs,lavs,lavs,lavs,lavs,lavs,lavs],
-	[null,null,null,null,<chisel:chisel_diamond:*>,null,null,null,null],
-	[lavs,lavs,lavs,lavs,lavs,lavs,lavs,lavs,lavs],
-	[basa,basa,basa,basa,basa,basa,basa,basa,basa],
-	[null,null,null,null,null,null,null,null,null],
-	[basa,basa,basa,basa,basa,basa,basa,basa,basa]
-]);
+
 recipes.remove(<teslacorelib:machine_case>);
-comp.addRecipe(<teslacorelib:machine_case>,<minecraft:iron_bars>,1000,<extendedcrafting:frame>,10000);
+comp.addRecipe(<teslacorelib:machine_case>,<minecraft:iron_bars>,500,<extendedcrafting:frame>,1000);
