@@ -17,6 +17,8 @@ global mat as function(int)IItemStack=function (a as int) as IItemStack{return i
 recipes.remove(<thermalexpansion:frame>);
 
 //Gears
+recipes.remove(<forestry:gear_bronze>); 
+
 val gear=[22,256,288] as int[];
 for n in gear{
 	for n2 in 0 .. 9{
@@ -61,7 +63,6 @@ for st in coal{
 }}}
 */
 //Compactor
-
 val gs=[165,166,167,134] as int[];
 for g in gs{
 	cp.removeGearRecipe(mat(g));
@@ -76,8 +77,14 @@ recipes.addShaped("augment",<thermalexpansion:augment:416>,[[null,<forestry:ffar
 
 mods.thermalexpansion.Factorizer.addRecipeCombine(mat(323)*9,<chisel:blocklead:6>);
 
+//Potato Mask
 recipes.remove(<botania:cosmetic:30>);
-cf.addRecipeMob(<entity:thaumcraft:firebat>,[<ic2:dust:27>%80],null,1500,300);
+
+//Sulfur Dust & Pyrotheum Dust
+cf.addRecipeMob(<entity:thaumcraft:firebat>,[<ic2:dust:27>%10],null,1600,3);
+cf.addRecipeMob(<entity:botania:pixie>,[<ic2:dust:27>%100],null,120,30);
+recipes.replaceAllOccurences(<ore:dustSulfur>,<ic2:dust:16>,<thermalfoundation:material:1024>);
+<ore:dustSulfur>.remove(<ic2:dust:16>);
 
 //Elven Gateway
 tp.addFillRecipe(<botania:alfheimportal>,<appliedenergistics2:spatial_io_port>,<fluid:biodiesel>*8000,8000);

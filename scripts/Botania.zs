@@ -94,3 +94,9 @@ recipes.replaceAllOccurences(<botania:dreamwood:1>,<ore:plankWood>,<botania:open
 val rb=<immersiveengineering:metal_decoration0:7>;
 val bk=<extrautils2:decorativebedrock>;
 trade.addRecipe([rb,rb],[bk]);
+
+//Unstable unknown steel pattern
+val steelCoin=<thermalfoundation:coin:96>;
+steelCoin.displayName="Ultimate Unstable Unknown Steel Sample" ;
+mods.thermalexpansion.Compactor.removeMintRecipe(steelCoin);
+rune.addRecipe(steelCoin,[ <enderio:item_alloy_ingot>,<enderio:item_alloy_ingot>,<bloodmagic:monster_soul:1>, <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:villager"}})],10000);

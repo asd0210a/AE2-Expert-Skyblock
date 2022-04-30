@@ -14,7 +14,8 @@ Casting.addBasinRecipe(a,<chisel:blocklead:6>,<fluid:astralsorcery.liquidstarlig
 recipes.remove(<ic2:te:26>);
 recipes.addShaped("Reactor Port",<ic2:te:26>,[[b,a,b],[a,<extrautils2:redstonelantern>,a],[b,a,b]]);
 
-Casting.addTableRecipe(<immersiveengineering:mold:3>,<ic2:dust:27>,<fluid:concrete>,2000,true,160);
+//Blank Mold
+Casting.addTableRecipe(<immersiveengineering:mold:3>,<thermalfoundation:coin:96>,<liquid:liquidsulfurtrioxide>,2000,true,160);
 
 Casting.removeTableRecipe(<tconstruct:cast_custom:4>);
 Casting.addTableRecipe(<tconstruct:cast_custom:4>, <exnihilocreatio:item_material:7>, <liquid:gold>, 288, true,40);
@@ -23,41 +24,3 @@ val eio=[<liquid:vibrant_alloy>,<liquid:energetic_alloy>,<liquid:dark_steel>] as
 for l in eio{
 	mods.tconstruct.Alloy.removeRecipe(l);
 }
-/*
-//Silver parts
-val silverParts=[
-	<tconstruct:pick_head>,
-	<tconstruct:tool_rod>,
-	<tconstruct:axe_head>,
-	<tconstruct:broad_axe_head>,
-	<tconstruct:sword_blade>,
-	<tconstruct:large_sword_blade>,
-	<tconstruct:hammer_head>,
-	<tconstruct:excavator_head>,
-	<tconstruct:kama_head>,
-	<tconstruct:scythe_head>,
-	<tconstruct:pan_head>,
-	<tconstruct:sign_head>,
-	<tconstruct:shovel_head>,
-	<tconstruct:arrow_head>
-
-] as IItemStack[];
-
-val bolts=[
-		<tconstruct:arrow_shaft>.withTag({Material: "wood"}),
-<tconstruct:arrow_shaft>.withTag({Material: "bone"}),
-<tconstruct:arrow_shaft>.withTag({Material: "blaze"}),
-<tconstruct:arrow_shaft>.withTag({Material: "reed"}),
-<tconstruct:arrow_shaft>.withTag({Material: "ice"}),
-<tconstruct:arrow_shaft>.withTag({Material: "endrod"}),
-<tconstruct:arrow_shaft>.withTag({Material: "treatedwood"})
-] as IItemStack[];
-
-for rm in silverParts{
-	Casting.removeTableRecipe(rm.withTag({Material: "silver"}));
-}
-
-for rm2 in bolts{
-	Casting.removeTableRecipe(rm2);
-}
-*/

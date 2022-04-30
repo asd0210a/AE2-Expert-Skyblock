@@ -7,7 +7,7 @@ import mods.extrautils2.Resonator;
 val rn=[<extrautils2:passivegenerator:2>,<extrautils2:passivegenerator:4>,<extrautils2:passivegenerator:7>,<extrautils2:grocket>,<extrautils2:pipe>,<extrautils2:machine>,<extrautils2:teleporter:1>] as IItemStack[];
 for r in rn{recipes.remove(r);}
 
-recipes.addShaped("Transfer node_items",<extrautils2:grocket>,[[<ore:dustRedstone>,<appliedenergistics2:part:462>,<ore:dustRedstone>],[<bloodmagic:blood_rune>,<ore:chestWood>,<bloodmagic:blood_rune>]]);
+recipes.addShaped("Transfer node_items",<extrautils2:grocket>,[[<ore:dustRedstone>,<appliedenergistics2:part:462>,<ore:dustRedstone>],[<immersiveengineering:stone_device:5>,<ore:chestWood>,<immersiveengineering:stone_device:5>]]);
 
 val st=<minecraft:stone>;
 recipes.addShaped("Lava Mill",<extrautils2:passivegenerator:2>,[[st,st,st],[st,<extrautils2:ingredients>,st],[st,<ore:ingotGold>,st]]);

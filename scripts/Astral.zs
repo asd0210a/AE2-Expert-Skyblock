@@ -8,7 +8,18 @@ import mods.astralsorcery.Grindstone;
 var aa ="astralsorcery:shaped/internal/altar/";
 var aes ="aes:shaped/internal/altar/";
 
-recipes.addShapeless("Change Attune",<astralsorcery:itemtunedrockcrystal>,[Utils.getCrystalORIngredient(false, true).marked("attun"),<minecraft:stone>], function(o,i,c){return i.attun.updateTag({astralsorcery:{constellationName:"astralsorcery.constellation.mineralis"}});},null);
+val crystalAttuned =Utils.getCrystalORIngredient(false, true); //Attuned Crystal
+
+//Transfer Attuned crystal to Mineralis
+recipes.addShapeless("Change Attune",<astralsorcery:itemtunedrockcrystal>,[crystalAttuned.marked("attun"),<minecraft:stone>],
+function(o,i,c){
+	return i.attun.updateTag({
+		astralsorcery:{constellationName:"astralsorcery.constellation.mineralis"}
+	});
+},null );
+
+//Floating Crystal 2nd recipe
+mods.actuallyadditions.Empowerer.addRecipe(<astralsorcery:blockcollectorcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.mineralis", crystalProperties: {collectiveCapability: 100, size: 200, fract: 0, purity: 80, sizeOverride: -1}, collectorType: 0}}), crystalAttuned, <enderio:item_material:58>, <botania:manaresource:14>, <mekanism:plasticblock:15>, <harvestcraft:icecreamitem>, 16000, 200);
 
 //illumination powder
 Altar.removeAltarRecipe(aa+"illuminationpowder");
@@ -48,3 +59,14 @@ recipes.addShaped(<astralsorcery:itemwand>, [[null, null, <botania:spark>],[null
 val tcv=<thaumcraft:ingot:1>;
 Altar.removeAltarRecipe("astralsorcery:shaped/attunementaltar");
 Altar.addAttunmentAltarRecipe(aes+"attune",<astralsorcery:blockattunementaltar>,1200,150,[<botania:quartztypesunny>,<astralsorcery:itemskyresonator>,<botania:quartztypesunny>,tcv,<astralsorcery:blockaltar:1>,tcv,tcv,<bloodmagic:sigil_blood_light>,tcv,<botania:sparkupgrade>,<botania:sparkupgrade>,<actuallyadditions:item_resonant_rice>,<actuallyadditions:item_resonant_rice>]);
+
+//Telescope
+Altar.removeAltarRecipe(aa+"telescope");
+Altar.addAttunmentAltarRecipe(aes+"telescope", <astralsorcery:blockmachine>, 600, 120,
+[ null, <astralsorcery:itemhandtelescope>, null,
+<astralsorcery:itemcraftingcomponent:4>,<ore:plankWood>,<astralsorcery:itemcraftingcomponent:4>,
+<mekanism:polyethene:3>,<mekanism:polyethene:3>,<mekanism:polyethene:3>,
+null, null, null, null ] );
+
+//Iridescent Altar
+Altar.removeAltarRecipe(aa+"upgrade_tier4");

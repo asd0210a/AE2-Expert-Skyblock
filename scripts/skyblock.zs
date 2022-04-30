@@ -27,3 +27,26 @@ recipes.remove(<exnihilocreatio:item_doll:1>);
 recipes.addShaped("Enderman",<exnihilocreatio:item_doll:1>,[[<minecraft:dye>,<exnihilocreatio:item_material:5>,<minecraft:dye>]]);
 
 recipes.addShapeless("Emer Nug",<extendedcrafting:material:129>,[<minecraft:dye:0>,<exnihilocreatio:item_material:3>.reuse()]);
+
+//Wart
+recipes.addShapeless(<minecraft:nether_wart>* 4, [<minecraft:red_mushroom_block>]);
+
+//Drawer Controller
+recipes.replaceAllOccurences(<ore:gemDiamond>,<rftools:noteleport_module>,<storagedrawers:controller>);
+
+recipes.addShapeless("ez Clay",<minecraft:clay_ball>*4,[<minecraft:clay>]);
+
+val cob=<minecraft:cobblestone>;
+val fur=<minecraft:furnace>;
+recipes.remove(fur);
+recipes.addShaped("Furnace",fur, [[cob, cob, cob],[cob, <minecraft:stone>, cob], [cob, cob, cob]]);
+
+fur.addTooltip(format.gold("This is craftable!!"));
+
+//Hearts
+recipes.remove(<bhc:green_heart_canister>);
+recipes.remove(<bhc:yellow_heart_canister>);
+recipes.remove(<bhc:red_heart_canister>);
+recipes.addShapeless(<bhc:yellow_heart_canister>, [<bhc:canister>,<bhc:yellow_heart>]);
+recipes.addShapeless(<bhc:yellow_heart>, [<forestry:bee_combs>,<harvestcraft:spagettiitem>,<harvestcraft:bakewareitem>]);
+recipes.addShapeless(<bhc:red_heart_canister>, [<bhc:canister>,<bhc:red_heart>,<thermalfoundation:wrench>]);

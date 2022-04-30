@@ -72,3 +72,9 @@ Grinder.removeRecipe(aem(45));
 Grinder.addRecipe(her,<minecraft:grass>,1,her,1,her,1);
 Grinder.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1,key: "machina"}]}),<thermalfoundation:material:24>,1);
 Grinder.addRecipe(aem(5)*8,ae("quartz_block"),1);
+
+//Quartz Tank
+recipes.remove(<aeadditions:certustank>);
+val glass=<appliedenergistics2:quartz_glass>; 
+val qore=<thaumcraft:ore_quartz>; //Thaumcraft Quartz Ore
+recipes.addShaped(<aeadditions:certustank>,[[qore, glass, qore],[glass, <bloodmagic:blood_tank>, glass],[qore,glass,qore]]);

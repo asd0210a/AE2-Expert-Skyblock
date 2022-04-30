@@ -48,6 +48,7 @@ recipes.addShaped("Soul Wax",<magicbees:wax:1>*16, [[<minecraft:soul_sand>, <min
 recipes.addShapeless("Soul Mould",<thaumictinkerer:soul_mould>,[<minecraft:soul_sand>,<ore:beeComb>]);
 
 //Power Module
+recipes.replaceAllOccurences(<minecraft:gold_ingot>, <thaumcraft:ingot:1>, <gendustry:power_module>);
 
 //Database
 recipes.remove(<forestry:database>);

@@ -21,7 +21,7 @@ recipes.remove(<thaumcraft:scribing_tools>);
 Blueprint.addRecipe("components",<thaumcraft:scribing_tools>,[<minecraft:feather>,<botania:manabottle>,<ore:dyeBlack>]);
 recipes.addShapeless(<thaumcraft:scribing_tools>,[<minecraft:feather>,<botania:manabottle>,<ore:dyeBlack>,<immersiveengineering:blueprint>.withTag({blueprint: "components"}).reuse(),<immersiveengineering:wooden_device0:2>]) ;
 
-//Steel Ingot
+//Steel Ingot Remove
 BlastFurnace.removeRecipe(ie("metal",8));
 BlastFurnace.removeRecipe(ie("storage",8));
 ArcFurnace.removeRecipe(ie("metal",8));
@@ -84,6 +84,9 @@ recipes.remove(ie("stone_decoration",2));
 recipes.remove(ie("stone_decoration",0));
 recipes.addShaped("Coke Brick", ie("stone_decoration",0)*30, [[<minecraft:clay_ball>, <ore:ingotBrick>, <minecraft:clay_ball>], [<ore:ingotBrick>, <ore:sandstone>, <ore:ingotBrick>], [<minecraft:clay_ball>, <ore:ingotBrick>, <minecraft:clay_ball>]]);
 
+//Steel Scaffolding
+recipes.remove(<immersiveengineering:metal_decoration1:1>);
+mods.forestry.Carpenter.addRecipe(<immersiveengineering:metal_decoration1:1>*2, [[<teslacorelib:wrench>,<excompressum:ugly_steel_plating>, <rftools:modifier_module>]], 100,<liquid:pyrotheum>*200);
 
 //Raditor Block
 recipes.remove(ie("metal_decoration0",7));
@@ -94,6 +97,10 @@ recipes.replaceAllOccurences(<ore:ingotSteel>,<exnihilocreatio:block_waterwheel>
 recipes.replaceAllOccurences(<minecraft:iron_ingot>,<ore:ingotElectrum>,ie("connector",3));
 recipes.replaceAllOccurences(<minecraft:iron_ingot>,<ore:ingotElectrum>,ie("connector",2));
 recipes.replaceAllOccurences(<ore:ingotElectrum>,<draconicevolution:draconium_block>,ie("metal_decoration0",5));
+
+//Capacitor
+recipes.replaceAllOccurences(<ore:ingotLead>,<immersiveengineering:metal_device0>,<immersiveengineering:metal_device0:1>);
+recipes.replaceAllOccurences(<ore:blockLead>,<immersiveengineering:metal_device0:1>,<immersiveengineering:metal_device0:2>);
 
 //Steel Rod
 recipes.remove(<immersiveengineering:material:2>);
