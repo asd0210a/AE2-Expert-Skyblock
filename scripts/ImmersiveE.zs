@@ -71,9 +71,10 @@ recipes.addShapeless(<immersiveengineering:connector:6>,[<appliedenergistics2:pa
 recipes.remove(<thermalfoundation:material:26>);
 AlloySmelter.addRecipe(<thermalfoundation:material:26>,<actuallyadditions:item_dust:2>*2,<appliedenergistics2:material:40>, 400);
 
-var c=<enderio:item_alloy_ingot:2>; val e=<extrautils2:flattransfernode>;
+//
+val c=<extrautils2:ingredients:12>;  val e=<enderio:item_alloy_ingot:1>;
 recipes.remove(ie("metal_decoration0",3));
-recipes.addShaped("Redstone eng",ie("metal_decoration0",3),[[c,e,c],[e,<draconicevolution:energy_infuser>,e],[c,e,c]]);
+recipes.addShaped("Redstone Engineer Block",ie("metal_decoration0",3),[[c,e,c],[e,<minecraft:redstone_block>,e],[c,e,c]]);
 
 MetalPress.removeRecipe(ie("bullet",0));
 MetalPress.addRecipe(ie("mold",1),ie("mold",3),<thermalfoundation:material:26>,16000);

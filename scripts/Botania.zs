@@ -91,12 +91,12 @@ recipes.replaceAllOccurences(<botania:elfglass>,<minecraft:glass>,<botania:corpo
 //Crafty Crate
 recipes.replaceAllOccurences(<botania:dreamwood:1>,<ore:plankWood>,<botania:opencrate:1>);
 
-val rb=<immersiveengineering:metal_decoration0:7>;
-val bk=<extrautils2:decorativebedrock>;
-trade.addRecipe([rb,rb],[bk]);
+//
+val endi=<enderio:item_alloy_ingot:1>;
+recipes.addShaped("Redstone Flux", <botania:rfgenerator>,[[livR,endi,livR],[endi,<immersiveengineering:metal_decoration0:3>,endi],[livR,endi,livR]]);
 
 //Unstable unknown steel pattern
 val steelCoin=<thermalfoundation:coin:96>;
 steelCoin.displayName="Ultimate Unstable Unknown Steel Sample" ;
-mods.thermalexpansion.Compactor.removeMintRecipe(steelCoin);
-rune.addRecipe(steelCoin,[ <enderio:item_alloy_ingot>,<enderio:item_alloy_ingot>,<bloodmagic:monster_soul:1>, <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:villager"}})],10000);
+mods.thermalexpansion.Compactor.removeMintRecipe(<thermalfoundation:material:160>);
+rune.addRecipe(steelCoin,[<rftoolsdim:empty_dimension_tab>,<enderio:item_alloy_ingot>,<enderio:item_alloy_ingot>,<bloodmagic:monster_soul:1>, <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:villager"}})],10000);

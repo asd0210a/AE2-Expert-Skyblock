@@ -63,7 +63,7 @@ Altar.addAttunmentAltarRecipe(aes+"attune",<astralsorcery:blockattunementaltar>,
 //Telescope
 Altar.removeAltarRecipe(aa+"telescope");
 Altar.addAttunmentAltarRecipe(aes+"telescope", <astralsorcery:blockmachine>, 600, 120,
-[ null, <astralsorcery:itemhandtelescope>, null,
+[ <appliedenergistics2:part:467>, <astralsorcery:itemhandtelescope>, <appliedenergistics2:part:467>,
 <astralsorcery:itemcraftingcomponent:4>,<ore:plankWood>,<astralsorcery:itemcraftingcomponent:4>,
 <mekanism:polyethene:3>,<mekanism:polyethene:3>,<mekanism:polyethene:3>,
 null, null, null, null ] );

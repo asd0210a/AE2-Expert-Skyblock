@@ -92,3 +92,8 @@ recipes.replaceAllOccurences(<bloodmagic:slate:2>,<bloodmagic:slate>,<bloodmagic
 
 //Tank tier 4
 recipes.remove(<bloodmagic:blood_tank:3>);
+recipes.addShaped(<bloodmagic:blood_tank:3>, [[<actuallyadditions:block_crystal:3>, <bloodmagic:blood_tank:2>, <actuallyadditions:block_crystal:3>],[<botania:specialflower>.withTag({type: "kekimurus"}), <mekanism:machineblock2:11>, <botania:specialflower>.withTag({type: "kekimurus"})], [<actuallyadditions:block_crystal:3>, <actuallyadditions:block_crystal:3>, <actuallyadditions:block_crystal:3>]]);
+
+//Tank tier 5
+recipes.remove(<bloodmagic:blood_tank:4>);
+recipes.addShaped(<bloodmagic:blood_tank:4>, [[<thaumcraft:ore_quartz>, <tconstruct:slime_congealed:3>, <thaumcraft:ore_quartz>],[<astralsorcery:itemcraftingcomponent:4>, <bloodmagic:blood_tank:3>, <astralsorcery:itemcraftingcomponent:4>], [<thaumcraft:ore_quartz>, <astralsorcery:itemcraftingcomponent:2>, <thaumcraft:ore_quartz>]]);

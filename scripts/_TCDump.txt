@@ -1,0 +1,516 @@
+Thaumcraft dump:
+-Smelting Bonus:
+--in: <ore:oreGold>, out: <minecraft:gold_nugget>, change: 0.33
+--in: <ore:oreIron>, out: <minecraft:iron_nugget>, change: 0.33
+--in: <ore:oreCinnabar>, out: <thaumcraft:nugget:5>, change: 0.33
+--in: <ore:oreCopper>, out: <thaumcraft:nugget:1>, change: 0.33
+--in: <ore:oreTin>, out: <thaumcraft:nugget:2>, change: 0.33
+--in: <ore:oreSilver>, out: <thaumcraft:nugget:3>, change: 0.33
+--in: <ore:oreLead>, out: <thaumcraft:nugget:4>, change: 0.33
+--in: <ore:oreQuartz>, out: <thaumcraft:nugget:9>, change: 0.33
+--in: <thaumcraft:cluster>, out: <minecraft:iron_nugget>, change: 0.33
+--in: <thaumcraft:cluster:1>, out: <minecraft:gold_nugget>, change: 0.33
+--in: <thaumcraft:cluster:6>, out: <thaumcraft:nugget:5>, change: 0.33
+--in: <thaumcraft:cluster:2>, out: <thaumcraft:nugget:1>, change: 0.33
+--in: <thaumcraft:cluster:3>, out: <thaumcraft:nugget:2>, change: 0.33
+--in: <thaumcraft:cluster:4>, out: <thaumcraft:nugget:3>, change: 0.33
+--in: <thaumcraft:cluster:5>, out: <thaumcraft:nugget:4>, change: 0.33
+--in: <thaumcraft:cluster:7>, out: <thaumcraft:nugget:9>, change: 0.33
+--in: <minecraft:beef>, out: <thaumcraft:chunk>, change: 0.33
+--in: <minecraft:chicken>, out: <thaumcraft:chunk:1>, change: 0.33
+--in: <minecraft:porkchop>, out: <thaumcraft:chunk:2>, change: 0.33
+--in: <minecraft:fish:*>, out: <thaumcraft:chunk:3>, change: 0.33
+--in: <minecraft:rabbit>, out: <thaumcraft:chunk:4>, change: 0.33
+--in: <minecraft:mutton>, out: <thaumcraft:chunk:5>, change: 0.33
+--in: <ore:oreDiamond>, out: <thaumcraft:nugget:10>, change: 0.025
+--in: <ore:oreRedstone>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreLapis>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreEmerald>, out: <thaumcraft:nugget:10>, change: 0.025
+--in: <ore:oreGold>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <ore:oreIron>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreCinnabar>, out: <thaumcraft:nugget:10>, change: 0.025
+--in: <ore:oreCopper>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreTin>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreSilver>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <ore:oreLead>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreQuartz>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <thaumcraft:cluster:*>, out: <thaumcraft:nugget:10>, change: 0.02
+-Warp
+--Item: [thaumcraft.common.blocks.essentia.BlockJarBrainItem@7118ae20, 0] has warp: 1
+-Aspects
+--Aspect Aer
+--Aspect Terra
+--Aspect Ignis
+--Aspect Aqua
+--Aspect Ordo
+--Aspect Perditio
+--Aspect Vacuos
+--Aspect Lux
+--Aspect Motus
+--Aspect Gelum
+--Aspect Vitreus
+--Aspect Metallum
+--Aspect Victus
+--Aspect Mortuus
+--Aspect Potentia
+--Aspect Permutatio
+--Aspect Praecantatio
+--Aspect Auram
+--Aspect Alkimia
+--Aspect Vitium
+--Aspect Tenebrae
+--Aspect Alienis
+--Aspect Volatus
+--Aspect Herba
+--Aspect Instrumentum
+--Aspect Fabrico
+--Aspect Machina
+--Aspect Vinculum
+--Aspect Spiritus
+--Aspect Cognitio
+--Aspect Sensus
+--Aspect Aversio
+--Aspect Praemunio
+--Aspect Desiderium
+--Aspect Exanimis
+--Aspect Bestia
+--Aspect Humanus
+--Aspect Tempus
+-Recipes(Grouped)
+--Crucible: name: thaumcraft:vis_crystal_tenebrae, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "tenebrae"}]})
+--Crucible: name: thaumcraft:vis_crystal_bestia, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "bestia"}]})
+--Crucible: name: thaumcraft:metal_purification_lead, group: , research: METALPURIFICATION, output <thaumcraft:cluster:5>
+--Infusion: name: thaumcraft:maskgrinningdevil, group: , research: FORTRESSMASK, output ["mask", "0"]
+--Crucible: name: thaumcraft:metal_purification_gold, group: , research: METALPURIFICATION, output <thaumcraft:cluster:1>
+--Crucible: name: thaumcraft:black iron slate, group: , research: BASEALCHEMY, output <extendedcrafting:material:2>
+--Infusion: name: thaumcraft:iecollector, group: , research: INFUSIONENCHANTMENT, output null
+--Crucible: name: thaumcraft:everfullurn, group: , research: EVERFULLURN, output <thaumcraft:everfull_urn>
+--Infusion: name: thaumcraft:mirror, group: , research: MIRROR, output <thaumcraft:mirror>
+--Crucible: name: thaumcraft:sealguard, group: , research: SEALGUARD, output <thaumcraft:seal:9>
+--Infusion: name: thaumcraft:ierefining, group: , research: INFUSIONENCHANTMENT, output null
+--Infusion: name: thaumcraft:voidseerpearl, group: , research: VOIDSEERPEARL, output <thaumcraft:voidseer_charm>
+--Crucible: name: thaumcraft:hedge_gunpowder, group: , research: HEDGEALCHEMY@2, output <minecraft:gunpowder> * 2
+--Crucible: name: thaumcraft:sealprovide, group: , research: SEALPROVIDE, output <thaumcraft:seal:14>
+--Unknown: name: thaumcraft:infusionaltar, group: null, research: INFUSION
+--Crucible: name: thaumcraft:vis_crystal_mortuus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "mortuus"}]})
+--Infusion: name: thaumcraft:ieessence, group: , research: INFUSIONENCHANTMENT, output null
+--Crucible: name: thaumcraft:vis_crystal_gelum, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "gelum"}]})
+--Crucible: name: thaumcraft:sealemptyadv, group: , research: SEALEMPTY&&MINDBIOTHAUMIC, output <thaumcraft:seal:6>
+--Infusion: name: thaumcraft:bullet blue print, group: , research: , output <immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"})
+--Crucible: name: thaumcraft:bathsalts, group: , research: BATHSALTS, output <thaumcraft:bath_salts>
+--Crucible: name: thaumcraft:hedge_string, group: , research: HEDGEALCHEMY@3, output <minecraft:string>
+--Crucible: name: thaumcraft:sealbreakadv, group: , research: SEALBREAK&&MINDBIOTHAUMIC, output <thaumcraft:seal:16>
+--Crucible: name: thaumcraft:alumentum, group: , research: ALUMENTUM, output <thaumcraft:alumentum>
+--Infusion: name: thaumcraft:mirrorhand, group: , research: MIRRORHAND, output <thaumcraft:hand_mirror>
+--Infusion: name: thaumcraft:elementalpick, group: , research: ELEMENTALTOOLS, output <thaumcraft:elemental_pick>.withTag({infench: [{lvl: 1 as short, id: 4 as short}, {lvl: 2 as short, id: 3 as short}]})
+--Crucible: name: thaumcraft:vis_crystal_potentia, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]})
+--Crucible: name: thaumictinkerer:spellbinding_cloth, group: , research: TT_SPELLBINDING_CLOTH, output <thaumictinkerer:spellbinding_cloth>
+--Infusion: name: thaumcraft:elementalhoe, group: , research: ELEMENTALTOOLS, output <thaumcraft:elemental_hoe>
+--Crucible: name: thaumcraft:seallumber, group: , research: SEALLUMBER, output <thaumcraft:seal:11>
+--Crucible: name: thaumcraft:hedge_glowstone, group: , research: HEDGEALCHEMY@2, output <minecraft:glowstone_dust> * 2
+--Infusion: name: thaumcraft:runicarmor, group: , research: RUNICSHIELDING, output null
+--Crucible: name: thaumcraft:metal_purification_cinnabar, group: , research: METALPURIFICATION, output <thaumcraft:cluster:6>
+--Infusion: name: thaumcraft:crystalclusterfire, group: , research: CRYSTALFARMER, output <thaumcraft:crystal_ignis>
+--Infusion: name: thaumcraft:voidrobehelm, group: , research: VOIDROBEARMOR, output <thaumcraft:void_robe_helm>
+--Infusion: name: thaumcraft:primalcrusher, group: , research: PRIMALCRUSHER, output <thaumcraft:primal_crusher>.withTag({infench: [{lvl: 1 as short, id: 1 as short}, {lvl: 1 as short, id: 4 as short}]})
+--Crucible: name: thaumcraft:metal_purification_copper, group: , research: METALPURIFICATION, output <thaumcraft:cluster:2>
+--Crucible: name: thaumcraft:sealuse, group: , research: SEALUSE, output <thaumcraft:seal:13>
+--Unknown: name: thaumcraft:infusionaltarancient, group: null, research: INFUSIONANCIENT
+--Infusion: name: thaumcraft:lampfertility, group: , research: LAMPFERTILITY, output <thaumcraft:lamp_fertility>
+--Infusion: name: thaumcraft:charmundying, group: , research: CHARMUNDYING, output <thaumcraft:charm_undying>
+--Crucible: name: thaumcraft:vis_crystal_desiderium, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "desiderium"}]})
+--Infusion: name: thaumcraft:voidrobechest, group: , research: VOIDROBEARMOR, output <thaumcraft:void_robe_chest>
+--Crucible: name: thaumcraft:vis_crystal_praecantatio, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praecantatio"}]})
+--Crucible: name: thaumcraft:vis_crystal_volatus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "volatus"}]})
+--Crucible: name: thaumcraft:metal_purification_silver, group: , research: METALPURIFICATION, output <thaumcraft:cluster:4>
+--Crucible: name: thaumcraft:vis_crystal_victus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "victus"}]})
+--Infusion: name: thaumcraft:infusion provider, group: , research: INFUSIONPROVIDER, output <thaumicenergistics:infusion_provider>
+--Crucible: name: thaumcraft:nitor, group: , research: UNLOCKALCHEMY@3, output <thaumcraft:nitor_yellow>
+--Infusion: name: thaumcraft:sealharvest, group: , research: SEALHARVEST, output <thaumcraft:seal:7>
+--Unknown: name: thaumcraft:golempress, group: null, research: MINDCLOCKWORK
+--Infusion: name: thaumictinkerer:osmotic_enchanter, group: , research: TT_ENCHANTER, output <thaumictinkerer:osmotic_enchanter>
+--Infusion: name: thaumcraft:voidsiphon, group: , research: VOIDSIPHON, output <thaumcraft:void_siphon>
+--Infusion: name: thaumcraft:voidrobelegs, group: , research: VOIDROBEARMOR, output <thaumcraft:void_robe_legs>
+--Crucible: name: thaumcraft:vis_crystal_humanus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "humanus"}]})
+--Infusion: name: thaumcraft:crystalclusterearth, group: , research: CRYSTALFARMER, output <thaumcraft:crystal_terra>
+--Infusion: name: thaumcraft:ice cream, group: , research: INFUSION, output <harvestcraft:icecreamitem>
+--Crucible: name: thaumcraft:autofluix, group: , research: , output <appliedenergistics2:material:8>
+--Crucible: name: thaumcraft:vis_crystal_vitium, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]})
+--Infusion: name: thaumcraft:elementalsword, group: , research: ELEMENTALTOOLS, output <thaumcraft:elemental_sword>.withTag({infench: [{lvl: 2 as short, id: 5 as short}]})
+--Crucible: name: thaumcraft:bottletaint, group: , research: BOTTLETAINT, output <thaumcraft:bottle_taint>
+--Crucible: name: thaumcraft:hedge_lava, group: , research: HEDGEALCHEMY@3, output <minecraft:lava_bucket>
+--Crucible: name: thaumcraft:autocertus, group: , research: , output <appliedenergistics2:material:2>
+--Crucible: name: thaumcraft:metal_purification_tin, group: , research: METALPURIFICATION, output <thaumcraft:cluster:3>
+--Crucible: name: thaumcraft:vis_crystal_terra, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]})
+--Crucible: name: thaumcraft:vis_crystal_cognitio, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "cognitio"}]})
+--Infusion: name: thaumcraft:sealbreak, group: , research: SEALBREAK, output <thaumcraft:seal:12>
+--Crucible: name: thaumcraft:hedge_leather, group: , research: HEDGEALCHEMY@1, output <minecraft:leather>
+--Crucible: name: thaumcraft:hedge_slime, group: , research: HEDGEALCHEMY@2, output <minecraft:slime_ball> * 2
+--Infusion: name: thaumcraft:helmgoggles, group: , research: FORTRESSMASK, output ["goggles", "1b"]
+--Infusion: name: thaumcraft:ielamplight, group: , research: INFUSIONENCHANTMENT, output null
+--Infusion: name: thaumcraft:visamulet, group: , research: VISAMULET, output <thaumcraft:amulet_vis:1>
+--Crucible: name: thaumcraft:sealstock, group: , research: SEALSTOCK, output <thaumcraft:seal:15>
+--Crucible: name: thaumcraft:vis_crystal_permutatio, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "permutatio"}]})
+--Crucible: name: thaumcraft:sealcollect, group: , research: SEALCOLLECT, output <thaumcraft:seal:1>
+--Crucible: name: thaumictinkerer:energetic_nitor, group: , research: TT_ENERGETIC_NITOR, output <thaumictinkerer:energetic_nitor>
+--Crucible: name: thaumcraft:vis_crystal_fabrico, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "fabrico"}]})
+--Crucible: name: thaumcraft:vis_crystal_ordo, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]})
+--Crucible: name: thaumcraft:sealstore, group: , research: SEALSTORE, output <thaumcraft:seal:3>
+--Infusion: name: thaumcraft:crystalclusterflux, group: , research: CRYSTALFARMER, output <thaumcraft:crystal_vitium>
+--Crucible: name: thaumcraft:vis_crystal_sensus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sensus"}]})
+--Crucible: name: thaumcraft:hedge_tallow, group: , research: HEDGEALCHEMY@1, output <thaumcraft:tallow>
+--Crucible: name: thaumcraft:vis_crystal_vinculum, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vinculum"}]})
+--Crucible: name: thaumcraft:sealguardadv, group: , research: SEALGUARD&&MINDBIOTHAUMIC, output <thaumcraft:seal:10>
+--Crucible: name: thaumcraft:vis_crystal_auram, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "auram"}]})
+--Crucible: name: thaumcraft:metal_purification_iron, group: , research: METALPURIFICATION, output <thaumcraft:cluster>
+--Infusion: name: thaumcraft:verdantheartlife, group: , research: VERDANTCHARMS, output ["type", "1b"]
+--Crucible: name: thaumcraft:vis_crystal_aversio, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aversio"}]})
+--Infusion: name: thaumcraft:crystalclusterair, group: , research: CRYSTALFARMER, output <thaumcraft:crystal_aer>
+--Crucible: name: thaumictinkerer:soul_mould, group: , research: TT_THAUMIC_MAGNETS, output <thaumictinkerer:soul_mould>
+--Crucible: name: thaumcraft:mithril gear, group: , research: , output <thermalfoundation:material:264>
+--Infusion: name: thaumcraft:arcanebore, group: , research: ARCANEBORE, output <thaumcraft:turret:2>
+--Infusion: name: thaumcraft:verdantheart, group: , research: VERDANTCHARMS, output <thaumcraft:verdant_charm>
+--Infusion: name: thaumcraft:cloudring, group: , research: CLOUDRING, output <thaumcraft:cloud_ring>
+--Crucible: name: thaumcraft:vis_crystal_alienis, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]})
+--Infusion: name: thaumcraft:crystalclusterentropy, group: , research: CRYSTALFARMER, output <thaumcraft:crystal_perditio>
+--Crucible: name: thaumcraft:liquiddeath, group: , research: LIQUIDDEATH, output <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000})
+--Infusion: name: thaumcraft:sealbutcher, group: , research: SEALBUTCHER, output <thaumcraft:seal:8>
+--Unknown: name: thaumcraft:infernalfurnace, group: null, research: INFERNALFURNACE
+--Infusion: name: thaumcraft:ieburrowing, group: , research: INFUSIONENCHANTMENT, output null
+--Infusion: name: thaumcraft:verdantheartsustain, group: , research: VERDANTCHARMS, output ["type", "2b"]
+--Infusion: name: thaumcraft:iedestructive, group: , research: INFUSIONENCHANTMENT, output null
+--Crucible: name: thaumcraft:vis_crystal_aer, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]})
+--Infusion: name: thaumcraft:iearcing, group: , research: INFUSIONENCHANTMENT, output null
+--Crucible: name: thaumcraft:vis_crystal_perditio, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})
+--Crucible: name: thaumcraft:vis_crystal_motus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "motus"}]})
+--Unknown: name: thaumcraft:thaumatorium, group: null, research: THAUMATORIUM
+--Crucible: name: thaumictinkerer:prismarine, group: , research: TT_PRISMARINE, output <minecraft:prismarine_shard>
+--Infusion: name: thaumcraft:bootstraveller, group: , research: BOOTSTRAVELLER, output <thaumcraft:traveller_boots>
+--Infusion: name: thaumcraft:maskangryghost, group: , research: FORTRESSMASK, output ["mask", "1"]
+--Crucible: name: thaumcraft:vis_crystal_tempus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "tempus"}]})
+--Unknown: name: thaumcraft:infusionaltareldritch, group: null, research: INFUSIONELDRITCH
+--Crucible: name: thaumcraft:vis_crystal_herba, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "herba"}]})
+--Infusion: name: thaumcraft:iesounding, group: , research: INFUSIONENCHANTMENT, output null
+--Infusion: name: thaumcraft:crystalclusterwater, group: , research: CRYSTALFARMER, output <thaumcraft:crystal_aqua>
+--Crucible: name: thaumcraft:vis_crystal_vitreus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitreus"}]})
+--Infusion: name: thaumictinkerer:repairer, group: , research: TT_REPAIRER, output <thaumictinkerer:repairer>
+--Crucible: name: thaumcraft:hedge_clay, group: , research: HEDGEALCHEMY@3, output <minecraft:clay_ball>
+--Infusion: name: thaumcraft:elementalaxe, group: , research: ELEMENTALTOOLS, output <thaumcraft:elemental_axe>.withTag({infench: [{lvl: 1 as short, id: 0 as short}, {lvl: 1 as short, id: 2 as short}]})
+--Infusion: name: thaumcraft:curiosityband, group: , research: CURIOSITYBAND, output <thaumcraft:curiosity_band>
+--Crucible: name: thaumcraft:sealempty, group: , research: SEALEMPTY, output <thaumcraft:seal:5>
+--Infusion: name: thaumcraft:causalitycollapser, group: , research: RIFTCLOSER, output <thaumcraft:causality_collapser>
+--Crucible: name: thaumcraft:hedge_web, group: , research: HEDGEALCHEMY@3, output <minecraft:web>
+--Infusion: name: thaumcraft:masksippingfiend, group: , research: FORTRESSMASK, output ["mask", "2"]
+--Crucible: name: thaumcraft:sealstoreadv, group: , research: SEALSTORE&&MINDBIOTHAUMIC, output <thaumcraft:seal:4>
+--Crucible: name: thaumcraft:brassingot, group: , research: METALLURGY@1, output <thaumcraft:ingot:2>
+--Infusion: name: thaumcraft:steel ingot, group: , research: INFUSION, output <thermalfoundation:material:160>
+--Crucible: name: thaumcraft:vis_crystal_exanimis, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "exanimis"}]})
+--Crucible: name: thaumcraft:vis_crystal_vacuos, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vacuos"}]})
+--Crucible: name: thaumcraft:sanesoap, group: , research: SANESOAP, output <thaumcraft:sanity_soap>
+--Crucible: name: thaumcraft:vis_crystal_aqua, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]})
+--Unknown: name: thaumictinkerer:osmotic_enchanter_mb, group: null, research: TT_ENCHANTER
+--Crucible: name: thaumcraft:focus_1, group: , research: UNLOCKAUROMANCY, output <thaumcraft:focus_1>
+--Crucible: name: thaumcraft:sealcollectadv, group: , research: SEALCOLLECT&&MINDBIOTHAUMIC, output <thaumcraft:seal:2>
+--Crucible: name: thaumcraft:vis_crystal_metallum, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "metallum"}]})
+--Crucible: name: thaumcraft:vis_crystal_ignis, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})
+--Crucible: name: thaumcraft:vis_crystal_instrumentum, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "instrumentum"}]})
+--Infusion: name: thaumcraft:mirroressentia, group: , research: MIRRORESSENTIA, output <thaumcraft:mirror_essentia>
+--Crucible: name: thaumcraft:vis_crystal_praemunio, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praemunio"}]})
+--Crucible: name: thaumcraft:hedge_dye, group: , research: HEDGEALCHEMY@2, output <minecraft:dye> * 2
+--Infusion: name: thaumcraft:mindbiothaumic, group: , research: MINDBIOTHAUMIC, output <thaumcraft:mind:1>
+--Infusion: name: thaumcraft:jarbrain, group: , research: JARBRAIN, output <thaumcraft:jar_brain>
+--Infusion: name: thaumcraft:elementalshovel, group: , research: ELEMENTALTOOLS, output <thaumcraft:elemental_shovel>.withTag({infench: [{lvl: 1 as short, id: 1 as short}]})
+--Crucible: name: thaumcraft:vis_crystal_lux, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "lux"}]})
+--Crucible: name: thaumcraft:vis_crystal_machina, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "machina"}]})
+--Infusion: name: thaumcraft:focus_3, group: , research: FOCUSGREATER@1, output <thaumcraft:focus_3>
+--Infusion: name: thaumcraft:focus_2, group: , research: FOCUSADVANCED@1, output <thaumcraft:focus_2>
+--Infusion: name: thaumcraft:crystalclusterorder, group: , research: CRYSTALFARMER, output <thaumcraft:crystal_ordo>
+--Crucible: name: thaumcraft:vis_crystal_alkimia, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alkimia"}]})
+--Crucible: name: thaumcraft:vis_crystal_spiritus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]})
+--Infusion: name: thaumcraft:lampgrowth, group: , research: LAMPGROWTH, output <thaumcraft:lamp_growth>
+--Crucible: name: thaumcraft:thaumiumingot, group: , research: METALLURGY@2, output <thaumcraft:ingot>
+-ArcaneWorkbench
+--Output: <thaumcraft:mechanism_simple>, name thaumcraft:mechanism_simple
+--Output: <thaumcraft:mechanism_complex>, name thaumcraft:mechanism_complex
+--Output: <thaumcraft:vis_resonator>, name thaumcraft:vis_resonator
+--Output: <thaumcraft:activator_rail>, name thaumcraft:activatorrail
+--Output: <thaumcraft:sanity_checker>, name thaumcraft:sanitychecker
+--Output: <thaumcraft:recharge_pedestal>, name thaumcraft:rechargepedestal
+--Output: <thaumcraft:arcane_workbench_charger>, name thaumcraft:workbenchcharger
+--Output: <thaumcraft:wand_workbench>, name thaumcraft:wand_workbench
+--Output: <thaumcraft:caster_basic>, name thaumcraft:caster_basic
+--Output: <thaumcraft:fabric>, name thaumcraft:enchantedfabric
+--Output: <thaumcraft:cloth_chest>, name thaumcraft:robechest
+--Output: <thaumcraft:cloth_legs>, name thaumcraft:robelegs
+--Output: <thaumcraft:cloth_boots>, name thaumcraft:robeboots
+--Output: <thaumcraft:goggles>, name thaumcraft:goggles
+--Output: <thaumcraft:seal> * 3, name thaumcraft:sealblank
+--Output: <thaumcraft:module>, name thaumcraft:modvision
+--Output: <thaumcraft:module:1>, name thaumcraft:modaggression
+--Output: <thaumcraft:mirrored_glass>, name thaumcraft:mirrorglass
+--Output: <thaumcraft:spa>, name thaumcraft:arcanespa
+--Output: <thaumcraft:tube> * 8, name thaumcraft:tube
+--Output: <thaumcraft:resonator>, name thaumcraft:resonator
+--Output: <thaumcraft:tube_valve>, name thaumcraft:tubevalve
+--Output: <thaumcraft:tube_filter>, name thaumcraft:tubefilter
+--Output: <thaumcraft:tube_restrict>, name thaumcraft:tuberestrict
+--Output: <thaumcraft:tube_oneway>, name thaumcraft:tubeoneway
+--Output: <thaumcraft:tube_buffer>, name thaumcraft:tubebuffer
+--Output: <thaumcraft:jar_normal>, name thaumcraft:wardedjar
+--Output: <thaumcraft:jar_void>, name thaumcraft:jarvoid
+--Output: <thaumcraft:banner_white>, name thaumcraft:bannerwhite
+--Output: <thaumcraft:banner_orange>, name thaumcraft:bannerorange
+--Output: <thaumcraft:banner_magenta>, name thaumcraft:bannermagenta
+--Output: <thaumcraft:banner_lightblue>, name thaumcraft:bannerlightblue
+--Output: <thaumcraft:banner_yellow>, name thaumcraft:banneryellow
+--Output: <thaumcraft:banner_lime>, name thaumcraft:bannerlime
+--Output: <thaumcraft:banner_pink>, name thaumcraft:bannerpink
+--Output: <thaumcraft:banner_gray>, name thaumcraft:bannergray
+--Output: <thaumcraft:banner_silver>, name thaumcraft:bannersilver
+--Output: <thaumcraft:banner_cyan>, name thaumcraft:bannercyan
+--Output: <thaumcraft:banner_purple>, name thaumcraft:bannerpurple
+--Output: <thaumcraft:banner_blue>, name thaumcraft:bannerblue
+--Output: <thaumcraft:banner_brown>, name thaumcraft:bannerbrown
+--Output: <thaumcraft:banner_green>, name thaumcraft:bannergreen
+--Output: <thaumcraft:banner_red>, name thaumcraft:bannerred
+--Output: <thaumcraft:banner_black>, name thaumcraft:bannerblack
+--Output: <thaumcraft:paving_stone_barrier> * 4, name thaumcraft:pavebarrier
+--Output: <thaumcraft:paving_stone_travel> * 4, name thaumcraft:pavetravel
+--Output: <thaumcraft:lamp_arcane>, name thaumcraft:arcanelamp
+--Output: <thaumcraft:levitator>, name thaumcraft:levitator
+--Output: <thaumcraft:redstone_relay>, name thaumcraft:redstonerelay
+--Output: <thaumcraft:arcane_ear>, name thaumcraft:arcaneear
+--Output: <thaumcraft:infusion_matrix>, name thaumcraft:infusionmatrix
+--Output: <thaumcraft:matrix_speed>, name thaumcraft:matrixmotion
+--Output: <thaumcraft:matrix_cost>, name thaumcraft:matrixcost
+--Output: <thaumcraft:pedestal_arcane>, name thaumcraft:arcanepedestal
+--Output: <thaumcraft:pedestal_ancient>, name thaumcraft:ancientpedestal
+--Output: <thaumcraft:pedestal_eldritch>, name thaumcraft:eldritchpedestal
+--Output: <thaumcraft:focus_pouch>, name thaumcraft:focuspouch
+--Output: <thaumcraft:dioptra>, name thaumcraft:dioptra
+--Output: <thaumcraft:hungry_chest>, name thaumcraft:hungrychest
+--Output: <thaumcraft:filter> * 2, name thaumcraft:filter
+--Output: <thaumcraft:morphic_resonator>, name thaumcraft:morphicresonator
+--Output: <thaumcraft:alembic>, name thaumcraft:alembic
+--Output: <thaumcraft:smelter_basic>, name thaumcraft:essentiasmelter
+--Output: <thaumcraft:smelter_thaumium>, name thaumcraft:essentiasmelterthaumium
+--Output: <thaumcraft:smelter_void>, name thaumcraft:essentiasmeltervoid
+--Output: <thaumcraft:metal_alchemical> * 2, name thaumcraft:alchemicalconstruct
+--Output: <thaumcraft:metal_alchemical_advanced>, name thaumcraft:advalchemyconstruct
+--Output: <thaumcraft:potion_sprayer>, name thaumcraft:potionsprayer
+--Output: <thaumcraft:smelter_aux>, name thaumcraft:smelteraux
+--Output: <thaumcraft:smelter_vent>, name thaumcraft:smeltervent
+--Output: <thaumcraft:essentia_input>, name thaumcraft:essentiatransportin
+--Output: <thaumcraft:essentia_output>, name thaumcraft:essentiatransportout
+--Output: <thaumcraft:bellows>, name thaumcraft:bellows
+--Output: <thaumcraft:centrifuge>, name thaumcraft:centrifuge
+--Output: <thaumcraft:brain_box>, name thaumcraft:mnemonicmatrix
+--Output: <thaumcraft:mind>, name thaumcraft:mindclockwork
+--Output: <thaumcraft:turret>, name thaumcraft:automatedcrossbow
+--Output: <thaumcraft:turret:1>, name thaumcraft:advancedcrossbow
+--Output: <thaumcraft:pattern_crafter>, name thaumcraft:patterncrafter
+--Output: <thaumcraft:grapple_gun_tip>, name thaumcraft:grappleguntip
+--Output: <thaumcraft:grapple_gun_spool>, name thaumcraft:grapplegunspool
+--Output: <thaumcraft:grapple_gun>, name thaumcraft:grapplegun
+--Output: <thaumcraft:vis_battery>, name thaumcraft:visbattery
+--Output: <thaumcraft:condenser>, name thaumcraft:condenser
+--Output: <thaumcraft:condenser_lattice>, name thaumcraft:condenserlattice
+--Output: <thaumcraft:stabilizer>, name thaumcraft:stabilizer
+--Output: <thaumcraft:inlay> * 2, name thaumcraft:redstoneinlay
+--Output: <thaumictinkerer:funnel>, name thaumictinkerer:funnel
+--Output: <thaumictinkerer:dissimulation>, name thaumictinkerer:dissimulation
+--Output: <thaumictinkerer:transvector_interface>, name thaumictinkerer:transvector_interface
+--Output: <thaumictinkerer:transvector_dislocator>, name thaumictinkerer:transvector_disslocator
+--Output: <thaumictinkerer:mob_magnet>, name thaumictinkerer:corporeal_attactor
+--Output: <thaumictinkerer:magnet>, name thaumictinkerer:kinetic_attactor
+--Output: <thaumictinkerer:animation_tablet>, name thaumictinkerer:tablet
+--Output: <thaumicenergistics:coalescence_core> * 2, name thaumicenergistics:coalescence_core
+--Output: <thaumicenergistics:diffusion_core> * 2, name thaumicenergistics:diffusion_core
+--Output: <thaumicenergistics:essentia_component_1k>, name thaumicenergistics:essentia_component_1k
+--Output: <thaumicenergistics:essentia_component_4k>, name thaumicenergistics:essentia_component_4k
+--Output: <thaumicenergistics:essentia_component_16k>, name thaumicenergistics:essentia_component_16k
+--Output: <thaumicenergistics:essentia_component_64k>, name thaumicenergistics:essentia_component_64k
+--Output: <thaumicenergistics:essentia_export>, name thaumicenergistics:essentia_export_bus
+--Output: <thaumicenergistics:essentia_import>, name thaumicenergistics:essentia_import_bus
+--Output: <thaumicenergistics:essentia_storage>, name thaumicenergistics:essentia_storage_bus
+--Output: <thaumicenergistics:essentia_terminal>, name thaumicenergistics:essentia_terminal
+--Output: <thaumicenergistics:arcane_terminal>, name thaumicenergistics:arcane_terminal
+--Output: <thaumicenergistics:upgrade_arcane>, name thaumicenergistics:upgrade_arcane
+--Output: <astralsorcery:blockaltar>, name thaumcraft:lumiuous crafting table
+--Output: <botania:pylon:2>, name thaumcraft:gaia pylon
+--Output: <thaumcraft:smelter_basic>, name thaumcraft:tc smelter
+
+Research
+
+UNLOCKARTIFICE
+ORE
+FLUX
+UNLOCKAUROMANCY
+!Wisp
+CRYSTALFARMER
+UNLOCKALCHEMY
+!CrimsonCultist
+!EldritchCrab
+PRIMPEARL
+UNLOCKELDRITCH
+FLUXRIFT
+FIRSTSTEPS
+KNOWLEDGETYPES
+UNLOCKGOLEMANCY
+WARP
+THEORYRESEARCH
+!Firebat
+UNLOCKINFUSION
+CELESTIALSCANNING
+FLUXCLEANUP
+!EldritchGuardian
+!Pech
+!Taintacle
+!TaintCrawler
+!BrainyZombie
+RIFTCLOSER
+CrimsonRites
+!TaintSwarm
+!ThaumSlime
+PLANTS
+!TaintSeed
+FOCUSPOUCH
+WORKBENCHCHARGER
+FOCUSRIFT
+FOCUSSCATTER
+FOCUSEXCHANGE
+FOCUSGREATER
+FOCUSSPLIT
+BASEAUROMANCY
+FOCUSELEMENTAL
+FOCUSFLUX
+VISBATTERY
+FOCUSHEAL
+FOCUSCLOUD
+FOCUSPLAN
+FOCUSCURSE
+FOCUSBREAK
+FOCUSADVANCED
+FOCUSPROJECTILE
+VISAMULET
+FOCUSBOLT
+FOCUSMINE
+FOCUSSPELLBAT
+RECHARGEPEDESTAL
+ALUMENTUM
+POTIONSPRAYER
+HEDGEALCHEMY
+BATHSALTS
+BASEALCHEMY
+ESSENTIASMELTERTHAUMIUM
+ESSENTIASMELTERVOID
+ARCANESPA
+THAUMATORIUM
+ESSENTIATRANSPORT
+LIQUIDDEATH
+TUBES
+IMPROVEDSMELTING
+CENTRIFUGE
+WARDEDJARS
+IMPROVEDSMELTING2
+BOTTLETAINT
+EVERFULLURN
+METALLURGY
+SANESOAP
+ESSENTIASMELTER
+METALPURIFICATION
+MIRRORHAND
+ARCANELAMP
+BELLOWS
+MIRRORESSENTIA
+DIOPTRA
+HUNGRYCHEST
+ARCANEEAR
+GRAPPLEGUN
+ARCANEPATTERNCRAFTER
+MIRROR
+INFERNALFURNACE
+BASICTURRET
+LAMPFERTILITY
+LEVITATOR
+LAMPGROWTH
+VISGENERATOR
+ADVANCEDTURRET
+BASEARTIFICE
+ARCANEBORE
+REDSTONERELAY
+RUNICSHIELDING
+INFUSIONBOOST
+ARMORFORTRESS
+INFUSIONSTABLE
+INFUSIONELDRITCH
+INFUSIONANCIENT
+INFUSION
+PAVINGSTONES
+CURIOSITYBAND
+FORTRESSMASK
+CHARMUNDYING
+VERDANTCHARMS
+BASEINFUSION
+CLOUDRING
+BOOTSTRAVELLER
+ELEMENTALTOOLS
+INFUSIONENCHANTMENT
+BASEGOLEMANCY
+SEALLUMBER
+MINDCLOCKWORK
+GOLEMBREAKER
+SEALBUTCHER
+MATSTUDCLAY
+SEALBREAK
+MATSTUDBRASS
+SEALUSE
+GOLEMCLIMBER
+SEALSTORE
+SEALCOLLECT
+MATSTUDIRON
+SEALEMPTY
+SEALSTOCK
+MATSTUDVOID
+SEALPROVIDE
+MATSTUDTHAUMIUM
+CONTROLSEALS
+SEALHARVEST
+MINDBIOTHAUMIC
+GOLEMVISION
+GOLEMFLYER
+GOLEMDIRECT
+GOLEMCOMBATADV
+JARBRAIN
+GOLEMLOGISTICS
+MATSTUDWOOD
+SEALGUARD
+VOIDSEERPEARL
+VOIDROBEARMOR
+PRIMALCRUSHER
+VOIDSIPHON
+BASEELDRITCH
+ESSENTIASTORAGE64k
+ESSENTIABUSES
+DIGISENTIA
+ESSENTIASTORAGE1k
+BASEENERGISTICS
+ARCANETERMINAL
+ESSENTIASTORAGE4k
+ESSENTIASTORAGE16k
+INFUSIONPROVIDER
+ESSENTIATERMINAL
+TT_ENERGETIC_NITOR
+TT_THAUMIC_MAGNETS
+TT_TELEKENESIS
+TT_DISLOCATE
+TT_DISSIMULATION
+TT_BLACK_QUARTZ
+TT_REPAIRER
+TT_SPELLBINDING_CLOTH
+TT_ESSENTIA_FUNNEL
+TT_PRISMARINE
+TT_TRANSVECTOR_INTERFACE
+TT_SHARE_TOME
+TT_TABLET
+TT_ENCHANTER

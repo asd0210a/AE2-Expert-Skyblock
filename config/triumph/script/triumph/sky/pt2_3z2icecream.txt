@@ -1,0 +1,8 @@
+alwaysVisible()
+setTitle("[Basic] Ice Cream Challenge")
+setIcon(<harvestcraft:icecreamitem>)
+setDescription("Obtain an Ice Cream")
+addParent("triumph:sky/pt2_3casing")
+setPos(0,50)
+criteria = addCriteria("icecream", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:icecreamitem>)

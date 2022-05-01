@@ -28,6 +28,9 @@ for k in 0 .. 4{
 		recipes.addShaped(aem(processor[k])*15,[[<immersiveengineering:mold:6>.reuse(),<projectred-core:resource_item:251>,null],[<immersiveengineering:tool>,aem(20),null],[null,out,null]]);
 	}
 }
+//Colored Cable
+recipes.remove(<appliedenergistics2:part:*>);
+recipes.addShapeless("AE2 Cable", <appliedenergistics2:part:16> * 8, [<appliedenergistics2:part:140>, <ore:crystalFluix>, <ore:crystalFluix>]);
 
 //Tooltip NamePress
 aem(21).addTooltip(format.red("Won't be consumed after crafting circuits.\nNeed to correspond Press name!!"));

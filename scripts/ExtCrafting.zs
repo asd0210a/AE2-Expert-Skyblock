@@ -18,6 +18,11 @@ recipes.addShaped("Basic Catalyst",<extendedcrafting:material:8>,[[null,<thaumcr
 
 recipes.addShaped("Elite",<extendedcrafting:material:10>,[[null,<astralsorcery:itemperkgem:*>,null],[<astralsorcery:itemperkgem:*>,<extendedcrafting:material:12>,<astralsorcery:itemperkgem:*>],[null,<astralsorcery:itemperkgem:*>,null]]);
 
+//Block Black Iron
+val psim=<psi:psi_decorative:5>;
+val bib=<extendedcrafting:storage>; //Block iron
+recipes.addShaped("Block Black Iron",<extendedcrafting:trimmed:5> * 2, [[psim, bib, psim],[bib, <tconstruct:sharpening_kit>, bib], [psim, bib, psim]]);
+
 recipes.replaceAllOccurences(<minecraft:gunpowder>,<ic2:dust:15>,<extendedcrafting:material:7>);
 recipes.replaceAllOccurences(<minecraft:ender_eye>,<extendedcrafting:material>,<extendedcrafting:ender_crafter>);
 
@@ -53,10 +58,8 @@ val i=<thermalfoundation:material:136>; //Mithril Ingot
 val f=<chisel:futura:1>;//futura block
 val w=<forestry:planks.0:13>;//Walnut Wood Plank
 val g=<botania:manaresource:5>;//Gaia Spirit
+val botpat=<botania:craftpattern:8>;
 
-function pt(a as int) as IItemStack{
-	return <botania:craftpattern>.definition.makeStack(a);
-}
 
 recipes.remove(<extrautils2:indexerremote>);
 recipes.addShaped("Indexer Remote",<extrautils2:indexerremote>,[[<ore:stone>,<extrautils2:ingredients:2>,<ore:stone>],[<ore:stone>,<extrautils2:indexer>,<ore:stone>],[<ore:stone>,<extrautils2:ingredients:2>,<ore:stone>]]);
@@ -70,9 +73,9 @@ table.addShaped(4,<appliedenergistics2:part:340>,[
 [f,w,g,w,f,i,<thaumcraft:golem>.withTag({props: 0 as long}),<bloodmagic:sanguine_book>,<thaumcraft:golem>.withTag({props: 288515162598539264 as long})],
 [f,f,f,f,f,i,<immersiveengineering:metal_device1>,<immersiveengineering:toolbox>,<immersiveengineering:metal_device1>],
 [i,i,i,i,i,<extrautils2:indexerremote>,i,i,i],
-[pt(0),pt(1),pt(2),<bloodmagic:sigil_divination>,<bloodmagic:sigil_holding>,i,<industrialforegoing:item_splitter>,<forestry:worktable>,<thermalexpansion:augment:432>],
-[pt(3),pt(4),pt(5),<bloodmagic:sigil_lava>,<bloodmagic:sigil_water>,i,<thaumcraft:pattern_crafter>,<botania:craftinghalo>,<actuallyadditions:item_crafter_on_a_stick>],
-[pt(6),pt(7),pt(8),<appliedenergistics2:material:48>,<appliedenergistics2:material:48>,i,<appliedenergistics2:material:52>,<botania:opencrate:1>,<extrautils2:crafter>]]);
+[botpat,botpat,botpat,<bloodmagic:sigil_divination>,<bloodmagic:sigil_holding>,i,<industrialforegoing:item_splitter>,<forestry:worktable>,<thermalexpansion:augment:432>],
+[botpat,botpat,botpat,<bloodmagic:sigil_lava>,<bloodmagic:sigil_water>,i,<thaumcraft:pattern_crafter>,<botania:craftinghalo>,<actuallyadditions:item_crafter_on_a_stick>],
+[botpat,botpat,botpat,<appliedenergistics2:material:48>,<appliedenergistics2:material:48>,i,<appliedenergistics2:material:52>,<botania:opencrate:1>,<extrautils2:crafter>]]);
 
 //Crystaltine Ingot
 val lapis=<ore:gemLapis>;val cer=<ore:crystalCertusQuartz>;val fluix=<ore:crystalFluix>;val silver=<ore:ingotSilver>;val bras=<ore:nuggetAlubrass>;
@@ -86,7 +89,46 @@ table.addShaped(0,<extendedcrafting:material:24>,[
 	[null,null,null,null,null,null,null],
 	[null,null,null,null,null,null,null]
 ]);
+//---------------------------//
 
+//Inscriber
+val dc=<enderio:item_data_conduit> ;//Data Conduit
+val auc=<chisel:auto_chisel>; //Auto Chisel
+val sb=<appliedenergistics2:smooth_sky_stone_block>; //Skystone block
+val plbk=<mekanism:glowplasticblock>; //plastic block
+val slateT5=<bloodmagic:slate:4>;
+val toast= <harvestcraft:cinnamontoastitem> ;
 
+table.addShaped(0, <appliedenergistics2:inscriber>, [
+	[sb, sb, plbk, slateT5, slateT5, slateT5, plbk, plbk, plbk], 
+	[sb, dc, <forge:bucketfilled>.withTag({FluidName: "liquiddna", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "liquiddna", Amount: 1000}), dc, dc, dc, dc, plbk], 
+	[sb, dc, <mekanism:gastank>.withTag({tier: 2, mekData: {stored: {amount: 256000, gasName: "fusionfuel"}}}), <mekanism:gastank>.withTag({tier: 2, mekData: {stored: {amount: 256000, gasName: "fusionfuel"}}}), dc, dc, dc, dc, null], 
+	[sb, dc, <ic2:te:26>, <ic2:te:26>, dc, auc, auc, auc, null], 
+	[sb, dc, <thaumcraft:smelter_void>, <thaumcraft:smelter_void>, dc, auc, toast, auc, <astralsorcery:blockmachine>], 
+	[sb, dc, <ic2:te:26>, <ic2:te:26>, dc, auc, auc, auc, null], 
+	[sb, dc, <botania:quartztypeelf>, <botania:quartztypeelf>, dc, dc, dc, dc, null], 
+	[sb, dc, dc, dc, dc, dc, dc, dc, plbk], 
+	[sb, sb, plbk, slateT5, slateT5, slateT5, plbk, plbk, plbk]
+]);
+
+//-----------------------------//
+
+//Creative Mana Pool
+val fullDrac=<draconicevolution:draconium_block:1>; //Charged Draconium Block
+val voidplate= <thaumcraft:plate:3>;
+val rock=<ore:livingrock>;
+table.addShaped(0, <botania:pool:1>, [
+	[null, null, null, null, <astralsorcery:blockcelestialcollectorcrystal>, null, null, null, null], 
+	[voidplate, voidplate, voidplate, voidplate, <thermalexpansion:capacitor:4>, voidplate, voidplate, voidplate, voidplate], 
+	[rock, rock, rock, <thaumcraft:metal_alchemical_advanced>, <mekanism:gastank>.withTag({tier: 1, mekData: { stored: {amount: 128000, gasName: "lithium"}}}), <thaumcraft:metal_alchemical_advanced>, rock, rock, rock], 
+	[fullDrac, fullDrac, fullDrac, rock, <thaumcraft:primordial_pearl>, rock, fullDrac, fullDrac, fullDrac], 
+	[fullDrac, toast, fullDrac, <botania:pool:3>, <botania:terrapick>.withTag({mana: 2147483646}),<botania:pool:3>, fullDrac, toast, fullDrac], 
+	[fullDrac, fullDrac, fullDrac, <draconicevolution:diss_enchanter>, <forge:bucketfilled>.withTag({FluidName: "cryotheum", Amount: 1000}), <draconicevolution:diss_enchanter>, fullDrac, fullDrac, fullDrac], 
+	[rock, rock, rock, rock, <botania:spreader:3>, rock, rock, rock, rock], 
+	[voidplate, voidplate, voidplate, voidplate, <extendedcrafting:singularity_custom:5>, voidplate, voidplate, voidplate, voidplate], 
+	[null, null, null, null, <thaumcraft:pech_wand>, null, null, null, null]
+]);
+
+//-------------------------------//
 recipes.remove(<teslacorelib:machine_case>);
 comp.addRecipe(<teslacorelib:machine_case>,<minecraft:iron_bars>,500,<extendedcrafting:frame>,1000);

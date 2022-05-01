@@ -14,4 +14,5 @@ recipes.addShapeless("astralsorcery:shaped/cc_parchment", ASpaper * 4, [null, pa
 
 //EDT
 val me1k=<appliedenergistics2:material:35>;
+recipes.remove(<rftoolsdim:empty_dimension_tab>);
 recipes.addShaped("Empty Dimension Tab", <rftoolsdim:empty_dimension_tab>, [[ASpaper, me1k, ASpaper], [me1k, <astralsorcery:itemcoloredlens:6>, me1k], [ASpaper, me1k, ASpaper]]);

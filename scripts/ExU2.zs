@@ -7,7 +7,7 @@ import mods.extrautils2.Resonator;
 val rn=[<extrautils2:passivegenerator:2>,<extrautils2:passivegenerator:4>,<extrautils2:passivegenerator:7>,<extrautils2:grocket>,<extrautils2:pipe>,<extrautils2:machine>,<extrautils2:teleporter:1>] as IItemStack[];
 for r in rn{recipes.remove(r);}
 
-recipes.addShaped("Transfer node_items",<extrautils2:grocket>,[[<ore:dustRedstone>,<appliedenergistics2:part:462>,<ore:dustRedstone>],[<immersiveengineering:stone_device:5>,<ore:chestWood>,<immersiveengineering:stone_device:5>]]);
+recipes.addShaped("Transfer node_items",<extrautils2:grocket>,[[<ore:dustRedstone>,<appliedenergistics2:part:8>,<ore:dustRedstone>],[<immersiveengineering:stone_device:5>,<ore:chestWood>,<immersiveengineering:stone_device:5>]]);
 
 val st=<minecraft:stone>;
 recipes.addShaped("Lava Mill",<extrautils2:passivegenerator:2>,[[st,st,st],[st,<extrautils2:ingredients>,st],[st,<ore:ingotGold>,st]]);
@@ -33,3 +33,6 @@ Resonator.add(<botania:manaresource:6>,<minecraft:redstone>,100);
 //Flat Transfer Node
 recipes.remove(<extrautils2:flattransfernode>);
 mods.immersiveengineering.MetalPress.addRecipe(<extrautils2:flattransfernode>, <extrautils2:grocket>, <immersiveengineering:mold>, 1000, 2);
+
+//Demon Drum
+recipes.remove(<extrautils2:drum:3>);

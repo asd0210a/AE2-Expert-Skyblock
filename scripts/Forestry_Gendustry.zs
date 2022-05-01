@@ -48,8 +48,12 @@ recipes.addShaped("Soul Wax",<magicbees:wax:1>*16, [[<minecraft:soul_sand>, <min
 recipes.addShapeless("Soul Mould",<thaumictinkerer:soul_mould>,[<minecraft:soul_sand>,<ore:beeComb>]);
 
 //Power Module
-recipes.replaceAllOccurences(<minecraft:gold_ingot>, <thaumcraft:ingot:1>, <gendustry:power_module>);
+recipes.remove(<gendustry:power_module>);
+recipes.addShaped("Power Module", <gendustry:power_module>, [[<ore:gearBronze>, <thaumcraft:ingot:1>, <ore:gearBronze>], [<minecraft:piston:*>, <minecraft:redstone:*>, <minecraft:piston:*>], [<ore:gearBronze>, <thaumcraft:ingot:1>, <ore:gearBronze>]]);
 
 //Database
 recipes.remove(<forestry:database>);
 recipes.addShaped("Database", <forestry:database>, [[<ore:ingotBronze>, <forestry:portable_alyzer:*>, <ore:ingotBronze>], [<draconicevolution:draconium_chest>, <forestry:sturdy_machine:*>, <draconicevolution:draconium_chest>], [<ore:plankWood>, <forestry:fruits:4>, <ore:plankWood>]]);
+
+//Fabricator
+recipes.remove(<forestry:fabricator>);

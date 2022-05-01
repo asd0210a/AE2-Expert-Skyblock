@@ -16,3 +16,6 @@ recipes.addShapeless("Cinnamon Toast", <harvestcraft:cinnamontoastitem>, [<ore:t
 recipes.remove(<harvestcraft:icecreamitem>);
 mods.thaumcraft.Infusion.registerRecipe("Ice Cream","INFUSION",<harvestcraft:icecreamitem>, 20, [<aspect:gelum>*64],
 <minecraft:bowl>, [<ic2:fluid_cell>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}), <minecraft:sugar>,<extrautils2:snowglobe>,<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:snowman"}),<ic2:mug:1>]);
+
+recipes.remove(<harvestcraft:cinnamontoastitem>);
+recipes.addShapeless("Cinnamon Toast", <harvestcraft:cinnamontoastitem>, [<ore:toolSkillet>, <minecraft:bread>, <ore:foodGroundcinnamon>, <ore:foodButter>, <ore:listAllsugar>, <extendedcrafting:singularity_custom:1>,<extendedcrafting:singularity_custom:1>]);

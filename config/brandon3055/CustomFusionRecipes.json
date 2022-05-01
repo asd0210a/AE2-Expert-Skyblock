@@ -3,7 +3,7 @@
         "mode": "ADD",
         "result": "thermalexpansion:frame",
         "catalyst": "enderio:block_alloy",
-        "energy": 986,
+        "energy": 900,
         "tier": 0,
         "ingredients": [
 "draconicevolution:draconic_core",
@@ -20,7 +20,7 @@
         "mode": "ADD",
         "result": "draconicevolution:particle_generator,1,2",
         "catalyst": "draconicevolution:particle_generator",
-        "energy": 986,
+        "energy": 900,
         "tier": 0,
         "ingredients": [
 "thermalexpansion:frame",
@@ -39,6 +39,16 @@
         "tier": 0,
         "ingredients": [
 "botania:lexicon","thaumcraft:thaumometer","thaumcraft:thaumonomicon","guideapi:bloodmagic-guide","bloodmagic:sanguine_book","astralsorcery:itemjournal"
+        ]
+    },
+	{
+        "mode": "ADD",
+        "result": "extrautils2:machine",
+        "catalyst": "extrautils2:user",
+        "energy": 250,
+        "tier": 0,
+        "ingredients": [
+"extrautils2:ingredients,1,11","extrautils2:ingredients,1,11","minecraft:stone","extrautils2:decorativeglass,1,5"
         ]
     }
 ]
