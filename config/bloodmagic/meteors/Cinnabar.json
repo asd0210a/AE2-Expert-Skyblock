@@ -8,25 +8,17 @@
   },
   "components": [
     {
-      "weight": 200,
-      "oreName": "oreTin"
+      "weight": 1,
+      "oreName": "oreSilver"
     },
     {
-      "weight": 500,
-      "oreName": "oreLapis"
-    },
-    {
-      "weight": 180,
-      "oreName": "oreEmerald"
-    },
-    {
-      "weight": 400,
+      "weight": 1,
       "oreName": "oreCinnabar"
     }
   ],
-  "explosionStrength": 5.0,
+  "explosionStrength": 2.0,
   "radius": 3,
-  "maxWeight": 1040,
+  "maxWeight": 2,
   "version": 1,
-  "cost": 100000
+  "cost": 10000
 }

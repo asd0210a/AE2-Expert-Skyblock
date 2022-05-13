@@ -29,7 +29,10 @@ for k in 0 .. 4{
 	}
 }
 //Colored Cable
-recipes.remove(<appliedenergistics2:part:*>);
+for number in 0 .. 16{
+recipes.remove(<appliedenergistics2:part>.definition.makeStack(number));
+}
+recipes.remove(<appliedenergistics2:part:16>);
 recipes.addShapeless("AE2 Cable", <appliedenergistics2:part:16> * 8, [<appliedenergistics2:part:140>, <ore:crystalFluix>, <ore:crystalFluix>]);
 
 //Tooltip NamePress

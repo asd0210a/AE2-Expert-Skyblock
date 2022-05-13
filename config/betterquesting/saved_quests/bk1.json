@@ -57,15 +57,10 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Welcome",
-          "desc:8": "Welcome and thank you for playing AE2 Expert Skyblock!\n\nHere you can find some information to progress in this Modpack §3(Modpack is still in development, so please report it if you hav an issue).\nSome recipies got changed §5(JEI is your best friend) §fcheck them before wasting materials and/or time.\n\nThis modpack is designed that you need to go deeper into each mod.\nEspecially the §5art of AE2 automation §fis required for having a easier progress.\nThis should prevent \"waste easy to get materials\" and this pack is focused on being server-friendly.\n\nI have gathered links to §3official guides/websites from the Mods §fused in this Modpack and merged them into an html-file which you can find in your modpack folder called \"zMod-Official-Website.html\"§f\nIf you\u0027re not familiar with some mods, feel free to look it up! (:\n\n\u003d\u003d\u003d§l Colors§r \u003d\u003d\u003d\nRed: §cItem§r\nGreen: §aEntity§r\nDark Aqua: §3Normal note§r\nYellow: §eRitual§r\nDark Purple: §5Important note\n"
+          "desc:8": "Welcome and thank you for playing AE2 Expert Skyblock!\n\nHere you can find some information to progress in this Modpack §3(Modpack is still in development, so please report it if you hav an issue).\nSome recipies got changed §5(JEI is your best friend) §fcheck them before wasting materials and/or time.\n\nThis modpack is designed that you need to go deeper into each mod.\nEspecially the §5art of AE2 automation §fis required for having a easier progress.\nThis should prevent \"waste easy to get materials\" and this pack is focused on being server-friendly.\n\nI have gathered links to §3official guides/websites from the Mods §fused in this Modpack and merged them into an html-file which you can find in your modpack folder called \"zMod-Official-Website.html\"§f\nIf you\u0027re not familiar with some mods, feel free to look it up! (:\n\n\u003d\u003d\u003dColors\u003d\u003d\u003d\nRed: §cItem§r\nGreen: §aEntity§r\nDark Aqua: §3Normal note§r\nYellow: §eRitual§r\nDark Purple: §5Important note\n"
         }
       },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      },
+      "tasks:9": {},
       "rewards:9": {}
     },
     "2:10": {
@@ -83,13 +78,10 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "draconicevolution:mob_soul",
+            "id:8": "harvestcraft:groundchickenitem",
             "Count:3": 1,
-            "tag:10": {
-              "EntityName:8": "minecraft:chicken"
-            },
             "Damage:2": 0,
-            "OreDict:8": ""
+            "OreDict:8": "foodGroundchicken"
           },
           "globalshare:1": 0,
           "questlogic:8": "AND",
@@ -131,7 +123,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "It\u0027s just very early-game !",
-          "desc:8": "It\u0027s just very early-game !\n When you did something wrong that §5irreversible§f, don\u0027t worry, just restart your island.\nBy the way, §cChisel§f is craftable without an §cIron§f.\nAnd §5after chisel a Stone§f, mine it will §3return you the Chiseled Stone§f instead of§c Cobblestone§f."
+          "desc:8": "It\u0027s just very early-game !\n When you did something wrong that §cirreversible§f, don\u0027t worry, just restart your island.\nBy the way, §cChisel§f is craftable without an §cIron§f.\nAnd §cafter chisel a Stone§f, mine it will§c return you the Chiseled Stone§f instead of§c Cobblestone§f."
         }
       },
       "tasks:9": {},
@@ -393,7 +385,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Quest for Cobblestone",
-          "desc:8": "There are §3many ways §fto (semi-)automate Cobblestone early §5EXCEPT §cItem Transfer Node§f. You can craft it later."
+          "desc:8": "There are §cmany ways §fto (semi-)automate Cobblestone early §cEXCEPT Item Transfer Node§f. You can craft it later."
         }
       },
       "tasks:9": {},
@@ -3635,7 +3627,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Monastic Bee",
-          "desc:8": "The §cMonastic Bee§r only can be obtained by trading with §aApiarist Villager§r."
+          "desc:8": "The §cMonastic Bee§r only can be obtained by trading with §7Apiarist Villager§r."
         }
       },
       "tasks:9": {},
